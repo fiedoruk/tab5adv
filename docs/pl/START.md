@@ -61,6 +61,12 @@ Curse of Monkey Island: w pierwszej scenie wybierz Talk przez **KEYS → t → �
 
 ## Sterowanie
 
+**LEFT i RIGHT to lewy i prawy przycisk myszy, nie kierunki chodzenia.**
+Aby chodzić, dotknij miejsca w scenie. Oba przyciski klikają tam, gdzie ostatnio
+wskazałeś kursorem. Do precyzyjnej akcji użyj **MOVE → obiekt → LEFT lub RIGHT**.
+Prawy klik może otwierać ekwipunek lub menu konkretnej gry; boczny **MENU**
+otwiera menu ScummVM z zapisem i odczytem.
+
 | Czynność | Jak ją wykonać |
 |---|---|
 | Chodzenie / lewy przycisk | Dotknij sceny. Możesz też wskazać miejsce przez MOVE i użyć LEFT. |
@@ -78,6 +84,13 @@ Amazon Queen ma czynności i przedmioty na dole. Rozmiar320×240 Sfinxa jest
 obsługiwany osobno — dotyk musi sięgać również ostatniej linii ekranu gry.
 
 ## Gdy coś nie działa
+
+- **AUDIO ON, ale jedna gra milczy:** pasek pokazuje główne wyjście audio.
+  Gra może mieć dodatkowe wyciszenie. W Home dotknij jej kafelka, potem zębatki,
+  otwórz **Volume** i sprawdź **Mute all** przy włączonym **Override global volume
+  settings**. Odznacz wyciszenie tej gry i zatwierdź OK. Dla samego braku głosu
+  sprawdź też tryb mowy/napisów i głośność Speech. Nie zmieniaj ustawień innych
+  gier, jeśli ich dźwięk działa.
 
 - **Nie ma portu:** użyj kabla z transmisją danych, podłącz bezpośrednio do
   komputera i zamknij inne programy korzystające z Tab5. Wróć do wyboru portu.

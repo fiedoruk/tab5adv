@@ -71,7 +71,8 @@ only at GOG — we never ask for its password.
 | <img src="docs/media/home.png" width="520" alt="Actual T5 FREE grid home with game tiles and Profile button"> | <img src="docs/media/profile.png" width="520" alt="Actual local Tab5 profile with playtime, 13-game library and points"> |
 | Light, Dark and Black menu skins. Independent sidebar colours. | Per-game time, sessions and exploration points stay on microSD. |
 
-**Tap** clicks. **MOVE** points without clicking, then **LEFT / RIGHT** act there.
+**LEFT / RIGHT are mouse buttons, not walking directions.** Tap a destination
+in the scene to walk. **MOVE** points without clicking, then **LEFT / RIGHT** act there.
 **KEYS** opens the keyboard. Volume **− / +** and **MUTE / UNMUTE** remain on the
 side rails; raising volume while muted keeps it muted.
 

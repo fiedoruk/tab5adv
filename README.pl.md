@@ -72,8 +72,9 @@ Logujesz się tylko na GOG — nie prosimy o jego hasło.
 | <img src="docs/media/home.png" width="520" alt="Rzeczywisty ekran T5 FREE: kafelki gier i przycisk Profile"> | <img src="docs/media/profile.png" width="520" alt="Rzeczywisty profil Tab5: czas gry, biblioteka 13 gier i punkty"> |
 | Skórki Light, Dark i Black. Osobny wybór koloru pasków bocznych. | Czas każdej gry, sesje i punkty za poznawanie tytułów pozostają na microSD. |
 
-**Dotyk** klika. **MOVE** wskazuje bez klikania, a **LEFT / RIGHT** wykonują
-akcję w tej pozycji. **KEYS** otwiera klawiaturę. Głośność **− / +** i
+**LEFT / RIGHT to przyciski myszy, nie kierunki chodzenia.** Dotknij miejsca
+w scenie, aby tam podejść. **MOVE** wskazuje bez klikania, a **LEFT / RIGHT**
+wykonują akcję w tej pozycji. **KEYS** otwiera klawiaturę. Głośność **− / +** i
 **MUTE / UNMUTE** są na bocznych paskach; zwiększanie głośności przy wyciszeniu
 nie włącza dźwięku.
 

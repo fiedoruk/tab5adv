@@ -58,6 +58,12 @@ In Curse of Monkey Island, use **KEYS → t → ✓** for Talk. Holding the scen
 
 ## Controls
 
+**LEFT and RIGHT are mouse buttons, not walking directions.** Tap a destination
+inside the scene to walk. Both buttons click at the last pointed position.
+For a precise action use **MOVE → object → LEFT or RIGHT**. A right click may
+open the game's own inventory or menu; the sidebar **MENU** opens ScummVM's
+save/load menu.
+
 - **Tap the scene / LEFT:** left mouse click, usually walking or examining.
 - **MOVE:** point without clicking. Yellow means enabled; tap again for direct clicks.
 - **RIGHT:** right click at the last pointer position; its meaning depends on the game.
@@ -70,6 +76,13 @@ Wait for the game to return before removing power. In BASS and Teenagent,
 point near the top edge for inventory. Amazon Queen has its action panel below.
 
 ## Troubleshooting
+
+**AUDIO ON but only one game is silent:** the sidebar reports master output.
+A game may have its own mute setting. In Home, tap that game's tile, then its
+gear, open **Volume**, and check **Mute all** under **Override global volume
+settings**. Clear that game's mute and confirm OK. If only voices are absent,
+also check speech/subtitle mode and Speech volume. Leave working games' settings
+alone.
 
 No port: use a data-capable cable, connect directly, and close other serial tools.
 Wrong package: obtain the exact file above; renaming a different version will not help.
