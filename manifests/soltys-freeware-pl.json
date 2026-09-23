@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "soltys",
+  "title": "Sołtys",
+  "engine": "cge",
+  "language": "pl",
+  "edition": "ScummVM freeware PL1.0",
+  "source_url": "https://www.scummvm.org/games/#soltys",
+  "download_url": "https://downloads.scummvm.org/frs/extras/Soltys/soltys-pl-v1.0.zip",
+  "source_package": {
+    "filename": "soltys-pl-v1.0.zip",
+    "format": "zip",
+    "sha256": "c865520e3752183cf5f0d062712b40dc21efc602eaa4c88952906b61979c81a7"
+  },
+  "files": [
+    {
+      "name": "vol.cat",
+      "archive_path": "vol.cat",
+      "size": 50176,
+      "sha256": "f9545de224e311a1edb79a102bfdc39e361f74eb2e1563bcddae12202607575c"
+    },
+    {
+      "name": "vol.dat",
+      "archive_path": "vol.dat",
+      "size": 8439339,
+      "sha256": "d7a8e722b208500cda738d9fc926e9f03e50f4706800c00c83107cb5dd2ea3c7"
+    },
+    {
+      "name": "license.txt",
+      "archive_path": "license.txt",
+      "size": 1322,
+      "sha256": "5bf8cbc5ed348f2f1d8dec132aecf150192f4b6b19be95f822a4914fd2434b2c"
+    }
+  ]
+}

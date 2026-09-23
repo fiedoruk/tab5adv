@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "indy4",
+  "target": "atlantis",
+  "title": "Indiana Jones and the Fate of Atlantis",
+  "engine": "scumm",
+  "minimum_firmware": 4,
+  "language": "en",
+  "language_status": "ENGLISH_TEXT_CONFIRMED_FIRST_SCENE_DEVICE",
+  "platform": "dos",
+  "edition": "GOG macOS enUS package 3 (34450), classic CD/DOS data; English on-screen text confirmed in first-scene Tab5 pilot",
+  "source_url": "https://www.gog.com/en/game/indiana_jones_and_the_fate_of_atlantis",
+  "source_package": {
+    "filename": "indiana_jones__and_the_fate_of_atlantis__enUS_gog_3_34450.pkg",
+    "sha256": "9bdbbe4d5978e01eb60aec71a3ac089fcd25a99f4844fe2426affee353715d1c",
+    "signature": "Developer ID Installer: GOG Sp. z o.o. (9WS36Q8886)"
+  },
+  "files": [
+    {
+      "name": "ATLANTIS.000",
+      "size": 12035,
+      "sha256": "72913003d61fffaa614795f12b33d9f2ef3bdcebb155cc5a53fc93b88e57c3bb"
+    },
+    {
+      "name": "ATLANTIS.001",
+      "size": 9823920,
+      "sha256": "8381ba5a2eee3ed887a42d63794f7c6f1b4bbf809c928a4223f95ee3646a7baf"
+    },
+    {
+      "name": "MONSTER.SOU",
+      "size": 149867609,
+      "sha256": "3c3a5d9465937b73d84ecdcb6403b49abcd098a7de9ebb61c4347a39120e4a07"
+    }
+  ]
+}

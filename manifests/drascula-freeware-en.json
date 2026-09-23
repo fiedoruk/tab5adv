@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "id": "drascula",
+  "title": "Dráscula",
+  "engine": "drascula",
+  "language": "en",
+  "edition": "ScummVM freeware EN1.0",
+  "source_url": "https://www.scummvm.org/games/#drascula",
+  "download_url": "https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-1.0.zip",
+  "source_package": {
+    "filename": "drascula-1.0.zip",
+    "format": "zip",
+    "sha256": "b731f6cb5a22ba8b4c3b3362f570b9a10a67b6cb0b395394b19a94b36e4e42de"
+  },
+  "files": [
+    {
+      "name": "packet.001",
+      "archive_path": "Packet.001",
+      "size": 32847563,
+      "sha256": "1927bf76365ed0dcf6858b8e5b232ef7f2b73e75deeb441dfe3372617d88e7b6"
+    },
+    {
+      "name": "readme.txt",
+      "archive_path": "readme.txt",
+      "size": 2871,
+      "sha256": "1cf8b337de0d04ba38706725076d2855dd1b9d840c1fe8df9f94179d295e7e6e"
+    }
+  ]
+}

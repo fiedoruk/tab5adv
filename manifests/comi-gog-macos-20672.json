@@ -1,0 +1,160 @@
+{
+  "schema": 1,
+  "id": "comi",
+  "target": "comi",
+  "title": "The Curse of Monkey Island",
+  "engine": "scumm",
+  "minimum_firmware": 7,
+  "language": "en",
+  "language_status": "ENGLISH_TEXT_CONFIRMED_FIRST_SCENE_DEVICE",
+  "platform": "windows",
+  "edition": "GOG macOS enUS 1.0L (20672), classic Windows CD data; English on-screen text confirmed in first-scene Tab5 pilot",
+  "source_url": "https://www.gog.com/en/game/the_curse_of_monkey_island",
+  "source_package": {
+    "filename": "the_curse_of_monkey_island__enUS_1_0l_20672.pkg",
+    "sha256": "562cfbf6b49d61e7417060a6688b590b61bc9652978673e07aeaf64b492a2260",
+    "signature": "Developer ID Installer: GOG Poland sp. z o.o. (9WS36Q8886)"
+  },
+  "files": [
+    {
+      "name": "COMI.LA0",
+      "size": 76791,
+      "sha256": "22cf910b853db0615b6e86b4fb320144bd807c99b5e93619bfaefa8a9d06d3b9"
+    },
+    {
+      "name": "COMI.LA1",
+      "size": 69340645,
+      "sha256": "fd71129d567c788555fdd55b870f52eb609582f12520b4474e7fb7c3827ca9e1"
+    },
+    {
+      "name": "COMI.LA2",
+      "size": 83452557,
+      "sha256": "3ee1ed35fefe472eb3a5ec35086650fcff96ee2752e1bc9d7831167c6c2413ac"
+    },
+    {
+      "name": "RESOURCE/BBSAN.SAN",
+      "size": 14973880,
+      "sha256": "0522efeffea9905b51a48729fab4f3860da3619489dc9cecac3e64b685fe3d0d"
+    },
+    {
+      "name": "RESOURCE/CURSERNG.SAN",
+      "size": 20817514,
+      "sha256": "ed063511b33a71b39cf629b45d0327ddd148b9e2f10aed989b091c5adc6dacc6"
+    },
+    {
+      "name": "RESOURCE/FG010GP.SAN",
+      "size": 435640,
+      "sha256": "8be5a7be705aafbd08b610fe3a7e716a26222805a21427a2da788b05144a68ec"
+    },
+    {
+      "name": "RESOURCE/FINALE.SAN",
+      "size": 10945770,
+      "sha256": "f92c850fa0ec0bc9afa8f1b391843b63d37f7c3b3a08d5346a3508ca1a703e61"
+    },
+    {
+      "name": "RESOURCE/FONT0.NUT",
+      "size": 94240,
+      "sha256": "22145873f8beae7bfaa0e13f88e25b7f480d5e367fdb7d9c3bb119a9ab1ecc03"
+    },
+    {
+      "name": "RESOURCE/FONT1.NUT",
+      "size": 104848,
+      "sha256": "fa5dce384012cf9e5b832f1312e28122df8b2265ed439db8d4117bd6133d017d"
+    },
+    {
+      "name": "RESOURCE/FONT2.NUT",
+      "size": 104848,
+      "sha256": "fa5dce384012cf9e5b832f1312e28122df8b2265ed439db8d4117bd6133d017d"
+    },
+    {
+      "name": "RESOURCE/FONT3.NUT",
+      "size": 60968,
+      "sha256": "c1a99f65c6a18faa5b5071505c0a0509e8f6552e7d8202e174605f3175beee53"
+    },
+    {
+      "name": "RESOURCE/FONT4.NUT",
+      "size": 126954,
+      "sha256": "dcb41776b61851ec84a39d54b810ff32b2b2cc128ee7ac602b657b0232e3b844"
+    },
+    {
+      "name": "RESOURCE/KIS030.SAN",
+      "size": 1079072,
+      "sha256": "5f7249141ea8a00c4c88fae5f4a0fd34de8c763a09b40f9eb8e0f29e77dd7e13"
+    },
+    {
+      "name": "RESOURCE/LANGUAGE.TAB",
+      "size": 439080,
+      "sha256": "9b64d17419b1509c07332d81edd0552d8db3d79d349e9285e9c702f32129f38c"
+    },
+    {
+      "name": "RESOURCE/LAVARIDE.SAN",
+      "size": 14072824,
+      "sha256": "1da5bb095be25f35ea1b18323e4228dc37f36f3408ecdf52c4b345527601e762"
+    },
+    {
+      "name": "RESOURCE/LIFTCRSE.SAN",
+      "size": 7029446,
+      "sha256": "9f59c70a6e24c46d9bd2403ba68a8e0ecf89821e2957534fd05454eb35925a59"
+    },
+    {
+      "name": "RESOURCE/MORESLAW.SAN",
+      "size": 9848862,
+      "sha256": "e397a555797248182e39bf016bd2f2461db6219b2b86ee093c8c5cc0aaab0519"
+    },
+    {
+      "name": "RESOURCE/MUSDISK1.BUN",
+      "size": 176849464,
+      "sha256": "d1c3d6c835975dac0adf9e9c1172aa1ae64a9216a8ac5ad59f31f43a43d26088"
+    },
+    {
+      "name": "RESOURCE/MUSDISK2.BUN",
+      "size": 190295532,
+      "sha256": "d13f279e32fc563c64c499980662deb9d378974950c7e95975f9278d41be5211"
+    },
+    {
+      "name": "RESOURCE/NEWBOOTS.SAN",
+      "size": 11075238,
+      "sha256": "97ea0f295cfdc23498523ab772412b6bd1235afa6ca241ac762d241296022736"
+    },
+    {
+      "name": "RESOURCE/OPENING.SAN",
+      "size": 82864970,
+      "sha256": "bff4ecbea93ba708d89aafbd1b64594c17b322a5942669598910bd4a05cc2152"
+    },
+    {
+      "name": "RESOURCE/SB010.SAN",
+      "size": 773474,
+      "sha256": "a50573dedc3a458725a8ec82cf5daa880584e1112ff0354e944d3fda8e162bbe"
+    },
+    {
+      "name": "RESOURCE/SB020.SAN",
+      "size": 768550,
+      "sha256": "a40a2e07498cc9793d396009d2601e65d2fea1fd9dafce49c8df36017a1d600a"
+    },
+    {
+      "name": "RESOURCE/SINKSHP.SAN",
+      "size": 10347350,
+      "sha256": "960af263b4b527ca4f33d709fba338ec2363daf21aac69bc9df309b48c925dfd"
+    },
+    {
+      "name": "RESOURCE/VOXDISK1.BUN",
+      "size": 150287970,
+      "sha256": "318168bb78ac0cf38e5391e56870996597e800ed6615a5f4c296d6fae216d146"
+    },
+    {
+      "name": "RESOURCE/VOXDISK2.BUN",
+      "size": 189733340,
+      "sha256": "0732e0871ebe9c4e16ad4a684436dd64e2c89e06f97170f3b811461c5f0345b2"
+    },
+    {
+      "name": "RESOURCE/WRECKSAN.SAN",
+      "size": 15003404,
+      "sha256": "17d726cd91ee53a0b721c7a046428e2f5a316b9ae7503f4d0b3d60acb2ad5712"
+    },
+    {
+      "name": "RESOURCE/ZAP010.SAN",
+      "size": 768114,
+      "sha256": "c63209370af4fad35e04d6e8b5a64c0e3bec31ccbdd68e59e085664f30d9c44a"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "id": "lure",
+  "title": "Lure of the Temptress",
+  "engine": "lure",
+  "language": "en",
+  "edition": "ScummVM freeware VGA EN1.1",
+  "source_url": "https://www.scummvm.org/games/#lure",
+  "download_url": "https://downloads.scummvm.org/frs/extras/Lure%20of%20the%20Temptress/lure-1.1.zip",
+  "source_package": {
+    "filename": "lure-1.1.zip",
+    "format": "zip",
+    "sha256": "f3178245a1483da1168c3a11e70b65d33c389f1f5df63d4f3a356886c1890108"
+  },
+  "files": [
+    {
+      "name": "disk1.vga",
+      "archive_path": "lure/Disk1.vga",
+      "size": 618944,
+      "sha256": "7475e38373dcf62b6101e0008bdb939d4b42717b610d6f7553400cd588131c45"
+    },
+    {
+      "name": "disk2.vga",
+      "archive_path": "lure/Disk2.vga",
+      "size": 659616,
+      "sha256": "c2e37bae781e89b77f565980900e2cf21c558ed1d681e6a6940de07e7e3aba85"
+    },
+    {
+      "name": "disk3.vga",
+      "archive_path": "lure/Disk3.vga",
+      "size": 699072,
+      "sha256": "81678a2d90dd07a7e959e309bde17a664562d0a7c490d636a3e37f77d61ffa85"
+    },
+    {
+      "name": "disk4.vga",
+      "archive_path": "lure/Disk4.vga",
+      "size": 618208,
+      "sha256": "a3bcf4026a5fc47e36d665e321d78ee3a6c14bc6fcd81bca6706be5a0d9fcb17"
+    },
+    {
+      "name": "license.txt",
+      "archive_path": "lure/LICENSE.txt",
+      "size": 1285,
+      "sha256": "f546a2370e353f3cca922129aab031f1f8c3c2a8be9d8c235f4298d3062e1eed"
+    }
+  ]
+}

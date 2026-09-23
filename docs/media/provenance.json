@@ -1,0 +1,20 @@
+{
+  "home.png": {
+    "sha256": "1b7cd4dd80edea9e463a1c5b92eeabbdf2ece4afa42bf0614cc3b5788cbafa86",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "622c0ef33f5b645eecef285de22ed35187beb78b",
+    "application_sha256": "f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2",
+    "icons_sha256": "70928cb8b9b4e6b67433586e4c873aeb66f0ffe68c13be3e36d7fcbc77fc36f0",
+    "date": "2026-09-23"
+  },
+  "profile.png": {
+    "sha256": "469fe8f0877f584a221c6a9cc487aa18b1e994aceaf83d4069357ef5af2b6749",
+    "source": "Unmodified actual Tab5 LCD RGB565 capture; no camera image",
+    "date": "2026-09-23",
+    "application_sha256": "f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2"
+  },
+  "overview.svg": {
+    "source": "Project vector illustration; not a gameplay capture",
+    "date": "2026-09-23"
+  }
+}

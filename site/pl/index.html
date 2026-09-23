@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#18315f">
+  <meta name="description" content="Lokalny instalator 13 przygodówek na Tab5: dziewięć bezpłatnych i cztery z własnych paczek GOG.">
+  <title>Tab5 Free Adventures — lokalny instalator USB</title>
+  <link rel="icon" href="/tab5adv/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/tab5adv/styles.css">
+  <script type="module" src="/tab5adv/vendor/esp-web-tools/install-button.js"></script>
+  <script type="module" src="/tab5adv/app.js"></script>
+<link rel="canonical" href="https://esp32ai.me/pl/tab5adv/">
+<link rel="alternate" hreflang="en" href="https://esp32ai.me/tab5adv/">
+<link rel="alternate" hreflang="pl" href="https://esp32ai.me/pl/tab5adv/">
+<link rel="alternate" hreflang="x-default" href="https://esp32ai.me/tab5adv/">
+<script defer data-domain="esp32ai.me" src="https://skad.click/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+</head>
+<body>
+  <header data-portal-menu></header>
+  <header class="topbar">
+    <a class="brand" href="#start" aria-label="Tab5 Free Adventures — start">
+      <span class="brand-mark" aria-hidden="true">T5</span>
+      <span>Free Adventures</span>
+    </a>
+    <div class="top-actions">
+      <span class="rc-badge">0.3 RC · Tab5 (ESP32-P4 rev. 1.3)</span>
+      <div class="language" role="group" aria-label="Language">
+        <a href="https://esp32ai.me/tab5adv/" hreflang="en" lang="en">EN</a><a href="https://esp32ai.me/pl/tab5adv/" hreflang="pl" lang="pl" aria-current="page">PL</a>
+</div>
+    </div>
+  </header>
+
+  <main id="start">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow" data-i18n="eyebrow">WERSJA TESTOWA 0.3 · KROK PO KROKU</p>
+        <h1 id="hero-title" data-i18n="heroTitle">13 przygodówek.<br>Twój Tab5.</h1>
+        <p class="lede" data-i18n="heroLede">Wybierz spośród 9 gier bezpłatnych i 4 z własnych paczek GOG. Pliki sprawdzisz lokalnie i dodasz przez USB. Możesz zacząć od Sołtysa po polsku.</p>
+        <nav class="hero-links"><a href="#installer-title" data-i18n="goInstall">Zacznij instalację</a><a href="#controls" data-i18n="goControls">Mam już gry — jak sterować?</a><a data-i18n="hardwareNav" href="#hardware">Poznaj Tab5 · 289 zł</a></nav>
+        <div class="trust-row" aria-label="Najważniejsze właściwości" data-i18n-aria="trustAria">
+          <span data-i18n="trustLocal">Pliki zostają lokalnie</span>
+          <span data-i18n="trustFree">9 bezpłatnych · 4 z własnych paczek GOG</span>
+          <span data-i18n="trustOpen">Silnik ScummVM</span>
+        </div>
+      </div>
+      <figure class="device-preview">
+        <a class="tab5-device" href="/tab5adv/assets/screens/home-black.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/home-black.png" width="1280" height="720" alt="Tab5 Black"></a>
+        <figcaption data-i18n="heroScreen">Rzeczywisty ekran Tab5 · skórka Black · przewijana biblioteka gier</figcaption>
+      </figure>
+    </section>
+
+    <section class="collection" aria-labelledby="collection-title">
+      <h2 id="collection-title" data-i18n="collectionTitle">Cała kolekcja. W liczbach.</h2>
+      <p data-i18n="collectionIntro">Od cyberpunku po polską komedię. Klasyczne przygodówki point-and-click: odkrywasz, rozmawiasz i rozwiązujesz zagadki.</p>
+      <div class="collection-numbers">
+        <div>
+<strong id="collection-count">—</strong><span data-i18n="collectionGames">przygód z próbą na Tab5</span>
+</div>
+        <div>
+<strong id="collection-hours">—</strong><span data-i18n="collectionHours">szacowanego czasu gry</span>
+</div>
+        <div>
+<strong>300+</strong><span data-i18n="collectionPlaces">lokacji do odkrycia</span>
+</div>
+        <div>
+<strong id="collection-polish">3</strong><span data-i18n="collectionLanguages">gry po polsku</span>
+</div>
+      </div>
+      <p id="collection-count-note" class="collection-note"></p>
+      <details><summary data-i18n="collectionDetails">Czas przejścia, styl i źródła</summary>
+        <div class="collection-table-wrap" tabindex="0" aria-label="Playtime / Czas gry"><table>
+          <thead><tr>
+<th data-i18n="collectionGame">Gra</th>
+<th data-i18n="collectionStyle">Styl</th>
+<th data-i18n="collectionLanguage">Język</th>
+<th data-i18n="collectionTime">Orientacyjny czas</th>
+<th data-i18n="collectionSource">Źródło</th>
+</tr></thead>
+          <tbody id="collection-rows"></tbody>
+        </table></div>
+        <p data-i18n="collectionMethod">Suma dotyczy oryginalnych gier na innych platformach. To orientacyjne dane graczy i recenzentów, a nie pomiar pełnych przejść na Tab5. Nie sumujemy różnych stylów przejścia ani spowolnień portu. Brak danych nie oznacza zera godzin.</p>
+        <p data-i18n="collectionLocationsNote">300+ lokacji: BASS, Amazon Queen, Lure i Dragon History według opisów wydawców i autora. To zawartość gier, nie liczba miejsc przetestowanych na Tab5.</p>
+      </details>
+    </section>
+
+    <section class="hardware" id="hardware" aria-labelledby="hardware-title">
+      <div class="hardware-heading">
+        <div>
+<p data-i18n="hardwareEyebrow" class="eyebrow">POZNAJ SPRZĘT · M5STACK TAB5</p>
+          <h2 data-i18n="hardwareTitle" id="hardware-title">Mały format.<br>Dużo możliwości.</h2>
+          <p data-i18n="hardwareIntro" class="hardware-intro">Pięć cali na Twoje przygody. W środku ESP32-P4 — dwurdzeniowy mikrokontroler, na którym uruchamiamy klasyczne gry ScummVM.</p>
+        </div>
+        <div class="hardware-price">
+          <span data-i18n="hardwarePriceLabel">Tab5 C145 w Botlandzie</span>
+          <strong data-i18n="hardwarePrice">289 zł</strong>
+          <a id="hardware-shop" data-i18n="hardwareBuy" href="https://botland.com.pl/kontrolery-m5stack/26737-tab5-modul-deweloperski-iot-esp32-p4nrw32-i-esp32-c6-mini-1u-m5stack-c145-6972934175885.html" target="_blank" rel="noopener sponsored">Zobacz ofertę ↗</a>
+          <a id="hardware-other-shop" class="other-shop" data-i18n="hardwareOtherShop" href="https://shop.m5stack.com/products/m5stack-tab5-iot-development-kit-esp32-p4?ref=tfttueoq" target="_blank" rel="noopener sponsored">M5Stack · sklep globalny ↗</a>
+          <p class="affiliate-disclosure"><strong>Współpraca płatna.</strong> Linki do sklepu M5Stack są linkami partnerskimi. Jeśli kupisz przez link do sklepu M5Stack, sklep zapłaci mi prowizję.</p>
+</div>
+      </div>
+      <div class="hardware-features">
+        <article class="hardware-cpu">
+          <div class="chip-visual" aria-hidden="true">
+<span>ESP32</span><strong>P4</strong><small>RISC-V</small>
+</div>
+          <div>
+<p data-i18n="hardwareCpuDetail" class="hardware-kicker">RISC-V · 360 MHz</p>
+            <h3 data-i18n="hardwareCpuTitle">Dwa rdzenie.<br>Wspólna przygoda.</h3>
+<p data-i18n="hardwareCpuText">To serce Tab5. Nasz firmware pracuje z częstotliwością 360 MHz; układ ma też akcelerator grafiki 2D PPA i interfejs ekranu MIPI-DSI.</p>
+          </div>
+        </article>
+        <article class="hardware-screen">
+          <h3 data-i18n="hardwareScreenTitle">5″. Cała scena pod palcem.</h3>
+<p data-i18n="hardwareScreenText">Dotykowy IPS · 1280 × 720 pikseli</p>
+          <figure><div class="tab5-device"><img src="/tab5adv/assets/screens/sfinx.png" width="1280" height="720" loading="lazy" alt="Sfinx · Tab5"></div>
+            <figcaption data-i18n="hardwareScreenCaption">Makieta obudowy Tab5 C145 z prawdziwym zrzutem Sfinxa.</figcaption>
+          </figure>
+        </article>
+      </div>
+      <div class="hardware-details">
+        <article><span class="hardware-symbol" aria-hidden="true">32<span>MB</span></span><h3 data-i18n="hardwareMemoryLabel">Pamięć na program i obraz</h3>
+<p data-i18n="hardwareMemoryDetail">32 MB PSRAM + 16 MB Flash</p></article>
+        <article><span class="hardware-symbol" aria-hidden="true">microSD</span><h3 data-i18n="hardwareStorageLabel">Twoja biblioteka. Na karcie.</h3>
+<p data-i18n="hardwareStorageDetail">Gry i zapisy na microSD. Instalacja kablem USB-C.</p></article>
+        <article><span class="hardware-symbol" aria-hidden="true">− / +</span><h3 data-i18n="hardwareAudioLabel">Dźwięk pod kontrolą</h3>
+<p data-i18n="hardwareAudioDetail">Głośnik i wyjście 3,5 mm. W grze: głośniej, ciszej i wyciszenie z bocznego paska.</p></article>
+      </div>
+      <div class="hardware-more">
+<h3 data-i18n="hardwareMoreTitle">A później? Twój następny projekt.</h3>
+<p data-i18n="hardwareMoreText">Tab5 ma też Wi-Fi 6 przez osobny ESP32-C6, kamerę 2 MP i złącza rozszerzeń. To możliwości sprzętu do innych projektów; ta wersja przygodówek działa lokalnie i nie używa Wi-Fi ani kamery.</p>
+</div>
+      <div class="hardware-footnote">
+<p data-i18n="hardwarePriceNote">289 zł brutto za wersję C145 bez akumulatora. Oferta Botland sprawdzona 23.09.2026; cena może się zmienić, bez dostawy. Potrzebujesz też karty microSD i kabla USB-C z transmisją danych. Akumulator NP-F550 jest opcjonalny.</p>
+        <nav aria-label="Specyfikacja / Specifications">
+          <a data-i18n="hardwareSpecs" href="https://docs.m5stack.com/en/core/Tab5" target="_blank" rel="noopener">Specyfikacja Tab5 ↗</a>
+          <a data-i18n="hardwareChipSpecs" href="https://www.espressif.com/en/products/socs/esp32-p4" target="_blank" rel="noopener">Możliwości ESP32-P4 ↗</a>
+        </nav>
+      </div>
+    </section>
+
+    <aside class="safety-note" aria-label="Prywatność" data-i18n-aria="privacyAria">
+      <strong data-i18n="privacyTitle">Twoje gry nie trafiają na ten serwer.</strong>
+      <span data-i18n="privacyText">Przeglądarka czyta paczki na tym komputerze, sprawdza hashe i wysyła dane bezpośrednio kablem USB do Tab5.</span>
+    </aside>
+
+    <section class="workbench" aria-labelledby="installer-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow" data-i18n="installerEyebrow">INSTALATOR DLA PIERWSZEGO URUCHOMIENIA</p>
+          <h2 id="installer-title" data-i18n="installerTitle">Zrób po kolei cztery kroki</h2>
+        </div>
+        <p data-i18n="installerReq">Potrzebujesz Tab5 z kartą microSD FAT32, kabla USB-C z transmisją danych i Chrome lub Edge na komputerze. Wybierz przynajmniej jedną paczkę gry.</p>
+      </div>
+
+      <p class="ready-note" data-i18n="alreadyReady">Dodajesz gry do starszej instalacji? Wgraj firmware 0.3 przed wyborem nowych tytułów. Gry i zapisy pozostają na microSD.</p>
+      <ol class="steps">
+        <li class="step" data-step="1">
+          <div class="step-number">01</div>
+          <div class="step-body">
+            <div class="step-title-row">
+              <div>
+                <span class="step-label" data-i18n="step1Label">FIRMWARE</span>
+                <h3 data-i18n="step1Title">Wgraj system przygodówek</h3>
+              </div>
+              <span class="state state-warn" data-i18n="step1State">zmienia firmware</span>
+            </div>
+            <p data-i18n="step1Text">Podłącz Tab5 bez huba. Przycisk otworzy sprawdzone narzędzie ESP Web Tools. Dane na microSD pozostają bez zmian.</p>
+            <esp-web-install-button manifest="/tab5adv/releases/v0.3.0-rc1/firmware/manifest.json">
+              <button id="flash-button" class="primary" slot="activate" data-i18n="flashButton">Połącz i wgraj firmware</button>
+              <span class="compat" slot="unsupported" data-i18n="browserUnsupported">Ta przeglądarka nie obsługuje instalacji. Otwórz stronę w Chrome lub Edge na komputerze.</span>
+              <span class="compat" slot="not-allowed" data-i18n="httpsRequired">Instalacja wymaga bezpiecznej strony HTTPS.</span>
+            </esp-web-install-button>
+            <p id="flash-status" role="status"></p>
+            <details><summary data-i18n="usbHelp">Który port wybrać?</summary><p data-i18n="usbText">W oknie przeglądarki wybierz USB JTAG/serial debug unit, a potem Połącz. Najpierw instalujesz firmware (krok 1), później osobno łączysz instalator gier (krok 3). Po zakończeniu zamknij okno pierwszego instalatora.</p>
+<p data-i18n="usbEmpty">Pusta lista? Sprawdź kabel z transmisją danych i drugi port USB-C Maca. Zamknij monitor szeregowy lub inne karty korzystające z Tab5, a następnie odłącz i podłącz kabel. Możesz anulować wybór portu i wrócić później.</p></details>
+            <details>
+              <summary data-i18n="recoverySummary">Jak wrócić do poprzedniego firmware?</summary>
+              <p data-i18n="recoveryText">Przed pierwszą instalacją zachowaj swój obraz firmware. Nasz instalator nie formatuje karty, ale zastępuje program w pamięci flash Tab5.</p>
+            </details>
+          </div>
+        </li>
+
+        <li class="step" data-step="2">
+          <div class="step-number">02</div>
+          <div class="step-body">
+            <div class="step-title-row">
+              <div>
+                <span class="step-label" data-i18n="step2Label">TWOJE PLIKI</span>
+                <h3 data-i18n="step2Title">Wybierz gry i wskaż pobrane paczki</h3>
+              </div>
+              <span class="state" data-i18n="step2State">lokalnie</span>
+            </div>
+            <p data-i18n="step2Text">Wybierz choć jedną grę. Bezpłatne ZIP-y pobierzesz z podanych źródeł; BASS i Amazon Queen mają darmowe paczki GOG. Cztery gry płatne wymagają własnej paczki GOG. Nie uruchamiaj ani nie rozpakowuj pobranych plików.</p>
+            <details class="download-guide">
+              <summary data-i18n="gogGuide">Pobranie z GOG, krok po kroku</summary>
+              <ol>
+<li data-i18n="gog1">Na GOG wybierz bezpłatne BASS lub Amazon Queen albo grę płatną, którą posiadasz. Zaloguj się wyłącznie na GOG.</li>
+<li data-i18n="gog2">W bibliotece otwórz „Download offline backup game installers”, wybierz macOS i English — także gdy pracujesz na Windows.</li>
+<li data-i18n="gog3">Pobierz dokładny plik .pkg z karty poniżej. Nie uruchamiaj go. Wróć tutaj i wskaż pobrany plik.</li>
+<li data-i18n="gog4">Inne wydanie, .exe lub .dmg zostanie odrzucone. Instalator sprawdza SHA-256 plików lokalnie; nie sprawdza własności konta.</li>
+</ol>
+            </details>
+            <h4 class="picker-heading" data-i18n="freeGroup">9 gier bezpłatnych</h4>
+            <div class="game-pickers">
+              <div class="game-choice">
+                <label class="file-card" for="soltys-file"><span class="file-index">1</span><span><strong>Sołtys</strong><small>soltys-pl-v1.0.zip</small></span><input id="soltys-file" type="file" accept=".zip"><b id="soltys-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.scummvm.org/games/#soltys" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Sołtys</a>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="sfinx-file"><span class="file-index">2</span><span><strong>Sfinx</strong><small>sfinx-pl-v1.1.zip</small></span><input id="sfinx-file" type="file" accept=".zip"><b id="sfinx-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.scummvm.org/games/#sfinx" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Sfinx</a>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="draci-file"><span class="file-index">3</span><span><strong>Dragon History</strong><small>dh-pl-2012.zip</small></span><input id="draci-file" type="file" accept=".zip"><b id="draci-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.ucw.cz/draci-historie/index-en.html" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Dragon History</a>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="lure-file"><span class="file-index">4</span><span><strong>Lure of the Temptress</strong><small>lure-1.1.zip</small></span><input id="lure-file" type="file" accept=".zip"><b id="lure-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.scummvm.org/games/#lure" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Lure of the Temptress</a>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="teenagent-file"><span class="file-index">5</span><span><strong>Teenagent</strong><small>teenagent.zip</small></span><input id="teenagent-file" type="file" accept=".zip"><b id="teenagent-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.dosgamesarchive.com/download/teenagent/" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Teenagent</a>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="drascula-file"><span class="file-index">6</span><span><strong>Dráscula</strong><small>drascula-1.0.zip</small></span><input id="drascula-file" type="file" accept=".zip"><b id="drascula-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.scummvm.org/games/#drascula" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Dráscula</a>
+                          <div class="music-addon">
+              <label class="file-card" for="drascula_music-file"><span class="file-index">+</span><span><strong data-i18n="musicLabel">Dráscula — muzyka</strong><small>drascula-audio-mp3-2.0.zip</small></span><input id="drascula_music-file" type="file" accept=".zip"><b id="drascula_music-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+              <a class="download-link" href="https://www.scummvm.org/games/#drascula" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Music AddOn, MP3</a>
+              <p data-i18n="musicHelp">Do Drásculi pobierz oba ZIP-y: grę i tę paczkę MP3. Nie rozpakowuj ich. Jeśli dodajesz samą muzykę, gra musi już być na karcie.</p>
+            </div>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="nippon-file"><span class="file-index">7</span><span><strong>Nippon Safes, Inc.</strong><small>nippon-1.0.zip</small></span><input id="nippon-file" type="file" accept=".zip"><b id="nippon-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.scummvm.org/games/#nippon" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Nippon Safes, Inc.</a>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="bass-file"><span class="file-index">8</span><span><strong>Beneath a Steel Sky</strong><small>beneath_a_steel_sky_enUS_1_0_33348.pkg</small></span><input id="bass-file" type="file" accept=".pkg"><b id="bass-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.gog.com/en/game/beneath_a_steel_sky" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Beneath a Steel Sky</a>
+              </div>
+              <div class="game-choice">
+                <label class="file-card" for="queen-file"><span class="file-index">9</span><span><strong>Flight of the Amazon Queen</strong><small>flight_of_the_amazon_queen_enUS_gog_3_35048.pkg</small></span><input id="queen-file" type="file" accept=".pkg"><b id="queen-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label>
+                <a class="download-link" href="https://www.gog.com/en/game/flight_of_the_amazon_queen" target="_blank" rel="noopener"><span data-i18n="downloadGame">Pobierz grę</span> · Flight of the Amazon Queen</a>
+              </div>
+            </div>
+            <h4 class="picker-heading" data-i18n="paidGroup">4 gry z własnych paczek GOG</h4>
+            <p class="picker-help" data-i18n="paidHelp">Każda wymaga dostępu do własnego wydania offline na GOG. Wybierz wyłącznie grę, którą chcesz dodać. Duże paczki, zwłaszcza The Dig i Curse, mogą kopiować się przez USB kilkadziesiąt minut.</p>
+            <div class="game-pickers">
+              <div class="game-choice">
+<label class="file-card" for="sammax-file"><span class="file-index">10</span><span><strong>Sam &amp; Max Hit the Road</strong><small>sam___max_hit_the_road_enUS_gog_3_34450.pkg</small></span><input id="sammax-file" type="file" accept=".pkg"><b id="sammax-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label><a class="download-link" href="https://www.gog.com/en/game/sam_max_hit_the_road" target="_blank" rel="noopener"><span data-i18n="gamePage">Strona gry</span> · GOG</a>
+</div>
+              <div class="game-choice">
+<label class="file-card" for="indy4-file"><span class="file-index">11</span><span><strong>Indiana Jones and the Fate of Atlantis</strong><small>indiana_jones__and_the_fate_of_atlantis__enUS_gog_3_34450.pkg</small></span><input id="indy4-file" type="file" accept=".pkg"><b id="indy4-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label><a class="download-link" href="https://www.gog.com/en/game/indiana_jones_and_the_fate_of_atlantis" target="_blank" rel="noopener"><span data-i18n="gamePage">Strona gry</span> · GOG</a>
+</div>
+              <div class="game-choice">
+<label class="file-card" for="dig-file"><span class="file-index">12</span><span><strong>The Dig</strong><small>the_dig__enUS_gog_2_34450.pkg</small></span><input id="dig-file" type="file" accept=".pkg"><b id="dig-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label><a class="download-link" href="https://www.gog.com/en/game/the_dig" target="_blank" rel="noopener"><span data-i18n="gamePage">Strona gry</span> · GOG</a>
+</div>
+              <div class="game-choice">
+<label class="file-card" for="comi-file"><span class="file-index">13</span><span><strong>The Curse of Monkey Island</strong><small>the_curse_of_monkey_island__enUS_1_0l_20672.pkg</small></span><input id="comi-file" type="file" accept=".pkg"><b id="comi-state" class="file-state" data-i18n="chooseFile">Wybierz paczkę</b></label><a class="download-link" href="https://www.gog.com/en/game/the_curse_of_monkey_island" target="_blank" rel="noopener"><span data-i18n="gamePage">Strona gry</span> · GOG</a>
+</div>
+            </div>
+
+            <div class="action-line">
+              <button id="verify-button" class="secondary" type="button" data-i18n="verifyButton">Sprawdź wybrane gry</button>
+              <button id="clear-files" type="button" class="secondary" data-i18n="clearFiles">Wyczyść wybór</button>
+              <span id="verify-summary" class="inline-status" aria-live="polite" data-i18n="waitingFiles">Wybierz przynajmniej jedną grę.</span>
+            </div>
+            <p class="source-links" data-i18n="getFiles">Paczki pozostają na Twoim komputerze. Weryfikacja nie wysyła gier ani danych konta na serwer.</p>
+          </div>
+        </li>
+
+        <li class="step" data-step="3">
+          <div class="step-number">03</div>
+          <div class="step-body">
+            <div class="step-title-row">
+              <div>
+                <span class="step-label" data-i18n="step3Label">KARTA W TAB5</span>
+                <h3 data-i18n="step3Title">Dodaj wybrane gry do karty</h3>
+              </div>
+              <span class="state" data-i18n="step3State">bez formatowania</span>
+            </div>
+            <p data-i18n="step3Text">Zapisz trwającą grę: połączenie z instalatorem uruchomi Tab5 ponownie. Karta pozostaje bez formatowania. Nowe gry są dopisywane; zapisy i profile pozostają. Weryfikujemy zainstalowane gry i pomijamy niezmienione pliki. Duże paczki mogą kopiować się kilkadziesiąt minut.</p>
+            <button id="install-button" class="primary" type="button" disabled data-i18n="installButton">Połącz Tab5 i dodaj gry</button>
+            <div class="progress-shell" id="progress-shell" hidden>
+              <div class="progress-meta">
+<span id="progress-label">—</span><strong id="progress-percent">0%</strong>
+</div>
+              <progress id="progress" max="100" value="0">0%</progress>
+              <pre id="install-log" aria-live="polite"></pre>
+            </div>
+          </div>
+        </li>
+
+        <li class="step" data-step="4">
+          <div class="step-number">04</div>
+          <div class="step-body">
+            <div class="step-title-row">
+              <div>
+                <span class="step-label" data-i18n="step4Label">GOTOWE</span>
+                <h3 data-i18n="step4Title">Wybierz grę i zacznij przygodę</h3>
+              </div>
+              <span id="done-state" class="state" data-i18n="step4State">po instalacji</span>
+            </div>
+            <p data-i18n="step4Text">Bez akumulatora zostaw zasilanie USB podłączone. Dotknij okładki, potem ▶. Zapis trafia na microSD. MENU otwiera Save/Load, a SKIP pomija możliwe do pominięcia intro. Zobaczysz tylko zainstalowane gry.</p>
+            <ul class="checklist">
+              <li data-i18n="check1">Kursor trafia w dotknięte miejsce.</li>
+              <li data-i18n="check2">Rozmowa i wybrane akcje działają w pierwszej scenie.</li>
+              <li data-i18n="check3">Zapis w dwóch slotach wraca po restarcie.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="play-guide" id="controls" aria-labelledby="controls-title">
+      <p class="eyebrow">TAB5 · SCUMMVM</p>
+      <h2 id="controls-title" data-i18n="controlsTitle">Jak zacząć grać</h2>
+      <p class="guide-intro" data-i18n="controlsIntro">Dotknij okładki, potem ▶. Scena gry zachowuje proporcje; po bokach są duże przyciski sterowania oraz audio.</p>
+      <img class="controls-sheet" src="/tab5adv/controls.svg" alt="LEFT, RIGHT, MOVE, volume −/+ — game — MENU, SKIP, KEYS, MUTE/UNMUTE" width="1280" height="720" loading="lazy">
+      <p class="tap-tip" data-i18n="controlTap">Dotknij sceny, aby chodzić lub wskazać obiekt. To lewy przycisk myszy.</p>
+      <dl class="controls-list">
+<div>
+<dt>LEFT</dt>
+<dd data-i18n="controlLeft">Kliknięcie w ostatnio wskazanym miejscu. Przydatne po przestawieniu kursora przez MOVE.</dd>
+</div>
+<div>
+<dt>RIGHT</dt>
+<dd data-i18n="controlRight">Prawy przycisk myszy. W BASS używa obiektu; znaczenie w innych grach może się różnić.</dd>
+</div>
+<div>
+<dt>MOVE</dt>
+<dd data-i18n="controlMove">Włącz MOVE (żółty), wskaż obiekt bez klikania, następnie użyj LEFT lub RIGHT. Naciśnij MOVE ponownie, aby wrócić do zwykłego dotyku.</dd>
+</div>
+<div>
+<dt>MENU</dt>
+<dd data-i18n="controlMenu">Save zapisuje, Load wczytuje, Resume wraca do gry. Return to Launcher wraca do wyboru tytułu.</dd>
+</div>
+<div>
+<dt>SKIP</dt>
+<dd data-i18n="controlSkip">Pomija intro lub zamyka część ekranów gry. To klawisz Escape; gra decyduje, które sceny da się pominąć.</dd>
+</div>
+<div>
+<dt>KEYS</dt>
+<dd data-i18n="controlKeys">Otwiera klawiaturę ekranową. W menu można ją też otworzyć, dotykając ekranu dwoma palcami.</dd>
+</div>
+</dl>
+<div class="appearance-guide">
+<h3 data-i18n="soundTitle">Dźwięk pod ręką</h3>
+<p data-i18n="soundText">Dolne − / + po lewej regulują głośność urządzenia. MUTE / UNMUTE po prawej wycisza lub włącza dźwięk. Przy wyciszeniu „+” zmienia poziom, ale nie uruchamia audio. Ustawienia są zapamiętywane.</p>
+<h3 data-i18n="skinTitle">Menu i paski — osobny wygląd</h3>
+<p data-i18n="skinText">Settings → GUI → Theme: Tab5 Light, Tab5 Dark lub Tab5 Black. Settings → Tab5 → Sidebars: Dark blue, Light, Black albo Follow menu skin. Możesz połączyć ciemne menu z jasnymi paskami.</p>
+</div>
+      <p class="save-tip" data-i18n="saveTip">Zapisuj w spokojnym momencie, po zakończeniu filmu lub rozmowy. MENU → Save → pusty slot → Save; nazwę możesz zostawić domyślną. Nippon: KEYS → s → ✓. Zaczekaj na powrót do gry przed odłączeniem zasilania.</p>
+      <p data-i18n="bassTip">BASS: aby użyć czegoś prawym przyciskiem, włącz MOVE, wskaż obiekt i dotknij RIGHT. Ekwipunek znajduje się przy górnej krawędzi sceny.</p>
+<p data-i18n="queenTip">Amazon Queen: wybierz czynność z dolnego panelu gry, a następnie przedmiot lub postać. SKIP pozwala przejść przez możliwe do pominięcia intro.</p>
+      <p data-i18n="comiTip">Curse of Monkey Island: aby wybrać Talk, użyj KEYS → t → ✓. Koło czynności pojawia się przy przytrzymaniu sceny; wybór gestem pozostaje w próbach.</p>
+      <details class="game-start-tips">
+        <summary data-i18n="gameTipsTitle">Ważne pierwsze kroki w trzech grach</summary>
+        <h3>Sołtys</h3>
+<p data-i18n="soltysHelp">Podejdź do przedmiotu, potem użyj MOVE → przedmiot → RIGHT. Komunikat o odległości oznacza, że bohater stoi za daleko.</p>
+        <h3>Dráscula</h3>
+<p data-i18n="drasculaHelp">Włącz MOVE. Wskaż WALK u góry → LEFT, następnie miejsce na scenie → LEFT. Tak samo wybieraj LOOK, TAKE i TALK. Pozwala to uniknąć przypadkowego wyboru innej czynności.</p>
+        <h3>Nippon Safes</h3>
+<p data-i18n="nipponHelp">Wybierz książkę JAPANESE / ENGLISH, zamkniętą książkę nowej gry i RIGHT. Dla Dino naciśnij NE, RI, HO, WA, I, KI (kafelki6,4,7,2,5,8 od lewego dołu). Rozmowę przewijaj dotknięciem tekstu.</p>
+<p data-i18n="nipponSaveHelp">Nippon zapisuje przez KEYS → s → zielony ✓, potem wybór pustego slotu. Odczyt podczas gry: KEYS → l → ✓. Po restarcie wybierz EN i otwartą książkę SAVED GAME; ogólne MENU → Save oraz skrót Load z launchera nie są tu obsługiwane.</p>
+      </details>
+    </section>
+    <section class="screen-gallery" aria-labelledby="screens-title">
+      <p class="eyebrow" data-i18n="screensEyebrow">Z URZĄDZENIA</p>
+      <h2 id="screens-title" data-i18n="screensTitle">Tak wygląda na Tab5</h2>
+      <p data-i18n="screensNote">Rzeczywiste zrzuty LCD z prób gier, z jasnymi i czarnymi paskami. Kliknij obraz, aby powiększyć. To pierwsze sceny, nie dowód ukończenia całych gier.</p>
+      <div class="screen-grid">
+        <figure><a href="/tab5adv/assets/screens/soltys.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/soltys.png" width="1280" height="720" loading="lazy" alt="Sołtys · PL"></a><figcaption>Sołtys · PL</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/sfinx.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/sfinx.png" width="1280" height="720" loading="lazy" alt="Sfinx · PL"></a><figcaption>Sfinx · PL</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/draci.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/draci.png" width="1280" height="720" loading="lazy" alt="Dragon History · PL"></a><figcaption>Dragon History · PL</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/bass.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/bass.png" width="1280" height="720" loading="lazy" alt="Beneath a Steel Sky · EN"></a><figcaption>Beneath a Steel Sky · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/queen.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/queen.png" width="1280" height="720" loading="lazy" alt="Flight of the Amazon Queen · EN"></a><figcaption>Flight of the Amazon Queen · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/lure.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/lure.png" width="1280" height="720" loading="lazy" alt="Lure of the Temptress · EN"></a><figcaption>Lure of the Temptress · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/teenagent.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/teenagent.png" width="1280" height="720" loading="lazy" alt="Teenagent · EN"></a><figcaption>Teenagent · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/drascula.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/drascula.png" width="1280" height="720" loading="lazy" alt="Dráscula · EN"></a><figcaption>Dráscula · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/nippon.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/nippon.png" width="1280" height="720" loading="lazy" alt="Nippon Safes · Dino · EN"></a><figcaption>Nippon Safes · Dino · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/sammax.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/sammax.png" width="1280" height="720" loading="lazy" alt="Sam &amp; Max · pierwsza scena"></a><figcaption>Sam &amp; Max · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/indy4.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/indy4.png" width="1280" height="720" loading="lazy" alt="Indiana Jones · rozmowa w pierwszej scenie"></a><figcaption>Indiana Jones · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/dig.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/dig.png" width="1280" height="720" loading="lazy" alt="The Dig · pierwsza scena"></a><figcaption>The Dig · EN</figcaption></figure>
+        <figure><a href="/tab5adv/assets/screens/comi.png" target="_blank" rel="noopener"><img src="/tab5adv/assets/screens/comi.png" width="1280" height="720" loading="lazy" alt="Curse of Monkey Island · odpowiedź dialogowa"></a><figcaption>Curse of Monkey Island · EN</figcaption></figure>
+      </div>
+      <p><a href="/tab5adv/assets/screens/skin-picker.png" target="_blank" rel="noopener" data-i18n="skinPreview">Zobacz wybór skórek na urządzeniu</a></p>
+    </section>
+
+    <section id="porting-notes" class="community-games" aria-labelledby="porting-title">
+      <h2 id="porting-title" data-i18n="portingTitle">Mandy: próby za nami.</h2>
+      <p data-i18n="portingText">Pracowaliśmy nad Mandy Christmas Adventure, także po polsku. Na Tab5 uruchomiliśmy pierwszy pokój oraz zapis i odczyt gry, ale otwarcie menu po odczycie nadal kończyło się brakiem pamięci. Dlatego Mandy nie wchodzi do tego wydania. Wyniki prób z 22.09.2026 zachowaliśmy na przyszłość; gra nie jest wliczona do kolekcji ani dostępna w instalatorze.</p>
+    </section>
+
+    <section class="community-games" aria-labelledby="community-title">
+      <h2 id="community-title" data-i18n="communityTitle">Co dalej? Zależy od Was.</h2>
+      <p data-i18n="communityText">The Griffon Legend, God of Thunder i Broken Sword 2.5 rozważymy po tym wydaniu, jeśli będzie zainteresowanie społeczności. Wymagają osobnych prób sterowania i zasobów; nie należą do obecnej paczki.</p>
+    </section>
+
+    <section class="receipt-section" aria-labelledby="receipt-title">
+      <div>
+        <p class="eyebrow" data-i18n="receiptEyebrow">CO POTWIERDZA INSTALATOR</p>
+        <h2 id="receipt-title" data-i18n="receiptTitle">Sprawdzone pliki, bez logowania tutaj</h2>
+      </div>
+      <div class="receipt-grid">
+        <article><b>1</b><h3 data-i18n="receipt1Title">Znane wydanie</h3>
+<p data-i18n="receipt1Text">SHA-256 całej paczki musi pasować do jednego z dokładnie wskazanych wydań ZIP lub GOG.</p></article>
+        <article><b>2</b><h3 data-i18n="receipt2Title">Właściwe pliki gry</h3>
+<p data-i18n="receipt2Text">Każdy wymagany plik ma osobny rozmiar i SHA-256.</p></article>
+        <article><b>3</b><h3 data-i18n="receipt3Title">Odcisk na karcie</h3>
+<p data-i18n="receipt3Text">Tab5 ponownie liczy hash przed opublikowaniem pliku.</p></article>
+      </div>
+      <p class="plain-note" data-i18n="receiptCaveat">Sprawdzamy konkretne wydanie plików, nie tożsamość ani własność konta GOG. ZIP-y i PKG są czytane lokalnie; nie prosimy o hasło i nie wysyłamy danych gry na nasz serwer.</p>
+    </section>
+
+    <section class="limits" aria-labelledby="limits-title">
+      <h2 id="limits-title" data-i18n="limitsTitle">Uczciwy status kandydata</h2>
+      <div class="limits-grid">
+        <p><strong data-i18n="testedTitle">Sprawdzone</strong><span data-i18n="testedText">13 gier dotarło do pierwszych scen na jednej sztuce Tab5 P4 rev. 1.3 / ST7123, FAT32 32 GB. Sprawdzono ruch, wybrane akcje oraz zapis, reset USB i odczyt; zakres prób zależy od gry. To nie jest pełne przejście.</span></p>
+        <p><strong data-i18n="morningTitle">Granice prób</strong><span data-i18n="morningText">Nie zaliczono pełnych przejść, odsłuchu ani długiej gry palcem. Curse: Talk działa przez KEYS → t → ✓; wybór z koła gestem nie jest zmierzony. Nippon zapisuje przez KEYS → s → ✓.</span></p>
+        <p><strong data-i18n="scopeTitle">Zakres</strong><span data-i18n="scopeText">9 bezpłatnych i 4 z własnych paczek GOG, w dokładnie wskazanych wydaniach. Sołtys, Sfinx i Dragon History są po polsku. Kyrandia i Mandy są poza instalatorem.</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Tab5 Free Adventures · <span data-i18n="footerIndependent">niezależny projekt społecznościowy, bez oficjalnego poparcia GOG, M5Stack ani ScummVM</span></p>
+    <nav><a href="/tab5adv/docs.html" data-i18n="docsLink">Dokumentacja</a><a href="/tab5adv/docs.html#sources" data-i18n="sourcesLink">Źródła</a><a href="/tab5adv/releases/v0.3.0-rc1/SHA256SUMS">SHA-256</a><a href="https://esp32ai.me/">ESP32AI.ME · EN</a><a href="https://esp32ai.me/pl">ESP32AI.ME · PL</a><a href="https://esp32ai.me/install">Install other systems</a><a href="https://esp32ai.me/pl/install">Zainstaluj inne systemy</a></nav>
+  </footer>
+</body>
+</html>

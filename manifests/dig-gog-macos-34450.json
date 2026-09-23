@@ -1,0 +1,340 @@
+{
+  "schema": 1,
+  "id": "dig",
+  "target": "dig",
+  "title": "The Dig",
+  "engine": "scumm",
+  "minimum_firmware": 6,
+  "language": "en",
+  "language_status": "ENGLISH_TEXT_CONFIRMED_FIRST_SCENE_DEVICE",
+  "platform": "dos",
+  "edition": "GOG macOS enUS package 2 (34450), classic data with DOS assets and English config; English on-screen text confirmed in first-scene Tab5 pilot",
+  "source_url": "https://www.gog.com/en/game/the_dig",
+  "source_package": {
+    "filename": "the_dig__enUS_gog_2_34450.pkg",
+    "sha256": "974e0ccd8c2587eb0a113d83de211184dde24bddd3a321bc40415f795b499aa4",
+    "signature": "Developer ID Installer: GOG Sp. z o.o. (9WS36Q8886)"
+  },
+  "files": [
+    {
+      "name": "DIG.LA0",
+      "size": 16304,
+      "sha256": "0b21cf371ef0ae010da462f7ffd5915b9d88c2fdab96f93f6ec1a1e681578027"
+    },
+    {
+      "name": "DIG.LA1",
+      "size": 88673344,
+      "sha256": "8f2a0474dfe2d99c37b8182b08d8bb79afe95388df5c9d608ae3bb267536a957"
+    },
+    {
+      "name": "DIGMUSIC.BUN",
+      "size": 261585790,
+      "sha256": "99b0aeaf6b3eb64fd242343a7433709f938f14ed7e3adb7d8315539480a5dbac"
+    },
+    {
+      "name": "DIGVOICE.BUN",
+      "size": 130123511,
+      "sha256": "f73605a976cd1f375a2c9dc013e6cf56c3888be0f0936dcd398dbeda9411317e"
+    },
+    {
+      "name": "VIDEO/ALCOVE.SAN",
+      "size": 1170698,
+      "sha256": "6dc56df00a03488f08a729ee1a541d48f39aa1b81c6fd9a0e6e31a0870f50654"
+    },
+    {
+      "name": "VIDEO/ASTTUN.SAN",
+      "size": 3666166,
+      "sha256": "b00e49944957ea2a74ce951ada2b67e941e40ce262cfb7035e26d3aa5b216084"
+    },
+    {
+      "name": "VIDEO/DARKCAVE.SAN",
+      "size": 4458916,
+      "sha256": "1aab23565984848b9bea335add703da4c1b425cf61f49dc49a58bb9189927175"
+    },
+    {
+      "name": "VIDEO/DIGTXT.TRS",
+      "size": 10723,
+      "sha256": "6eab36af64423e965ef892758fe549ac59397f5bcc7ea565b905ad2463886fcd"
+    },
+    {
+      "name": "VIDEO/FONT0.NUT",
+      "size": 34738,
+      "sha256": "87e99b5efca64dc4444cd4e5957863ed9637131717741a364ed7cc97fe0d1101"
+    },
+    {
+      "name": "VIDEO/FONT1.NUT",
+      "size": 28302,
+      "sha256": "3322d54273f98e524e7d38fa7f194c520c556b87071f3cfbb69131046d1a0095"
+    },
+    {
+      "name": "VIDEO/FONT2.NUT",
+      "size": 28302,
+      "sha256": "3322d54273f98e524e7d38fa7f194c520c556b87071f3cfbb69131046d1a0095"
+    },
+    {
+      "name": "VIDEO/FONT3.NUT",
+      "size": 28302,
+      "sha256": "3322d54273f98e524e7d38fa7f194c520c556b87071f3cfbb69131046d1a0095"
+    },
+    {
+      "name": "VIDEO/M1.SAN",
+      "size": 1133070,
+      "sha256": "2007b7b62b2867b3bee65877febf0e18748e2dbebb96998a79f028f8d66e91c2"
+    },
+    {
+      "name": "VIDEO/M2.SAN",
+      "size": 1048844,
+      "sha256": "e7add7fa5fa19f65f4f7022c9fb636e5d85ba70a796a03e8d64d3ce972140b9e"
+    },
+    {
+      "name": "VIDEO/NEXUSPAN.SAN",
+      "size": 1247242,
+      "sha256": "5ace4083c4e5d9fc8774403b8dfa15598a4f8e653f8040eca4f0de288cc27fc0"
+    },
+    {
+      "name": "VIDEO/PIGOUT.SAN",
+      "size": 985958,
+      "sha256": "1d794a614be1e00a12fe87b3c6d9418a476c4ec9d72c494b699e3a6a00ffd51b"
+    },
+    {
+      "name": "VIDEO/RTRAM1.SAN",
+      "size": 3101990,
+      "sha256": "3f6f037ad376c3cddaa7cdeff23b798e769b5cc7d2b6659788ab04935d1d204a"
+    },
+    {
+      "name": "VIDEO/RTRAM2.SAN",
+      "size": 2487412,
+      "sha256": "9781dad6e255f7496e5ce762971af58d5e48f216ead4912290967f2b7c4587d3"
+    },
+    {
+      "name": "VIDEO/RTRAM3.SAN",
+      "size": 2218278,
+      "sha256": "328eb52710d95438dae4495d61cb82ff86bd64e31d47c3ee61833f82fa64ea3f"
+    },
+    {
+      "name": "VIDEO/RTRAM4.SAN",
+      "size": 2216398,
+      "sha256": "35775fd1b8a69faef7945da739823117daf6c2a02f6d6d552807814ae1a57ec4"
+    },
+    {
+      "name": "VIDEO/RTRAM5.SAN",
+      "size": 2498222,
+      "sha256": "7ce1b02ba6a8c50f958ce692b6e60b063d0cd347028ccf3e1506bd59f1513144"
+    },
+    {
+      "name": "VIDEO/SKY.SAN",
+      "size": 743506,
+      "sha256": "6561bbc19cbaecdf64f67cf47860a919358de50f2bc9629710d29d64c218fed3"
+    },
+    {
+      "name": "VIDEO/SQ1.SAN",
+      "size": 50124786,
+      "sha256": "ddfcea8ed203b460aff1566c6661c87e56cc695d2eb2d96e0ae16a246903a9b3"
+    },
+    {
+      "name": "VIDEO/SQ10.SAN",
+      "size": 3329570,
+      "sha256": "e95384e2def28595f0e56e16ab72fa1b4a76666bc6d36a2e8d5485138e671aea"
+    },
+    {
+      "name": "VIDEO/SQ11.SAN",
+      "size": 1293120,
+      "sha256": "bc0d2fc79c3fafd85332fece86131c76fa35c0d3b0d9350050769d89846536a9"
+    },
+    {
+      "name": "VIDEO/SQ12A.SAN",
+      "size": 597552,
+      "sha256": "ded4de94dd748dcb1523a12525c9359c98f7222182ea09023072f610c2ca2ef6"
+    },
+    {
+      "name": "VIDEO/SQ12B.SAN",
+      "size": 1278822,
+      "sha256": "afca7d5f0458232393e425c69e57976d294f0d94e9813f981653751a7281728b"
+    },
+    {
+      "name": "VIDEO/SQ13.SAN",
+      "size": 2442166,
+      "sha256": "a2e8785d578739ffd0d9ebe8110660f5f8c0627fb1cb65ea08bba9eb7427d77c"
+    },
+    {
+      "name": "VIDEO/SQ14B.SAN",
+      "size": 2542932,
+      "sha256": "0e201e33fea3ba6beef78d389efa122df52832bacf34686939707f689fa318e0"
+    },
+    {
+      "name": "VIDEO/SQ14SC04.SAN",
+      "size": 250728,
+      "sha256": "d57bbde1873e5ec466f881386315101316db497413b0037596af28880de285c9"
+    },
+    {
+      "name": "VIDEO/SQ14SC07.SAN",
+      "size": 187908,
+      "sha256": "1c0f26e664c2abeec430c027824f9ba6b61d953676bcf12e66299d97835beb24"
+    },
+    {
+      "name": "VIDEO/SQ14SC11.SAN",
+      "size": 145026,
+      "sha256": "84038a8e39b74993de3e8aec08f11ae831c126d599abe20eb5f9673434a6673e"
+    },
+    {
+      "name": "VIDEO/SQ14SC14.SAN",
+      "size": 127586,
+      "sha256": "d16cc79109b5a8bcf41afbc39d666793d1b64eafbc605a6ae36cfb321f211d81"
+    },
+    {
+      "name": "VIDEO/SQ14SC16.SAN",
+      "size": 642050,
+      "sha256": "f59c69913b13a4459ed31ddc4522ee38f2c73ff7e504a0b4da9e97d0c35e2de9"
+    },
+    {
+      "name": "VIDEO/SQ14SC19.SAN",
+      "size": 709572,
+      "sha256": "4c06a7fcac7b31d03c49e2301096390b6b387162ff5ff0aeb91492b9485af3eb"
+    },
+    {
+      "name": "VIDEO/SQ14SC22.SAN",
+      "size": 2564832,
+      "sha256": "b4b1e7e5386f29e81b158b6f3f367ec780cfad1d5a56716cbb7511297f1cc930"
+    },
+    {
+      "name": "VIDEO/SQ15A.SAN",
+      "size": 737334,
+      "sha256": "432664f91e5ba0d2fee32460d1d614ae538df8b403b07fa60dfec2564cf16c9d"
+    },
+    {
+      "name": "VIDEO/SQ15B.SAN",
+      "size": 1258754,
+      "sha256": "51f9262adf31fa6a292bc165be7bdcc43f11254708d469354aafb36eadebaa50"
+    },
+    {
+      "name": "VIDEO/SQ17.SAN",
+      "size": 10069120,
+      "sha256": "f7973916c1ea828ec2dc16bc27f3f5aba326fe1924367eb4e40005bb6e97ab44"
+    },
+    {
+      "name": "VIDEO/SQ18A.SAN",
+      "size": 1852134,
+      "sha256": "2078eec331867e9746810a8e072e19c49ce9ec95483492dd40a2b7d52163622d"
+    },
+    {
+      "name": "VIDEO/SQ18B.SAN",
+      "size": 2423836,
+      "sha256": "d6cbec9491bbe6146ad96e5c1e06c6e658b82aa0084bf2d1d37fc3bfdc13c3bb"
+    },
+    {
+      "name": "VIDEO/SQ18SC15.SAN",
+      "size": 558258,
+      "sha256": "7f392bbd5cfa69ad977272bbde4108f33d06ddbbf12ca9465d5c635b2c63ee4a"
+    },
+    {
+      "name": "VIDEO/SQ19A.SAN",
+      "size": 792514,
+      "sha256": "41ff3fc1a2d3f81606bdcbea0541a54a2b58bb37a51c4e77f9e649198b75f3b2"
+    },
+    {
+      "name": "VIDEO/SQ19B.SAN",
+      "size": 3913630,
+      "sha256": "14f6e7af04b410bf5ca0aa048e0953578b5ae4ba41454b33ddb2272c33bcab77"
+    },
+    {
+      "name": "VIDEO/SQ19C.SAN",
+      "size": 1116944,
+      "sha256": "2f9ac5b32cb3c3c67ab67454d61d846425ece4d1a742c33cf861fbe3237caac5"
+    },
+    {
+      "name": "VIDEO/SQ2.SAN",
+      "size": 17759462,
+      "sha256": "ea0e058f51634ec7a4dfdbdd77e07fa1fb2d2586e694c73cc1689571a0c7b1bc"
+    },
+    {
+      "name": "VIDEO/SQ3.SAN",
+      "size": 12073682,
+      "sha256": "90cdbafa7708ea88029e3d386e6717090f7ce903ae965f03d54d381121047350"
+    },
+    {
+      "name": "VIDEO/SQ4.SAN",
+      "size": 2379498,
+      "sha256": "698103f89805aa055adb50943138409552a5fb8dccac93ebabc02e4953363e05"
+    },
+    {
+      "name": "VIDEO/SQ5.SAN",
+      "size": 2488802,
+      "sha256": "4db2564b2fdd05bd38c74cc3ef2977c18d4e519246c94d74497a0db210f1e500"
+    },
+    {
+      "name": "VIDEO/SQ6.SAN",
+      "size": 571106,
+      "sha256": "21cd9e1c16fd75c4bb4643fefaf452f08b0844a2f9e5210e11267ce0bca43235"
+    },
+    {
+      "name": "VIDEO/SQ6SC3.SAN",
+      "size": 134950,
+      "sha256": "2751c38bba0d84f79657afc871c3516214140d6e3c4898f0d88b736737256d3a"
+    },
+    {
+      "name": "VIDEO/SQ7.SAN",
+      "size": 1202256,
+      "sha256": "1da619b87ca9dfa68bbc576afddca171a4d8c194fbd814fc90bfd83076b03535"
+    },
+    {
+      "name": "VIDEO/SQ8A.SAN",
+      "size": 2066034,
+      "sha256": "eaacde33842b4a5478d1dcaf0fccddb695eaf254a922e51b33175fdcab39cc23"
+    },
+    {
+      "name": "VIDEO/SQ8A1.SAN",
+      "size": 1451812,
+      "sha256": "2900b3cf8b0627ed73f50560e93e0a3763c895a151689e8995931f436d061edd"
+    },
+    {
+      "name": "VIDEO/SQ8B.SAN",
+      "size": 339890,
+      "sha256": "d497b38b119c17410e537e0d5d40305351069c626fa803f83e4dfe9b088e068c"
+    },
+    {
+      "name": "VIDEO/SQ8C.SAN",
+      "size": 745084,
+      "sha256": "c60e974ab3aa9033da4ba592aba0856c4d83ee24823a72820d4ceb9ba3f7af79"
+    },
+    {
+      "name": "VIDEO/SQ9.SAN",
+      "size": 6196368,
+      "sha256": "c82b5e67abd3bac3a2bc1ee72e0beaaba90b15482fdf21950fbb73513a1e5ae2"
+    },
+    {
+      "name": "VIDEO/TOMBDWN1.SAN",
+      "size": 1127536,
+      "sha256": "662ed222f083984ee5549585c703ab0a64517222f7aceea20207ed84e1de265c"
+    },
+    {
+      "name": "VIDEO/TOMBDWN2.SAN",
+      "size": 1141518,
+      "sha256": "eeb28b3e1a6991636fa1e0cf36eb6a80592d5d8dcd2f47223df2c3f47e801c28"
+    },
+    {
+      "name": "VIDEO/TRAM1.SAN",
+      "size": 2179482,
+      "sha256": "4dda29f31f5708ad8a78da450a49168f20e87ca442e57fee628a1c0556525637"
+    },
+    {
+      "name": "VIDEO/TRAM2.SAN",
+      "size": 2287880,
+      "sha256": "d348b44021edc556081d693d3183cd6aee4750750b712f7c4a934c944a43321a"
+    },
+    {
+      "name": "VIDEO/TRAM3.SAN",
+      "size": 2842190,
+      "sha256": "557afc7ce41b5542f013e48190a9007cd0cf240dcedeaa98ccccd2a1b875763e"
+    },
+    {
+      "name": "VIDEO/TRAM4.SAN",
+      "size": 2254998,
+      "sha256": "22cfd3d744424a6383a7ad8d78f50e46aec2230f86e6cf2dd2c12dde08214128"
+    },
+    {
+      "name": "VIDEO/TRAM5.SAN",
+      "size": 3400792,
+      "sha256": "916c7c7b8aa75f56e57ea4bf266b3f469dd847e7655c1607d39dc33157e6d895"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "bass.png": {
+    "sha256": "5abdc18f340069c7322fb0580fd3d2dcc0e8c8b6564d864b28969fd26c37f904",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "queen.png": {
+    "sha256": "968dc0289ef0ddbd9e28e4882eb1051e23ef163b5e23300c9f0b5fe8ae3a3d40",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "soltys.png": {
+    "sha256": "7a2fdfb093cd9339d64d5284ccc01c5676e16f3f234e3862c2360c7dcbf779d4",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "8dab41e0eaa567e3d9badc1fd6d4a73ccde83d3e",
+    "date": "2026-09-22"
+  },
+  "sfinx.png": {
+    "sha256": "36f5813e9ec8a6c724b1dacddf39eac41b869d0cd9eea6dd6b869a68e9015d37",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "lure.png": {
+    "sha256": "7e7b6a75e71871c3d807078f498dde4285fe8b21ad81f7aa61f9a08582fe1feb",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "teenagent.png": {
+    "sha256": "5da70916cc66c88873d780ea9621e0b5344262b7a2acf93644a8e5805b1bd65c",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "draci.png": {
+    "sha256": "c87b3a32699052af21c79ac8be3bf9a8c06ccc347c192230527b4d7f44efdfea",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "bf65ad2e502cd0dc48587b48909fd5c4102c8c30",
+    "date": "2026-09-22"
+  },
+  "drascula.png": {
+    "sha256": "ee420720dff21cf0636e73f7c8387febaef34acfc7ab0ca58319672de1396f3d",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "nippon.png": {
+    "sha256": "58654349e2288d0e87e248cdf4e88fe6ab487ae13f34bb07ea9382fcd92515af",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "home-black.png": {
+    "sha256": "1b7cd4dd80edea9e463a1c5b92eeabbdf2ece4afa42bf0614cc3b5788cbafa86",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "622c0ef33f5b645eecef285de22ed35187beb78b",
+    "application_sha256": "f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2",
+    "icons_sha256": "70928cb8b9b4e6b67433586e4c873aeb66f0ffe68c13be3e36d7fcbc77fc36f0",
+    "date": "2026-09-23"
+  },
+  "skin-picker.png": {
+    "sha256": "a19dda3d8f0deb8cce3c18f4531965a2abc96ec094145585280999652fa848df",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "firmware": "f3d68adfca933125359cd3c5f7aec3736a3ccdfc",
+    "date": "2026-09-22"
+  },
+  "sammax.png": {
+    "sha256": "2fe05a80e3f2387e019a06173e4aa75bbd0bb5fc20454dacc97cb59fd4555a6d",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "capture": "sammax-phone-look-text.png",
+    "firmware": "89d0f81eaa173e5bf07fd209a659e0d698352d59d3a351fc462a69bc549228c3",
+    "date": "2026-09-22"
+  },
+  "indy4.png": {
+    "sha256": "6488bd1a1b0959651a428cc359dc433b75d96d7251e56afa51cec2fb3dde6e66",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "capture": "indy4-talk-ticket-dialogue.png",
+    "firmware": "00748906fe421c36d61083cb45f54af3e96b5b19cece3beb796f9057073d4b6d",
+    "date": "2026-09-23"
+  },
+  "dig.png": {
+    "sha256": "3bb72636625508744ff6a15eb133b9345eebbc69b58aa7cd5e65f89595cbadea",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "capture": "dig-ship-door-action.png",
+    "firmware": "2bf9d6cf6c46f9ff7ca151e1346b9717fd9681726ac92ac3e3a1550cb0ddaf0b",
+    "date": "2026-09-23"
+  },
+  "comi.png": {
+    "sha256": "8ba7903fd2d479ff1ac22a1657501a4d4331dd52cb8315c44c60540a688b5b95",
+    "source": "actual Tab5 LCD RGB565 capture",
+    "capture": "comi-dialog-response-text.png",
+    "firmware": "f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2",
+    "date": "2026-09-23"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "sammax",
+  "target": "samnmax",
+  "title": "Sam & Max Hit the Road",
+  "engine": "scumm",
+  "minimum_firmware": 4,
+  "language": "und",
+  "language_status": "ENGLISH_TEXT_CONFIRMED_FIRST_SCENE_DEVICE",
+  "platform": "dos",
+  "edition": "GOG macOS enUS package 3 (34450), classic CD data; English on-screen text confirmed in first-scene Tab5 pilot",
+  "source_url": "https://www.gog.com/en/game/sam_max_hit_the_road",
+  "source_package": {
+    "filename": "sam___max_hit_the_road_enUS_gog_3_34450.pkg",
+    "sha256": "fa86533d227d2f9f1dd66525ee056559c946e4b74b44d1a5d29d9cdd47719d1c",
+    "signature": "Developer ID Installer: GOG Sp. z o.o. (9WS36Q8886)"
+  },
+  "files": [
+    {
+      "name": "monster.sou",
+      "size": 183195967,
+      "sha256": "132111c1ca4f1ab02baaa3fa70ba482e229d56f2f3bf54bdc439dd2835fc90f4"
+    },
+    {
+      "name": "samnmax.000",
+      "size": 9080,
+      "sha256": "2cd123fe1de4ab729193dbdbdea5a6c016bff35a295d0331a9f7feead131a106"
+    },
+    {
+      "name": "samnmax.001",
+      "size": 13790685,
+      "sha256": "6259d09d4ad5bf1efdb70506ccfcabca52ba79c268a08fde06900ab523a9eb38"
+    }
+  ]
+}

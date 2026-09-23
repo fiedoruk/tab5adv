@@ -1,0 +1,35 @@
+<!-- Native ScummVM grid: six games, one large action tray, settings below.
+     Management controls remain available through the list-view button. -->
+<dialog name='LauncherGrid' overlays='screen'>
+  <layout type='vertical' padding='12,12,8,8' spacing='6'>
+    <layout type='horizontal' spacing='8'>
+      <widget name='Logo' width='108' height='30'/>
+      <space/>
+      <widget name='Version' width='0' height='0'/>
+      <widget name='HelpButton' width='22' height='22'/>
+      <widget name='ListSwitch' width='22' height='22'/>
+      <widget name='GridSwitch' width='0' height='0'/>
+    </layout>
+    <widget name='IconArea'/>
+    <layout type='horizontal' spacing='8'>
+      <widget name='OptionsButton' height='24'/>
+      <widget name='AboutButton' width='76' height='24'/>
+      <widget name='QuitButton' width='0' height='0'/>
+    </layout>
+    <layout type='horizontal' spacing='0'>
+      <widget name='SearchDesc' width='0' height='0'/>
+      <widget name='Search' width='0' height='0'/>
+      <widget name='SearchClearButton' width='0' height='0'/>
+      <widget name='laGroupPopupDesc' width='0' height='0'/>
+      <widget name='laGroupPopup' width='0' height='0'/>
+      <widget name='GridItemsPerRowDesc' width='0' height='0'/>
+      <widget name='GridItemsPerRow' width='0' height='0'/>
+      <widget name='GridItemsPerRowLabel' width='0' height='0'/>
+      <widget name='AddGameButton' width='0' height='0'/>
+      <widget name='DownloadGamesButton' width='0' height='0'/>
+      <widget name='RemoveGameButton' width='0' height='0'/>
+      <widget name='LoadGameButton' width='0' height='0'/>
+      <widget name='GameList' width='0' height='0'/>
+    </layout>
+  </layout>
+</dialog>

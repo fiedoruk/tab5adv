@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+  <title id="title">Tab5 Free Adventures</title>
+  <desc id="desc">Classic adventures on ESP32-P4. Preview 0.3: thirteen first-scene pilots, nine free titles and four from owned GOG packages.</desc>
+  <rect width="1200" height="310" rx="18" fill="#10191e"/>
+  <path d="M38 36h1124M38 274h1124" stroke="#33454a"/>
+  <g fill="none" stroke="#617c7b" stroke-width="2">
+    <path d="M843 100h38v-38h170v38h53v127h-223v-58h-38z"/>
+    <path d="M879 64l-25-24M930 62V40M986 62V40M1040 62l25-22M1104 128h54M1104 179h54M998 227v46M931 227v46"/>
+    <path d="M847 127h32M847 145h32M909 93h164v101H909z"/>
+  </g>
+  <g fill="#f4f0e6" font-family="monospace">
+    <text x="990" y="131" text-anchor="middle" font-size="22" font-weight="700">ESP32-P4</text>
+    <text x="990" y="169" text-anchor="middle" font-size="18">PLAY OFFLINE</text>
+  </g>
+  <path d="M926 181h128" stroke="#eab44d" stroke-width="4"/>
+  <g fill="#eab44d"><circle cx="843" cy="100" r="4"/><circle cx="1158" cy="128" r="4"/><circle cx="1158" cy="179" r="4"/><circle cx="931" cy="273" r="4"/></g>
+  <rect x="46" y="61" width="89" height="89" rx="13" fill="#f4f0e6"/>
+  <text x="90" y="121" text-anchor="middle" font-family="monospace" font-size="49" font-weight="700" fill="#18315f">T5</text>
+  <text x="161" y="95" font-family="monospace" font-size="18" letter-spacing="3" fill="#eab44d">TAB5 FREE ADVENTURES</text>
+  <text x="160" y="144" font-family="Georgia,serif" font-size="45" font-weight="700" fill="#f4f0e6">Touch the story.</text>
+  <text x="48" y="197" font-family="sans-serif" font-size="23" fill="#c9d5d6">Classic adventures on a microcontroller.</text>
+  <text x="48" y="247" font-family="monospace" font-size="16" fill="#f4f0e6">13 FIRST-SCENE PILOTS</text>
+  <path d="M292 231v20M630 231v20" stroke="#617c7b"/>
+  <text x="316" y="247" font-family="monospace" font-size="16" fill="#f4f0e6">9 FREE + 4 OWNED GOG</text>
+  <text x="653" y="247" font-family="monospace" font-size="16" fill="#eab44d">0.3 RC</text>
+</svg>

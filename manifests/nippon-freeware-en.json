@@ -1,0 +1,263 @@
+{
+  "schema": 1,
+  "id": "nippon",
+  "title": "Nippon Safes, Inc.",
+  "engine": "parallaction",
+  "language": "en",
+  "edition": "ScummVM freeware DOS1.0",
+  "source_url": "https://www.scummvm.org/games/#nippon",
+  "download_url": "https://downloads.scummvm.org/frs/extras/Nippon%20Safes/nippon-1.0.zip",
+  "source_package": {
+    "filename": "nippon-1.0.zip",
+    "format": "zip",
+    "sha256": "53e7e2c60065e4aed193169bbcdcfd1113fa68d3efe1c8240ba073c0e20d613f"
+  },
+  "files": [
+    {
+      "name": "boogie2.mid",
+      "archive_path": "BOOGIE2.MID",
+      "size": 7507,
+      "sha256": "413492d3465a9c7319e34c8a6d1add2077c52c1eeeec5323a1c20c3b569ed2fe"
+    },
+    {
+      "name": "comiccnv.cnv",
+      "archive_path": "COMICCNV.CNV",
+      "size": 10083,
+      "sha256": "35196ccfc5294ff1ec0aac6e7549349ec22727fa7cbcde77f9e4098e4468bdc9"
+    },
+    {
+      "name": "dino.mid",
+      "archive_path": "DINO.MID",
+      "size": 5486,
+      "sha256": "fdc2be8923f0f49e8a846a6150e0a3c8624dbcafd7c5f71cfb5a625635df833c"
+    },
+    {
+      "name": "dino.tab",
+      "archive_path": "DINO.TAB",
+      "size": 533,
+      "sha256": "47226d7089cb0ab8803461585433c49a08c60ef7d1c2be29c6ba615446c5872f"
+    },
+    {
+      "name": "dinohead.cnv",
+      "archive_path": "DINOHEAD.CNV",
+      "size": 7683,
+      "sha256": "37413d4c567046e6522fd45d5dcaa266d006a344361cee30c9c81f053ec1e1f9"
+    },
+    {
+      "name": "dinoobj.cnv",
+      "archive_path": "DINOOBJ.CNV",
+      "size": 48387,
+      "sha256": "82bccc76ba69ad36cd0eff9be1887f4884a12f5b482f4d26f77b663b41a46034"
+    },
+    {
+      "name": "dinorobj.cnv",
+      "archive_path": "DINOROBJ.CNV",
+      "size": 48387,
+      "sha256": "82bccc76ba69ad36cd0eff9be1887f4884a12f5b482f4d26f77b663b41a46034"
+    },
+    {
+      "name": "dinotal.cnv",
+      "archive_path": "DINOTAL.CNV",
+      "size": 62499,
+      "sha256": "59d3eafc019a81246f538b94e5f7138eb9c8320ae2d9cc9b3c7acfa0a02e33e0"
+    },
+    {
+      "name": "disk1",
+      "archive_path": "DISK1",
+      "size": 1060142,
+      "sha256": "32f49eb123023ce1b24273e50d104edf5352a60407042ac1633c55de5e009662"
+    },
+    {
+      "name": "disk2",
+      "archive_path": "DISK2",
+      "size": 907205,
+      "sha256": "f2d3d6a5d8144a58f50016e5661c01574f5b18877044c98c334a4dc549a7749b"
+    },
+    {
+      "name": "disk3",
+      "archive_path": "DISK3",
+      "size": 1030721,
+      "sha256": "6da0fe52775d6ce1fe89cf8cfdb8bbab8d14348f216b9eb237880ebc8f18d7bd"
+    },
+    {
+      "name": "disk4",
+      "archive_path": "DISK4",
+      "size": 1151403,
+      "sha256": "de6438ed6f0f8b63b2bf7c710005fa1e0f74af101b67e0e6b02110bca252d0ce"
+    },
+    {
+      "name": "donna.mid",
+      "archive_path": "DONNA.MID",
+      "size": 6195,
+      "sha256": "9f1f904551b17d7340cb1f2bf347a9ea71a55b68078cc59522fc7f72b685ba55"
+    },
+    {
+      "name": "donna.tab",
+      "archive_path": "DONNA.TAB",
+      "size": 320,
+      "sha256": "6839606ff5d00243ee2746ba0bcd59049bdabab8edbce9f00d94b5bc78038c05"
+    },
+    {
+      "name": "donnahea.cnv",
+      "archive_path": "DONNAHEA.CNV",
+      "size": 7683,
+      "sha256": "099987f62cf327a387be59b5fc7b40c1997f6496c21fb1091ce73f52da1c1ab2"
+    },
+    {
+      "name": "donnaobj.cnv",
+      "archive_path": "DONNAOBJ.CNV",
+      "size": 33027,
+      "sha256": "48fddc90f1855de7273db1e6205817825d1f58b0290bd5f1ee5c8697c1f639bc"
+    },
+    {
+      "name": "donnatal.cnv",
+      "archive_path": "DONNATAL.CNV",
+      "size": 62499,
+      "sha256": "040afdc855e1ace851773ca611124252c74693927961424a1e48c8c71d45675b"
+    },
+    {
+      "name": "donnatra.tab",
+      "archive_path": "DONNATRA.TAB",
+      "size": 320,
+      "sha256": "6839606ff5d00243ee2746ba0bcd59049bdabab8edbce9f00d94b5bc78038c05"
+    },
+    {
+      "name": "donnatta.cnv",
+      "archive_path": "DONNATTA.CNV",
+      "size": 53571,
+      "sha256": "26bfbe3c9fb3bde8e6682d21a70755dcb958ea31e728853bc43f8952d498206b"
+    },
+    {
+      "name": "dough.tab",
+      "archive_path": "DOUGH.TAB",
+      "size": 504,
+      "sha256": "ea99af74854144d08e735f1775806edeae132c230c4cff8118d3779ec35df210"
+    },
+    {
+      "name": "doughea.cnv",
+      "archive_path": "DOUGHEA.CNV",
+      "size": 7683,
+      "sha256": "58685003fad2c7248cc88e95bc7ff7d5cfaf72af5a7684c8277e3ddf3e5dd228"
+    },
+    {
+      "name": "doughhea.cnv",
+      "archive_path": "DOUGHHEA.CNV",
+      "size": 7683,
+      "sha256": "58685003fad2c7248cc88e95bc7ff7d5cfaf72af5a7684c8277e3ddf3e5dd228"
+    },
+    {
+      "name": "doughobj.cnv",
+      "archive_path": "DOUGHOBJ.CNV",
+      "size": 46083,
+      "sha256": "c9edda3b8a7d9130a9b81bbc5f2c152a387e46ff74c9e35128a5d311b0b0bf80"
+    },
+    {
+      "name": "doughtal.cnv",
+      "archive_path": "DOUGHTAL.CNV",
+      "size": 44643,
+      "sha256": "65cc65296f005cb5d850cc9967cfe84cef63a437bcd343a544fa6ca4a1827278"
+    },
+    {
+      "name": "drki.tab",
+      "archive_path": "DRKI.TAB",
+      "size": 95,
+      "sha256": "e362f664ff2de377dc01de600d3707581c59b94d3150bcc211bab5c4d1604758"
+    },
+    {
+      "name": "drkihead.cnv",
+      "archive_path": "DRKIHEAD.CNV",
+      "size": 867,
+      "sha256": "2156549092e352353c3735be6d67b3ec7604d83190b97d62446e3641f9aaf7ef"
+    },
+    {
+      "name": "drkiobj.cnv",
+      "archive_path": "DRKIOBJ.CNV",
+      "size": 9219,
+      "sha256": "5b192e44b00c97e64fed5ad56982bf2be51e9e777d1640e262a7459901e56e1b"
+    },
+    {
+      "name": "drkital.cnv",
+      "archive_path": "DRKITAL.CNV",
+      "size": 8931,
+      "sha256": "af4903351bea34b0fa5d476db6b400c6b29d9418deb1a7cb3d8e355268caa48f"
+    },
+    {
+      "name": "en",
+      "archive_path": "EN",
+      "size": 399360,
+      "sha256": "f491c62e6f032f0d69c8c0ed8f611cd3ce70ad09b9e4f51715e6e30683feb872"
+    },
+    {
+      "name": "fr",
+      "archive_path": "FR",
+      "size": 410624,
+      "sha256": "d086399546b2949eb6cfb39b28c8f10e4a14f3d80633ba67b5d6259f2c82bdad"
+    },
+    {
+      "name": "ge",
+      "archive_path": "GE",
+      "size": 410624,
+      "sha256": "55c7c733f2042908ea36a244e576d156ca998ba7041eb09255da902b43d7c1b2"
+    },
+    {
+      "name": "global.tab",
+      "archive_path": "GLOBAL.TAB",
+      "size": 280,
+      "sha256": "c858dde66c60bb74f1b08d5302a67a140e63d5a024e2f9f0f1b4d62feac58b28"
+    },
+    {
+      "name": "intro.mid",
+      "archive_path": "INTRO.MID",
+      "size": 18805,
+      "sha256": "3cbc96b197008e0164ee47db044193c077d36d363fd3eb4fa182037d1b19733e"
+    },
+    {
+      "name": "it",
+      "archive_path": "IT",
+      "size": 410624,
+      "sha256": "0d1cd763db2bc6f6d9bf8bb3a06773b77fff538b6ea7544507915273d2cbcc7f"
+    },
+    {
+      "name": "nuts.mid",
+      "archive_path": "NUTS.MID",
+      "size": 13006,
+      "sha256": "deccc1b3e1efb40bbfce4cfc7f1ce4e8e2f6a51e61b9065ed573de1357bc1c0f"
+    },
+    {
+      "name": "pointer.cnv",
+      "archive_path": "POINTER.CNV",
+      "size": 1027,
+      "sha256": "283ad18f91fd6a2c8945e7b9e2ec283ef21791026ebf55877ad3951536ae477e"
+    },
+    {
+      "name": "readme",
+      "archive_path": "README",
+      "size": 1086,
+      "sha256": "07143b7650d977d569d92a4507946c34346c6b595c63f47e98a041bd768ce35b"
+    },
+    {
+      "name": "slidecnv.cnv",
+      "archive_path": "SLIDECNV.CNV",
+      "size": 9467,
+      "sha256": "9b76f46dfbd57f25779c12963d9c702e32a9792df2ca0ab26f1cd33d56fa7783"
+    },
+    {
+      "name": "soft.mid",
+      "archive_path": "SOFT.MID",
+      "size": 15818,
+      "sha256": "78c301de3f3b539f85654e44b4fb0f1b8f9c6cdda4ff39b3af6c0a4f7b30acd1"
+    },
+    {
+      "name": "topazcnv.cnv",
+      "archive_path": "TOPAZCNV.CNV",
+      "size": 10083,
+      "sha256": "18db6cda236fb1e426d13e0c90345604175c2cb33372d6aa40db3082c6186db1"
+    },
+    {
+      "name": "readme.txt",
+      "archive_path": "readme.txt",
+      "size": 1318,
+      "sha256": "9722ac87ab8e9ff406120fc5213b86c7445db2e5509637d64d8c607142a0fdb2"
+    }
+  ]
+}

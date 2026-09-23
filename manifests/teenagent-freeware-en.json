@@ -1,0 +1,83 @@
+{
+  "schema": 1,
+  "id": "teenagent",
+  "title": "Teenagent",
+  "engine": "teenagent",
+  "language": "en",
+  "edition": "DOS Games Archive freeware EN",
+  "source_url": "https://www.dosgamesarchive.com/download/teenagent/",
+  "download_url": "https://www.dosgamesarchive.com/file.php?id=3270",
+  "source_package": {
+    "filename": "teenagent.zip",
+    "format": "zip",
+    "sha256": "43fe714c0350b327b2eca4b20c8826f844ae9fab0bb25f837dffe82998dcacb9"
+  },
+  "files": [
+    {
+      "name": "lan_000.res",
+      "archive_path": "LAN_000.RES",
+      "size": 535599,
+      "sha256": "a3cbb20b946250a5bf2cf544b1a46c6dfe80ae5a6ef5dae3f415b9f2c7f81490"
+    },
+    {
+      "name": "lan_500.res",
+      "archive_path": "LAN_500.RES",
+      "size": 9538457,
+      "sha256": "493f01cf6bf1e742d615b4486766fa73802ffc6f1103f1ad5ee2a497961954b8"
+    },
+    {
+      "name": "mmm.res",
+      "archive_path": "MMM.RES",
+      "size": 42104,
+      "sha256": "2ea181cee63d1a136ff0b84f4a062b1a97ba6758312094f207066b65ccb5c45b"
+    },
+    {
+      "name": "off.res",
+      "archive_path": "OFF.RES",
+      "size": 2720432,
+      "sha256": "f9e0c559f6962a0a0db1fb30e00473d98bd6baba4b0f8a16de954b459077d9f7"
+    },
+    {
+      "name": "on.res",
+      "archive_path": "ON.RES",
+      "size": 153907,
+      "sha256": "07dab510c55a569c69a74ecc476ba7cbb1d182bcf5fb832c7e9740a4dd11a298"
+    },
+    {
+      "name": "ons.res",
+      "archive_path": "ONS.RES",
+      "size": 173077,
+      "sha256": "e8583941e44e270dd37105352755748106d4404a2a3d477b344f3cceae6f0281"
+    },
+    {
+      "name": "sam_mmm.res",
+      "archive_path": "SAM_MMM.RES",
+      "size": 229636,
+      "sha256": "70e469a71d406421143cc17ed9b2af95c356c0c3b3e664b7e9e6b2420e47fec6"
+    },
+    {
+      "name": "sam_sam.res",
+      "archive_path": "SAM_SAM.RES",
+      "size": 769552,
+      "sha256": "f8e95102abed855ca7c0d0162bec8f08e0a101477c9d39e38452db9559a833ad"
+    },
+    {
+      "name": "sdr.res",
+      "archive_path": "SDR.RES",
+      "size": 14672,
+      "sha256": "478a86a6e6d30699ba6ff069efd08acc87f0708d7099946b7fb6f13e85696373"
+    },
+    {
+      "name": "varia.res",
+      "archive_path": "VARIA.RES",
+      "size": 209315,
+      "sha256": "e00351a7c27cf944a17a23b67397b894b3007c3e9c5315d58e33e85f8e66b212"
+    },
+    {
+      "name": "readme.txt",
+      "archive_path": "README!.TXT",
+      "size": 2994,
+      "sha256": "982e4bdd3beb04abacc405534612e85713511e89a9a7cd736e6bde765bda0727"
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "schema": 1,
+  "id": "draci",
+  "title": "Dragon History",
+  "engine": "draci",
+  "language": "pl",
+  "edition": "Official PL2012",
+  "source_url": "https://www.ucw.cz/draci-historie/index-en.html",
+  "download_url": "https://www.ucw.cz/draci-historie/binary/dh-pl-2012.zip",
+  "source_package": {
+    "filename": "dh-pl-2012.zip",
+    "format": "zip",
+    "sha256": "c2034462ed4c1d6abf129e4144a2e21c193aff694943dc3f6ea565d9aa9aeafe"
+  },
+  "files": [
+    {
+      "name": "anim.dfw",
+      "archive_path": "anim.dfw",
+      "size": 126330,
+      "sha256": "43ecb2f748feac80f1587d55aa1d2a6233a0be415b07c2dd0db69b2be69c8e94"
+    },
+    {
+      "name": "big.fon",
+      "archive_path": "big.fon",
+      "size": 21392,
+      "sha256": "990e73439c840a17f4e7fb8ba74bee205a8016762b4d179669b4959b261139ae"
+    },
+    {
+      "name": "cd2.sam",
+      "archive_path": "cd2.sam",
+      "size": 1329698,
+      "sha256": "c4cf6deeaff38e207d3a31e3412e6757e771b09d80223fe47fa3a4567dff777e"
+    },
+    {
+      "name": "cmf.ins",
+      "archive_path": "cmf.ins",
+      "size": 2048,
+      "sha256": "bbebed76c24c1dcd7fa065b618b6a52dbab8b5c43e8490449c568141fe474b3c"
+    },
+    {
+      "name": "hra.dfw",
+      "archive_path": "hra.dfw",
+      "size": 58300,
+      "sha256": "86066e79581126590c96573659fa4d71c9b69f7e38aef8a79b603b405799647f"
+    },
+    {
+      "name": "hudba1.mid",
+      "archive_path": "hudba1.mid",
+      "size": 10379,
+      "sha256": "f7c26f906307484882e580ff429b5bd392f09b5d55c71bfb8e0bd6b9688bf21b"
+    },
+    {
+      "name": "hudba10.mid",
+      "archive_path": "hudba10.mid",
+      "size": 3966,
+      "sha256": "37fb137efef7edf017722ec9b4173a6aaa895d6b4ac7eb55af768b8d2513286a"
+    },
+    {
+      "name": "hudba11.mid",
+      "archive_path": "hudba11.mid",
+      "size": 11839,
+      "sha256": "36088508e26c2ca1f093942c4040d4223d9e693537fcb7b8cd26efb414e39ac2"
+    },
+    {
+      "name": "hudba12.mid",
+      "archive_path": "hudba12.mid",
+      "size": 5177,
+      "sha256": "f02239089cf7c11734f905465023d2904fa5565e1c4ce37a08b3c0f73218ba96"
+    },
+    {
+      "name": "hudba13.mid",
+      "archive_path": "hudba13.mid",
+      "size": 18982,
+      "sha256": "743272737fd52fe0037a3a8eca5af2fcabb60ac6c9871282ec64cfd7ccedae0a"
+    },
+    {
+      "name": "hudba14.mid",
+      "archive_path": "hudba14.mid",
+      "size": 4362,
+      "sha256": "7b376531d68f6304fb813d1a84405a351483d7ee930df59b9f69337267818c1d"
+    },
+    {
+      "name": "hudba15.mid",
+      "archive_path": "hudba15.mid",
+      "size": 3937,
+      "sha256": "98f8632ee616f2bb89e9b0024d93b8a12209ba204d68b9adad2944c9359a7a5a"
+    },
+    {
+      "name": "hudba2.mid",
+      "archive_path": "hudba2.mid",
+      "size": 11357,
+      "sha256": "051315636ddd22d4fc211cd4948adb7a918d0e3f952a39035b9d541fd73022f4"
+    },
+    {
+      "name": "hudba3.mid",
+      "archive_path": "hudba3.mid",
+      "size": 6784,
+      "sha256": "fcc8ca3b5c27189c492336f8fa122c77378e3f4f9848f284b09834ab1b61ab6c"
+    },
+    {
+      "name": "hudba4.mid",
+      "archive_path": "hudba4.mid",
+      "size": 8416,
+      "sha256": "23cf9d7582efdd12f3b52d59304498eaf2e7634716af2d86581bf6ec8c017c1c"
+    },
+    {
+      "name": "hudba5.mid",
+      "archive_path": "hudba5.mid",
+      "size": 2515,
+      "sha256": "cbd3413927fc8b329dc85ca52a4fad6afeaf917926886ef7cbaf1ee1eaeeb7f3"
+    },
+    {
+      "name": "hudba6.mid",
+      "archive_path": "hudba6.mid",
+      "size": 5284,
+      "sha256": "8ca1df046bd0bf3ff2d89a0c5c12c595472bf4730d894b537b426e78b3facaa9"
+    },
+    {
+      "name": "hudba7.mid",
+      "archive_path": "hudba7.mid",
+      "size": 9243,
+      "sha256": "332a6d47722f325ded3b47cc734ad2697e42532ff0e207b6f4c27545a1773edb"
+    },
+    {
+      "name": "hudba8.mid",
+      "archive_path": "hudba8.mid",
+      "size": 15219,
+      "sha256": "79cead19175fba5810541a178ec6842685f3c811b984b889fe04e22bb94e2174"
+    },
+    {
+      "name": "hudba9.mid",
+      "archive_path": "hudba9.mid",
+      "size": 11409,
+      "sha256": "5ad9157415420bb92885a11e3d92456da3cbc80ebb5aa74dd0fd99b4012ff7b6"
+    },
+    {
+      "name": "ikony.dfw",
+      "archive_path": "ikony.dfw",
+      "size": 3765,
+      "sha256": "1601f1e58f59a2adbdbfbf29e29e8f72d21332025d23a2674a7e3d1b34224c16"
+    },
+    {
+      "name": "init.dfw",
+      "archive_path": "init.dfw",
+      "size": 906,
+      "sha256": "a9afc35f6975a90c53ed74eb30a5efdcff50723baa311d8a6eec5e0efb9df75a"
+    },
+    {
+      "name": "mapy.dfw",
+      "archive_path": "mapy.dfw",
+      "size": 24642,
+      "sha256": "8cb54f6e68db61ab1c33c4c930d9e659b51a9a2c8c8f4aa03524199ef3df25b8"
+    },
+    {
+      "name": "mist.dfw",
+      "archive_path": "mist.dfw",
+      "size": 11425,
+      "sha256": "0dade90a9c71ee2252c3bee3afaf72317e88e69d0d6a44d08822fe0d489a1cde"
+    },
+    {
+      "name": "objekty.dfw",
+      "archive_path": "objekty.dfw",
+      "size": 45221,
+      "sha256": "a2177ae9302dbf873b170da6fe1bab5e5d408ff1cc3d2216c40f9d513d53c8c4"
+    },
+    {
+      "name": "obr_an.dfw",
+      "archive_path": "obr_an.dfw",
+      "size": 5728598,
+      "sha256": "215bd26a68efb4ca1350e437290fcbe9ac11bfac780725cdfa6c1df5734f04a9"
+    },
+    {
+      "name": "obr_ik.dfw",
+      "archive_path": "obr_ik.dfw",
+      "size": 31882,
+      "sha256": "8b05c988c5053bf904da94d9ba5bdb585be5ff25b0918dba971bb0db92b43c7a"
+    },
+    {
+      "name": "obr_mas.dfw",
+      "archive_path": "obr_mas.dfw",
+      "size": 2463585,
+      "sha256": "7b2ee24862c1352c821dd7ebca687868d84bb4ed67008806f54458358d5ac340"
+    },
+    {
+      "name": "palety.dfw",
+      "archive_path": "palety.dfw",
+      "size": 35802,
+      "sha256": "e9abbcb72877d2ad687f286c1b1a660234433849da438681028a1f31e487be6e"
+    },
+    {
+      "name": "readme.txt",
+      "archive_path": "readme.txt",
+      "size": 2818,
+      "sha256": "af6388c498552f3a4a3bf1c1c87c32080c75b65998b1ee9e0a870d4d9af8d241"
+    },
+    {
+      "name": "retezce.dfw",
+      "archive_path": "retezce.dfw",
+      "size": 123790,
+      "sha256": "b5bcceb4ce9e056998bdb622aabc70a0fb44327d9b472830c14a31d3ceb6fc2a"
+    },
+    {
+      "name": "rozh1.dfw",
+      "archive_path": "rozh1.dfw",
+      "size": 56,
+      "sha256": "5724b8a50c3fbc43760aa690314c2c0ad61f275285fab8539320135e5e04e8a3"
+    },
+    {
+      "name": "rozh10.dfw",
+      "archive_path": "rozh10.dfw",
+      "size": 1682,
+      "sha256": "576753201c31422daa86fa174c01d3e98e1ed1050fd546d164083bccaa535df0"
+    },
+    {
+      "name": "rozh11.dfw",
+      "archive_path": "rozh11.dfw",
+      "size": 3322,
+      "sha256": "fe02f99228521931b1dd42049b969d03e74614fcc1ba15311fbef8f698797630"
+    },
+    {
+      "name": "rozh12.dfw",
+      "archive_path": "rozh12.dfw",
+      "size": 2956,
+      "sha256": "53fcd99c6538b5c773000bac9cb1991083bfc46cd6c61a94be83ac2bec21e9de"
+    },
+    {
+      "name": "rozh13.dfw",
+      "archive_path": "rozh13.dfw",
+      "size": 1670,
+      "sha256": "67b4628ace120012c3772442da718563d8b1bd36e0d647bcdfc58c3f976d7aad"
+    },
+    {
+      "name": "rozh14.dfw",
+      "archive_path": "rozh14.dfw",
+      "size": 2449,
+      "sha256": "56a8526dcc6ea2d1db975d582da6ef938e431f12234b7fa191169ccf6bb04ae1"
+    },
+    {
+      "name": "rozh15.dfw",
+      "archive_path": "rozh15.dfw",
+      "size": 2399,
+      "sha256": "63b6e5a1e7b73c82cfd74adc38b65b0c3afbdbc9c7be40504b247127b10fcc25"
+    },
+    {
+      "name": "rozh16.dfw",
+      "archive_path": "rozh16.dfw",
+      "size": 3099,
+      "sha256": "2ec2db13248a3e859a55d7363659642c927c200afdcfd2fceb2318887c2dfa42"
+    },
+    {
+      "name": "rozh17.dfw",
+      "archive_path": "rozh17.dfw",
+      "size": 2722,
+      "sha256": "45fc210fbbf75d72401d47cfaaab881ae540d389b5f7e6dc0a8c16ef6794867e"
+    },
+    {
+      "name": "rozh18.dfw",
+      "archive_path": "rozh18.dfw",
+      "size": 684,
+      "sha256": "7cc24615ef2171a7ae88401724364c56af7d2765f1999f922a853c2a2f7230f2"
+    },
+    {
+      "name": "rozh19.dfw",
+      "archive_path": "rozh19.dfw",
+      "size": 110,
+      "sha256": "3e01ac1f73c6e88511f5d4a889cad373b8e8f4c8c2fc60028eb04a40a86d8442"
+    },
+    {
+      "name": "rozh2.dfw",
+      "archive_path": "rozh2.dfw",
+      "size": 1321,
+      "sha256": "c4399834e9fcfb43f2a2c8af88255d06f31f3cd3af7b8c6f3e697c3cde7f4e85"
+    },
+    {
+      "name": "rozh20.dfw",
+      "archive_path": "rozh20.dfw",
+      "size": 88,
+      "sha256": "fd32b75558c85f647f3f0840e532d54c6e4ee48cc451d4faae664734ed8488dc"
+    },
+    {
+      "name": "rozh21.dfw",
+      "archive_path": "rozh21.dfw",
+      "size": 184,
+      "sha256": "36dad8b55290d62f84b9b24c09772c35657ec57948cd45c33d270dc4e8464513"
+    },
+    {
+      "name": "rozh22.dfw",
+      "archive_path": "rozh22.dfw",
+      "size": 2427,
+      "sha256": "1748122200255448c18eda74f37b660def9fc29ca9d73039ed5214b28388a07e"
+    },
+    {
+      "name": "rozh23.dfw",
+      "archive_path": "rozh23.dfw",
+      "size": 256,
+      "sha256": "bf2ba863ba2b7463a41ee6eb53d42f395e67bd605d18dac36fd9bf516b6f3951"
+    },
+    {
+      "name": "rozh24.dfw",
+      "archive_path": "rozh24.dfw",
+      "size": 3391,
+      "sha256": "8d31835416bfdb6b48e51c07ab1bdc4cf17143766348ac65bab6cdabdce74a98"
+    },
+    {
+      "name": "rozh25.dfw",
+      "archive_path": "rozh25.dfw",
+      "size": 116,
+      "sha256": "faea84ce4072f5b35a92c151143a009e3a2c16da0ff84a494f2c71bc1e007a77"
+    },
+    {
+      "name": "rozh26.dfw",
+      "archive_path": "rozh26.dfw",
+      "size": 2515,
+      "sha256": "1923449a2663a43c73ea1455597d3c15e8f6b3947748256a678ef58c37a469c9"
+    },
+    {
+      "name": "rozh27.dfw",
+      "archive_path": "rozh27.dfw",
+      "size": 442,
+      "sha256": "7ca966c8dfb8ce4a9fc81a0ff220efeeda38ebab723b9147be8c2385eff474d5"
+    },
+    {
+      "name": "rozh28.dfw",
+      "archive_path": "rozh28.dfw",
+      "size": 482,
+      "sha256": "673f913deb6428a3b802b03b324e41420eb3faca50412dca8a32f7cfd631d713"
+    },
+    {
+      "name": "rozh29.dfw",
+      "archive_path": "rozh29.dfw",
+      "size": 2805,
+      "sha256": "3a12fd671fd3239f009b7ef147598e8072d9b7f151fc9a93361ff1667786a1cb"
+    },
+    {
+      "name": "rozh3.dfw",
+      "archive_path": "rozh3.dfw",
+      "size": 2943,
+      "sha256": "a0d84cd0bfa5a60af44b8b2c0fc930a5ac41f8c1543100a5d41450647cf52e25"
+    },
+    {
+      "name": "rozh30.dfw",
+      "archive_path": "rozh30.dfw",
+      "size": 96,
+      "sha256": "b8e84ae6e164c31f1cbcb569540868558067ae1b1499be760e3bbd0f7a975f05"
+    },
+    {
+      "name": "rozh31.dfw",
+      "archive_path": "rozh31.dfw",
+      "size": 2253,
+      "sha256": "8c4168dfbf82d6f1eaf7b28240b8757e07b37a8a8ecb83e9fa41801c17d7c189"
+    },
+    {
+      "name": "rozh32.dfw",
+      "archive_path": "rozh32.dfw",
+      "size": 594,
+      "sha256": "6f82fa61dc9c4ed0af7fda88f65a646897bd21957c80e88fcde489c2a507a787"
+    },
+    {
+      "name": "rozh33.dfw",
+      "archive_path": "rozh33.dfw",
+      "size": 3529,
+      "sha256": "59cd2bd73cf8e57490828422c7e6690cb213e4c0e6ee951173a5ae96e839ed1a"
+    },
+    {
+      "name": "rozh34.dfw",
+      "archive_path": "rozh34.dfw",
+      "size": 1024,
+      "sha256": "0e50c4ab77b43ee8c9385b96984ada87dcb6be9a548c53d69c44e196fe604c59"
+    },
+    {
+      "name": "rozh35.dfw",
+      "archive_path": "rozh35.dfw",
+      "size": 252,
+      "sha256": "f7ce494139961bdd09cc9ff08b3c904fb00be37fb594054eb05c1ee9240495b2"
+    },
+    {
+      "name": "rozh36.dfw",
+      "archive_path": "rozh36.dfw",
+      "size": 272,
+      "sha256": "4fba15a46858be07fc84f370be0d52f7b57ece1a485e9458ed775325a3061e2f"
+    },
+    {
+      "name": "rozh37.dfw",
+      "archive_path": "rozh37.dfw",
+      "size": 328,
+      "sha256": "ba4a24628460d36a08c3154e7d96b2c4777adfda33d2c12726b7297f38ee0b47"
+    },
+    {
+      "name": "rozh38.dfw",
+      "archive_path": "rozh38.dfw",
+      "size": 134,
+      "sha256": "15a79069fa4925cbcda9d90fe0a0e5f7bbd4eb4aff026314dc437c054ba199c6"
+    },
+    {
+      "name": "rozh39.dfw",
+      "archive_path": "rozh39.dfw",
+      "size": 96,
+      "sha256": "d0f80b4d2d3a8aee595eed1d513be603b5923003620bc78b867f432b584adb3c"
+    },
+    {
+      "name": "rozh4.dfw",
+      "archive_path": "rozh4.dfw",
+      "size": 506,
+      "sha256": "5131948ebb3259a0a538c58335713c52ce8b672d526bc55acc4fd7b3b083eef1"
+    },
+    {
+      "name": "rozh40.dfw",
+      "archive_path": "rozh40.dfw",
+      "size": 198,
+      "sha256": "5d42a5adc3df8f2ee6cbf1557047c2d3259b9ffce4c20206b4afaa15d5156179"
+    },
+    {
+      "name": "rozh41.dfw",
+      "archive_path": "rozh41.dfw",
+      "size": 78,
+      "sha256": "a2392ea9db1386f573f2a8eca43b3c6525a99befc2eed8cb412dd9c2028ccd50"
+    },
+    {
+      "name": "rozh42.dfw",
+      "archive_path": "rozh42.dfw",
+      "size": 742,
+      "sha256": "9af09455fa98c1b8d2f2ad7279ed547ce98092193f4fcdc30318ffd9f6902a6f"
+    },
+    {
+      "name": "rozh43.dfw",
+      "archive_path": "rozh43.dfw",
+      "size": 270,
+      "sha256": "30ecad61f787398e2fedecf3645e6ee916aee69c23777a7af0c410573f4dd9b6"
+    },
+    {
+      "name": "rozh44.dfw",
+      "archive_path": "rozh44.dfw",
+      "size": 238,
+      "sha256": "b4480fa188a744bfe20bd318203b1260df8ba7e81d3935ae0e875126b68e3571"
+    },
+    {
+      "name": "rozh45.dfw",
+      "archive_path": "rozh45.dfw",
+      "size": 284,
+      "sha256": "7f0dc9af4ae7f7a0d3515771857828abc21a0344f99c6ebf5806150c66c50581"
+    },
+    {
+      "name": "rozh5.dfw",
+      "archive_path": "rozh5.dfw",
+      "size": 140,
+      "sha256": "3a3841a5d44067ac3ccd9bd964da724ed977d2334f8afd29d92f9c3b1aee2acb"
+    },
+    {
+      "name": "rozh6.dfw",
+      "archive_path": "rozh6.dfw",
+      "size": 144,
+      "sha256": "9f4cb17a91f3263940f557bd28be9ddb93f5777d42602158635f2d839befcf01"
+    },
+    {
+      "name": "rozh7.dfw",
+      "archive_path": "rozh7.dfw",
+      "size": 1554,
+      "sha256": "dcb9aca8559b73798116c0a080c69ef45daa7f4b031f984f3280b6173892b688"
+    },
+    {
+      "name": "rozh8.dfw",
+      "archive_path": "rozh8.dfw",
+      "size": 1050,
+      "sha256": "1dbeb493c0ca7decb0c2f1c3564a9b06ad36e216dad38ba5f67312948e8f9e0e"
+    },
+    {
+      "name": "rozh9.dfw",
+      "archive_path": "rozh9.dfw",
+      "size": 1464,
+      "sha256": "e7c419eb6d5d27a1b9d3a561cd74dd54656335cac0c6aa86d71fd4d16c23e7b5"
+    },
+    {
+      "name": "small.fon",
+      "archive_path": "small.fon",
+      "size": 13802,
+      "sha256": "c688a79f9be8bec93a6e67d835a6980d8780605749e7c14e7679ed5e750b31af"
+    },
+    {
+      "name": "dub-mp3.zzz",
+      "archive_path": "dub-mp3.zzz",
+      "size": 34112925,
+      "sha256": "bcdad2bdaf6b5720959411bad522bd8c74ba3695a866e5b86f526a7795ea33c7"
+    },
+    {
+      "name": "cd.sam",
+      "archive_path": "cd.sam",
+      "size": 16384,
+      "sha256": "4fe7b59af6de3b665b67788cc2f99892ab827efae3a467342b3bb4e3bc8e5bfe"
+    }
+  ]
+}

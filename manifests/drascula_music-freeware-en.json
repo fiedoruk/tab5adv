@@ -1,0 +1,214 @@
+{
+  "schema": 1,
+  "id": "drascula_music",
+  "kind": "addon",
+  "title": "Dráscula — Music Pack",
+  "engine": "drascula",
+  "language": "en",
+  "edition": "ScummVM MP3 Music Pack2.0",
+  "install_root": "drascula",
+  "receipt_name": "music.json",
+  "marker_name": ".tab5adv-music-installing",
+  "requires": "drascula",
+  "source_url": "https://www.scummvm.org/games/#drascula",
+  "download_url": "https://downloads.scummvm.org/frs/extras/Drascula_%20The%20Vampire%20Strikes%20Back/drascula-audio-mp3-2.0.zip",
+  "source_package": {
+    "filename": "drascula-audio-mp3-2.0.zip",
+    "format": "zip",
+    "sha256": "32bdb6d5163e538ffe20f6320e20e0b24050823be516775364be629ab1b52eee"
+  },
+  "files": [
+    {
+      "name": "track24.mp3",
+      "archive_path": "audio/track24.mp3",
+      "size": 1599321,
+      "sha256": "858c169218a29baec796a989eb403abda6b6fd637fa193ee95173326ad930cee"
+    },
+    {
+      "name": "track18.mp3",
+      "archive_path": "audio/track18.mp3",
+      "size": 1336320,
+      "sha256": "3326919aaeb1d57791bcb96404fedda1fbdfdc30ef27bad6c664dd8225dbd30f"
+    },
+    {
+      "name": "track9.mp3",
+      "archive_path": "audio/track9.mp3",
+      "size": 1346665,
+      "sha256": "470a5f5d6b20bd2965bc3a2e045d256257a6af5c64f2319913fc77f7ffa86485"
+    },
+    {
+      "name": "track6.mp3",
+      "archive_path": "audio/track6.mp3",
+      "size": 1080529,
+      "sha256": "5bad05fe3d1ffe27cf480c6e6d888a1f0be315cfad6cff36e0fea986c5ca45fc"
+    },
+    {
+      "name": "track20.mp3",
+      "archive_path": "audio/track20.mp3",
+      "size": 946051,
+      "sha256": "3cd345b79b5d480f34abf7dc44a50b3af5f75db6028427aa60a2a72d4ed1c545"
+    },
+    {
+      "name": "track4.mp3",
+      "archive_path": "audio/track4.mp3",
+      "size": 720353,
+      "sha256": "1a45f625ba2c3e9f672d2dce84262e390a193f1000c183bf2b13d13e1c97690d"
+    },
+    {
+      "name": "track23.mp3",
+      "archive_path": "audio/track23.mp3",
+      "size": 1771102,
+      "sha256": "d0a154cffb4b9de589698c21de5b7f86884924f58086abe3904d0376d8f2a795"
+    },
+    {
+      "name": "track26.mp3",
+      "archive_path": "audio/track26.mp3",
+      "size": 1660447,
+      "sha256": "13c9a5b2a5196c6ed143a8caaeb9ca59c1abc9f85c141a4d51682dcda1479041"
+    },
+    {
+      "name": "track31.mp3",
+      "archive_path": "audio/track31.mp3",
+      "size": 660374,
+      "sha256": "11005fee01d7b140adfaffd17e5c8ce7f1435e94388662de4866ee0e4a40c47b"
+    },
+    {
+      "name": "track29.mp3",
+      "archive_path": "audio/track29.mp3",
+      "size": 385567,
+      "sha256": "c13a3ac5a3703eee4e16d4d6fa882de6bab6caedc30acace74d75a401db5d089"
+    },
+    {
+      "name": "track16.mp3",
+      "archive_path": "audio/track16.mp3",
+      "size": 1410299,
+      "sha256": "035dc676e8f075c7024c185239456ac6755292eace6f38ad51ae02e8a194fa94"
+    },
+    {
+      "name": "track5.mp3",
+      "archive_path": "audio/track5.mp3",
+      "size": 1242906,
+      "sha256": "1060bb2f7c19d8d64be68016f4b5aed384f3c589da185dd333e4748547f59ade"
+    },
+    {
+      "name": "track22.mp3",
+      "archive_path": "audio/track22.mp3",
+      "size": 840411,
+      "sha256": "b9aa850a6678622b662227824615c3ec5637ee563a76bae2818edb04952ab3c2"
+    },
+    {
+      "name": "track10.mp3",
+      "archive_path": "audio/track10.mp3",
+      "size": 856085,
+      "sha256": "8bcfb5a16a520b32bb35aedd8346da56906ad55ee9988b6b10941eeb6f32fa95"
+    },
+    {
+      "name": "track30.mp3",
+      "archive_path": "audio/track30.mp3",
+      "size": 2139742,
+      "sha256": "e127c3c298ab2161787409f59d09b15a7393d1e961b9ae30dfab041b2f595418"
+    },
+    {
+      "name": "track2.mp3",
+      "archive_path": "audio/track2.mp3",
+      "size": 2375785,
+      "sha256": "a8c9d7e4db45fe544152212ca4a8c8bb937631c9f38b0288d1c4b8929ed0cc43"
+    },
+    {
+      "name": "track13.mp3",
+      "archive_path": "audio/track13.mp3",
+      "size": 897149,
+      "sha256": "dc8ff1f1e88a7670acc10e7d5ef3d4dc70cfe031692fc32d8885890236b135c9"
+    },
+    {
+      "name": "track12.mp3",
+      "archive_path": "audio/track12.mp3",
+      "size": 108460,
+      "sha256": "f94eef45ebfe11a64c28b38cf06f46200eb9aa68f6ece42f7e0a8d33e6865d2e"
+    },
+    {
+      "name": "track17.mp3",
+      "archive_path": "audio/track17.mp3",
+      "size": 157362,
+      "sha256": "8bee78bd683e65b69e6314f8c58eccb7ebcf8b014272f2e2879d860a6c014621"
+    },
+    {
+      "name": "track3.mp3",
+      "archive_path": "audio/track3.mp3",
+      "size": 1177078,
+      "sha256": "5d3ba4404388e9c289fa286f25c57df8a9dfab60209ce1a840dcf6fb11d00fcd"
+    },
+    {
+      "name": "track25.mp3",
+      "archive_path": "audio/track25.mp3",
+      "size": 590890,
+      "sha256": "aac0ba1ee355e4dbd4785bd9b18e937212c43fabfdbe14001ddf089bab398c10"
+    },
+    {
+      "name": "track8.mp3",
+      "archive_path": "audio/track8.mp3",
+      "size": 900598,
+      "sha256": "c17c6dbe6c8018b43867a3fe00d1da170343265c79b4760cb98fee71ca186032"
+    },
+    {
+      "name": "track11.mp3",
+      "archive_path": "audio/track11.mp3",
+      "size": 1546658,
+      "sha256": "5fd5d08503efa780b1140126204e1e8d9b73d5b86f38323ae5ef34cf323de5f3"
+    },
+    {
+      "name": "track21.mp3",
+      "archive_path": "audio/track21.mp3",
+      "size": 682109,
+      "sha256": "0d0d5b91d7220397f8d102e6bf08a3d68397fce76d0b114bc46c0bbcaf9fb5ff"
+    },
+    {
+      "name": "track1.mp3",
+      "archive_path": "audio/track1.mp3",
+      "size": 2186762,
+      "sha256": "6672303a4563c5c4edce6b0d1d5b776e6bc58693051ede5ff66624c0b9e25777"
+    },
+    {
+      "name": "track14.mp3",
+      "archive_path": "audio/track14.mp3",
+      "size": 1508415,
+      "sha256": "ed012ace8335aa64db6f55cf4d0de1aecc6d4d80e727d28ef8d4b1a1c589f43b"
+    },
+    {
+      "name": "track7.mp3",
+      "archive_path": "audio/track7.mp3",
+      "size": 929437,
+      "sha256": "fffe157c6a8a85a46e66766976f88e2bf324c54e1bad4b1a8f22273efa0a00d5"
+    },
+    {
+      "name": "track15.mp3",
+      "archive_path": "audio/track15.mp3",
+      "size": 1146671,
+      "sha256": "fefe7a64bb7705fe85627ff8d9d5d5a7d72f5fae1eebb3e6d786844ebfd84330"
+    },
+    {
+      "name": "track27.mp3",
+      "archive_path": "audio/track27.mp3",
+      "size": 639791,
+      "sha256": "90ea06852cfc64b0d4eefcaa37ba14420f0ff17be146d05a0177911d66cba6de"
+    },
+    {
+      "name": "track19.mp3",
+      "archive_path": "audio/track19.mp3",
+      "size": 965799,
+      "sha256": "154679d8ef920b101f4e636d261d3cb49dde4cfbe6194486642aff4ab6fd3e37"
+    },
+    {
+      "name": "track28.mp3",
+      "archive_path": "audio/track28.mp3",
+      "size": 89652,
+      "sha256": "5b873ab3985e45f8f77abfa927009bfb9a04ffcd9e924f80459ea76d2a7b3493"
+    },
+    {
+      "name": "music-license.txt",
+      "archive_path": "readme.txt",
+      "size": 2858,
+      "sha256": "b7ff5adb8396380b3fca95cf043d7fdec0f8d81a9d981c4f9bb8b66e06d82571"
+    }
+  ]
+}

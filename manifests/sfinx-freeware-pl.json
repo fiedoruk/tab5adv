@@ -1,0 +1,35 @@
+{
+  "schema": 1,
+  "id": "sfinx",
+  "title": "Sfinx",
+  "engine": "cge2",
+  "language": "pl",
+  "edition": "ScummVM freeware PL1.1",
+  "source_url": "https://www.scummvm.org/games/#sfinx",
+  "download_url": "https://downloads.scummvm.org/frs/extras/Sfinx/sfinx-pl-v1.1.zip",
+  "source_package": {
+    "filename": "sfinx-pl-v1.1.zip",
+    "format": "zip",
+    "sha256": "4111fd1a1ec3ee037b867f30827b7df58091286b7635407ca17286ac3d40472c"
+  },
+  "files": [
+    {
+      "name": "vol.cat",
+      "archive_path": "sfinx-pl-v1.1/vol.cat",
+      "size": 129024,
+      "sha256": "216a2c2c0b2fd1f7385907ae1e96091931ae0cf5749a66fc22faa3954583e000"
+    },
+    {
+      "name": "vol.dat",
+      "archive_path": "sfinx-pl-v1.1/vol.dat",
+      "size": 34180367,
+      "sha256": "b185058735b99ad30bb00de0e13fbdb3bbc6894e8cbec04cf1c5ea11c268253e"
+    },
+    {
+      "name": "license.txt",
+      "archive_path": "sfinx-pl-v1.1/license.txt",
+      "size": 1322,
+      "sha256": "e95bf3b71608b549ec58a8a0acca335861387c99073ed58f87b095e30200015d"
+    }
+  ]
+}
