@@ -3,7 +3,7 @@
 The firmware is based on
 [`espressif/esp32-scummvm@52b4c6f5`](https://github.com/espressif/esp32-scummvm/tree/52b4c6f5da2f030157026bc1c2ceb5aa9acf145e).
 The matching source revision and binary hashes are recorded beside each candidate.
-Use the [matched source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc1/tab5adv-source.tar.gz), not the moving upstream default branch. Its
+Use the [matched source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz), not the moving upstream default branch. Its
 `SOURCE.md` documents the omitted external runtime `kyra.dat` and pinned retrieval.
 
 Validated toolchain: ESP-IDF 5.5.5, RISC-V GCC 14.2.0+20260121,

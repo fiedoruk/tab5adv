@@ -166,7 +166,7 @@
               <span class="state state-warn" data-i18n="step1State">zmienia firmware</span>
             </div>
             <p data-i18n="step1Text">Podłącz Tab5 bez huba. Przycisk otworzy sprawdzone narzędzie ESP Web Tools. Dane na microSD pozostają bez zmian.</p>
-            <esp-web-install-button manifest="/tab5adv/releases/v0.3.0-rc1/firmware/manifest.json">
+            <esp-web-install-button manifest="/tab5adv/releases/v0.3.0-rc2/firmware/manifest.json">
               <button id="flash-button" class="primary" slot="activate" data-i18n="flashButton">Połącz i wgraj firmware</button>
               <span class="compat" slot="unsupported" data-i18n="browserUnsupported">Ta przeglądarka nie obsługuje instalacji. Otwórz stronę w Chrome lub Edge na komputerze.</span>
               <span class="compat" slot="not-allowed" data-i18n="httpsRequired">Instalacja wymaga bezpiecznej strony HTTPS.</span>
@@ -318,20 +318,20 @@
       <p class="eyebrow">TAB5 · SCUMMVM</p>
       <h2 id="controls-title" data-i18n="controlsTitle">Jak zacząć grać</h2>
       <p class="guide-intro" data-i18n="controlsIntro">Dotknij okładki, potem ▶. Scena gry zachowuje proporcje; po bokach są duże przyciski sterowania oraz audio.</p>
-      <img class="controls-sheet" src="/tab5adv/controls.svg" alt="LEFT, RIGHT, MOVE, volume −/+ — game — MENU, SKIP, KEYS, MUTE/UNMUTE" width="1280" height="720" loading="lazy">
+      <img class="controls-sheet" src="/tab5adv/controls.svg" alt="L CLICK, R CLICK, POINTER, volume −/+ — game — MENU, SKIP, KEYS, MUTE/UNMUTE" width="1280" height="720" loading="lazy">
       <p class="tap-tip" data-i18n="controlTap">Dotknij sceny, aby chodzić lub wskazać obiekt. To lewy przycisk myszy.</p>
       <dl class="controls-list">
 <div>
-<dt>LEFT</dt>
-<dd data-i18n="controlLeft">Kliknięcie w ostatnio wskazanym miejscu. Przydatne po przestawieniu kursora przez MOVE.</dd>
+<dt>L CLICK</dt>
+<dd data-i18n="controlLeft">Kliknięcie w ostatnio wskazanym miejscu. Przydatne po przestawieniu kursora przez POINTER.</dd>
 </div>
 <div>
-<dt>RIGHT</dt>
+<dt>R CLICK</dt>
 <dd data-i18n="controlRight">Prawy przycisk myszy. W BASS używa obiektu; znaczenie w innych grach może się różnić.</dd>
 </div>
 <div>
-<dt>MOVE</dt>
-<dd data-i18n="controlMove">Włącz MOVE (żółty), wskaż obiekt bez klikania, następnie użyj LEFT lub RIGHT. Naciśnij MOVE ponownie, aby wrócić do zwykłego dotyku.</dd>
+<dt>POINTER</dt>
+<dd data-i18n="controlMove">POINTER ON wskazuje bez klikania. Wskaż obiekt, potem użyj L CLICK lub R CLICK. POINTER OFF przywraca zwykły dotyk. Przycisk ? otwiera pomoc sterowania.</dd>
 </div>
 <div>
 <dt>MENU</dt>
@@ -353,17 +353,17 @@
 <p data-i18n="skinText">Settings → GUI → Theme: Tab5 Light, Tab5 Dark lub Tab5 Black. Settings → Tab5 → Sidebars: Dark blue, Light, Black albo Follow menu skin. Możesz połączyć ciemne menu z jasnymi paskami.</p>
 </div>
       <p class="save-tip" data-i18n="saveTip">Zapisuj w spokojnym momencie, po zakończeniu filmu lub rozmowy. MENU → Save → pusty slot → Save; nazwę możesz zostawić domyślną. Nippon: KEYS → s → ✓. Zaczekaj na powrót do gry przed odłączeniem zasilania.</p>
-      <p data-i18n="bassTip">BASS: aby użyć czegoś prawym przyciskiem, włącz MOVE, wskaż obiekt i dotknij RIGHT. Ekwipunek znajduje się przy górnej krawędzi sceny.</p>
+      <p data-i18n="bassTip">BASS: aby użyć czegoś prawym przyciskiem, włącz POINTER, wskaż obiekt i dotknij R CLICK. Ekwipunek znajduje się przy górnej krawędzi sceny.</p>
 <p data-i18n="queenTip">Amazon Queen: wybierz czynność z dolnego panelu gry, a następnie przedmiot lub postać. SKIP pozwala przejść przez możliwe do pominięcia intro.</p>
       <p data-i18n="comiTip">Curse of Monkey Island: aby wybrać Talk, użyj KEYS → t → ✓. Koło czynności pojawia się przy przytrzymaniu sceny; wybór gestem pozostaje w próbach.</p>
       <details class="game-start-tips">
         <summary data-i18n="gameTipsTitle">Ważne pierwsze kroki w trzech grach</summary>
         <h3>Sołtys</h3>
-<p data-i18n="soltysHelp">Podejdź do przedmiotu, potem użyj MOVE → przedmiot → RIGHT. Komunikat o odległości oznacza, że bohater stoi za daleko.</p>
+<p data-i18n="soltysHelp">Podejdź do przedmiotu, potem użyj POINTER → przedmiot → R CLICK. Komunikat o odległości oznacza, że bohater stoi za daleko.</p>
         <h3>Dráscula</h3>
-<p data-i18n="drasculaHelp">Włącz MOVE. Wskaż WALK u góry → LEFT, następnie miejsce na scenie → LEFT. Tak samo wybieraj LOOK, TAKE i TALK. Pozwala to uniknąć przypadkowego wyboru innej czynności.</p>
+<p data-i18n="drasculaHelp">Włącz POINTER. Wskaż WALK u góry → L CLICK, następnie miejsce na scenie → L CLICK. Tak samo wybieraj LOOK, TAKE i TALK. Pozwala to uniknąć przypadkowego wyboru innej czynności.</p>
         <h3>Nippon Safes</h3>
-<p data-i18n="nipponHelp">Wybierz książkę JAPANESE / ENGLISH, zamkniętą książkę nowej gry i RIGHT. Dla Dino naciśnij NE, RI, HO, WA, I, KI (kafelki6,4,7,2,5,8 od lewego dołu). Rozmowę przewijaj dotknięciem tekstu.</p>
+<p data-i18n="nipponHelp">Wybierz książkę JAPANESE / ENGLISH, zamkniętą książkę nowej gry i R CLICK. Dla Dino naciśnij NE, RI, HO, WA, I, KI (kafelki6,4,7,2,5,8 od lewego dołu). Rozmowę przewijaj dotknięciem tekstu.</p>
 <p data-i18n="nipponSaveHelp">Nippon zapisuje przez KEYS → s → zielony ✓, potem wybór pustego slotu. Odczyt podczas gry: KEYS → l → ✓. Po restarcie wybierz EN i otwartą książkę SAVED GAME; ogólne MENU → Save oraz skrót Load z launchera nie są tu obsługiwane.</p>
       </details>
     </section>
@@ -427,7 +427,7 @@
 
   <footer>
     <p>Tab5 Free Adventures · <span data-i18n="footerIndependent">niezależny projekt społecznościowy, bez oficjalnego poparcia GOG, M5Stack ani ScummVM</span></p>
-    <nav><a href="/tab5adv/docs.html" data-i18n="docsLink">Dokumentacja</a><a href="/tab5adv/docs.html#sources" data-i18n="sourcesLink">Źródła</a><a href="/tab5adv/releases/v0.3.0-rc1/SHA256SUMS">SHA-256</a><a href="https://esp32ai.me/">ESP32AI.ME · EN</a><a href="https://esp32ai.me/pl">ESP32AI.ME · PL</a><a href="https://esp32ai.me/install">Install other systems</a><a href="https://esp32ai.me/pl/install">Zainstaluj inne systemy</a></nav>
+    <nav><a href="/tab5adv/docs.html" data-i18n="docsLink">Dokumentacja</a><a href="/tab5adv/docs.html#sources" data-i18n="sourcesLink">Źródła</a><a href="/tab5adv/releases/v0.3.0-rc2/SHA256SUMS">SHA-256</a><a href="https://esp32ai.me/">ESP32AI.ME · EN</a><a href="https://esp32ai.me/pl">ESP32AI.ME · PL</a><a href="https://esp32ai.me/install">Install other systems</a><a href="https://esp32ai.me/pl/install">Zainstaluj inne systemy</a></nav>
   </footer>
 </body>
 </html>

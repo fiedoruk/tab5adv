@@ -58,15 +58,16 @@ In Curse of Monkey Island, use **KEYS → t → ✓** for Talk. Holding the scen
 
 ## Controls
 
-**LEFT and RIGHT are mouse buttons, not walking directions.** Tap a destination
+**L CLICK and R CLICK are mouse buttons, not walking directions.** Tap a destination
 inside the scene to walk. Both buttons click at the last pointed position.
-For a precise action use **MOVE → object → LEFT or RIGHT**. A right click may
+For a precise action use **POINTER → object → L CLICK or R CLICK**. A right click may
 open the game's own inventory or menu; the sidebar **MENU** opens ScummVM's
 save/load menu.
 
-- **Tap the scene / LEFT:** left mouse click, usually walking or examining.
-- **MOVE:** point without clicking. Yellow means enabled; tap again for direct clicks.
-- **RIGHT:** right click at the last pointer position; its meaning depends on the game.
+- **Tap the scene / L CLICK:** left mouse click, usually walking or examining.
+- **POINTER ON:** point without clicking. **OFF** restores direct tapping; colour also marks the state.
+- **?:** open touch-control help with an English/Polski button; close it to resume the game.
+- **R CLICK:** right click at the last pointer position; its meaning depends on the game.
 - **MENU:** Save, Load, Resume, or Return to Launcher.
 - **SKIP:** Escape. Only scenes that support skipping will advance.
 - **KEYS:** on-screen keyboard; a two-finger touch also opens it in menus.
@@ -110,7 +111,7 @@ available in the native Volume menu and may additionally mute an individual game
 ## First action in Sołtys
 
 Walk close to an object first by tapping the ground beside it. Then use
-MOVE → object → RIGHT. The Polish distance warning means the hero is too far
+POINTER → object → R CLICK. The Polish distance warning means the hero is too far
 away. Wait for speech/animation to finish (or try SKIP) before the next command
 or a save. This is the game's interaction rule, not a missing touch control.
 
@@ -119,15 +120,15 @@ SKIP cancels it. Use the sidebar MENU → Save for saving.
 
 ## Dráscula: selecting an action
 
-Use MOVE. Point at WALK in the top bar, press LEFT, then point at a destination
-and press LEFT again. Use the same sequence for LOOK/TAKE/TALK. Separating
+Use POINTER. Point at WALK in the top bar, press L CLICK, then point at a destination
+and press L CLICK again. Use the same sequence for LOOK/TAKE/TALK. Separating
 pointing from clicking matters here: jumping directly from the top bar to the
 scene can select the wrong action in the original interface.
 
 ## Nippon Safes: first start
 
 1. Choose the **JAPANESE / ENGLISH** book.
-2. Choose the closed **Nippon Safes** book (new game), then press **RIGHT**.
+2. Choose the closed **Nippon Safes** book (new game), then press **R CLICK**.
 3. For the tested Dino route, choose **NE, RI, HO, WA, I, KI** — tiles
    **6,4,7,2,5,8**, counting from the bottom-left tile toward the top-right.
 4. Tap the text to advance the opening conversation. The smoke covers Dino

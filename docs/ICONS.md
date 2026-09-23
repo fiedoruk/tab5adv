@@ -1,6 +1,6 @@
-# Launcher icon provenance (v0.3.0-rc1)
+# Launcher icon provenance (unchanged in v0.3.0-rc2)
 
-`site/releases/v0.3.0-rc1/support/gui-icons.dat` is a ZIP resource read by the
+`site/releases/v0.3.0-rc2/support/gui-icons.dat` is a ZIP resource read by the
 ScummVM launcher. The existing 98 entries, their uncompressed bytes, CRCs,
 compressed sizes, local-header offsets and all bytes before the old central
 directory were retained. Five original PNG files were appended; no raster was

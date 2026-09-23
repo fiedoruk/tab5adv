@@ -61,17 +61,18 @@ Curse of Monkey Island: w pierwszej scenie wybierz Talk przez **KEYS → t → �
 
 ## Sterowanie
 
-**LEFT i RIGHT to lewy i prawy przycisk myszy, nie kierunki chodzenia.**
+**L CLICK i R CLICK to lewy i prawy przycisk myszy, nie kierunki chodzenia.**
 Aby chodzić, dotknij miejsca w scenie. Oba przyciski klikają tam, gdzie ostatnio
-wskazałeś kursorem. Do precyzyjnej akcji użyj **MOVE → obiekt → LEFT lub RIGHT**.
+wskazałeś kursorem. Do precyzyjnej akcji użyj **POINTER → obiekt → L CLICK lub R CLICK**.
 Prawy klik może otwierać ekwipunek lub menu konkretnej gry; boczny **MENU**
 otwiera menu ScummVM z zapisem i odczytem.
 
 | Czynność | Jak ją wykonać |
 |---|---|
-| Chodzenie / lewy przycisk | Dotknij sceny. Możesz też wskazać miejsce przez MOVE i użyć LEFT. |
-| Sam ruch kursora | Włącz MOVE (żółty), a następnie dotknij sceny. MOVE ponownie przywraca zwykłe klikanie. |
-| Prawy przycisk | Wskaż obiekt przez MOVE, potem RIGHT. Znaczenie zależy od gry. |
+| Chodzenie / lewy przycisk | Dotknij sceny. Możesz też wskazać miejsce przez POINTER i użyć L CLICK. |
+| Sam ruch kursora | POINTER ON wskazuje bez klikania; OFF przywraca zwykły dotyk. Stan wskazują napis i kolor. |
+| Pomoc | Dotknij **?** podczas gry; Polski/English przełącza język. Zamknij pomoc, aby wrócić do rozgrywki. |
+| Prawy przycisk | Wskaż obiekt przez POINTER, potem R CLICK. Znaczenie zależy od gry. |
 | Menu / zapis / odczyt | MENU → Save lub Load. Resume wraca do gry. |
 | Pominięcie intro | SKIP wysyła Escape; nie każdą scenę silnik pozwala pominąć. |
 | Klawiatura | KEYS, a w menu także dotknięcie dwoma palcami. |
@@ -79,7 +80,7 @@ otwiera menu ScummVM z zapisem i odczytem.
 
 Pierwszy zapis: MENU → Save → pusty slot → Save. Możesz zostawić domyślną
 nazwę. Odczekaj do powrotu obrazu gry przed odłączeniem zasilania.
-BASS i Teenagent pokazują ekwipunek przy górnej krawędzi sceny; użyj MOVE.
+BASS i Teenagent pokazują ekwipunek przy górnej krawędzi sceny; użyj POINTER.
 Amazon Queen ma czynności i przedmioty na dole. Rozmiar320×240 Sfinxa jest
 obsługiwany osobno — dotyk musi sięgać również ostatniej linii ekranu gry.
 
@@ -123,11 +124,11 @@ Uruchomienie pierwszej lokacji nie oznacza ukończenia całej gry.
 ## Pierwsza akcja w Sołtysie
 
 Najpierw dotknij ziemi obok przedmiotu, aby podejść. Dopiero z bliska użyj
-MOVE → przedmiot → RIGHT. Komunikat „Z tej odległości nie da się nic zrobić”
+POINTER → przedmiot → R CLICK. Komunikat „Z tej odległości nie da się nic zrobić”
 oznacza, że bohater stoi za daleko. Zaczekaj na koniec wypowiedzi/animacji
 (lub spróbuj SKIP), zanim wydasz następne polecenie lub zapiszesz grę.
 
-Sfinx ma własny dolny panel i osobne portrety bohaterów. MOVE pomaga trafić
+Sfinx ma własny dolny panel i osobne portrety bohaterów. POINTER pomaga trafić
 w małe obiekty; nazwa pod kursorem pojawia się nad panelem. Nie każde kliknięcie
 prowadzi do akcji — część obiektów wywołuje komentarz albo odmowę postaci.
 
@@ -136,15 +137,15 @@ Kolejne SKIP anuluje to pytanie. Do zapisu używaj bocznego MENU → Save.
 
 ## Dráscula: wybór czynności
 
-Użyj trybu MOVE. Wskaż WALK w górnym pasku, naciśnij LEFT, następnie wskaż
-miejsce na scenie i ponownie LEFT. Dla LOOK/TAKE/TALK postępuj tak samo.
+Użyj trybu POINTER. Wskaż WALK w górnym pasku, naciśnij L CLICK, następnie wskaż
+miejsce na scenie i ponownie L CLICK. Dla LOOK/TAKE/TALK postępuj tak samo.
 Rozdzielenie wskazania od kliknięcia jest ważne w tym starym interfejsie;
 bezpośredni skok z górnego menu na scenę może wybrać niewłaściwą czynność.
 
 ## Nippon Safes: pierwszy start
 
 1. Wybierz książkę **JAPANESE / ENGLISH**.
-2. Wybierz zamkniętą książkę **Nippon Safes** (nowa gra), potem **RIGHT**,
+2. Wybierz zamkniętą książkę **Nippon Safes** (nowa gra), potem **R CLICK**,
    aby przejść do wyboru postaci.
 3. Dla przetestowanego Dino wybierz kolejno kafelki **NE, RI, HO, WA, I, KI**.
    To pozycje **6,4,7,2,5,8**, licząc kafelki od lewego dolnego do prawego górnego.

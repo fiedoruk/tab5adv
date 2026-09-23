@@ -1,19 +1,31 @@
-# 0.3.0-rc1 — thirteen-game preview
+# 0.3.0-rc2 — clearer mouse controls and in-game help
 
 This candidate contains nine free-game profiles and four profiles for owned
 GOG packages. Each has a first-scene device check; the exact scope and limits
 are in [Compatibility](COMPATIBILITY.md). It is not a full-game completion claim.
 
+## Changes since rc1
+
+- L CLICK and R CLICK show which mouse button they emulate, with matching icons.
+- POINTER has explicit ON/OFF text as well as colour feedback.
+- ? opens paused control help during a game; English/Polski switches language.
+  Close returns to the game. Help opens on release, with drag cancellation.
+- User instructions and the control diagram use the same labels.
+
+The 13-game set and all45 support assets are unchanged, including launcher icons.
+No game data needs re-importing for this firmware update. The application flash
+does not format the microSD. Keep existing saves and preferences.
+
 ## Payload identity
 
 | Artifact | Identity |
 | :--- | :--- |
-| Firmware source | `622c0ef33f5b645eecef285de22ed35187beb78b` |
-| Application | 8,226,224 bytes; SHA-256 `f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2` |
-| Merged Web Tools image | 8,291,760 bytes; SHA-256 `3f1072166e3e09767c2d715b39cea0686e5c50c751720e51133078dbd68f93de` |
-| Corresponding-source archive | 399,713,910 bytes; SHA-256 `fbf97a375e1fda2947a584d54fc2a3d8ed3259fddd73af2eb713f4a9ffe46ac5` |
+| Firmware source | `d5b5d28c74dd2d96c7ef3b848be0a51192a91a54` |
+| Application | 8,229,248 bytes; SHA-256 `a9b69d6853ab30c90da458db4958ef0eedd9fd6640972d88ca84b06ac3099de1` |
+| Merged Web Tools image | 8,294,784 bytes; SHA-256 `3da4406762d856ab110d439f6f6530aebfa7705076aa3ac2844866866d8452d4` |
+| Corresponding-source archive | 399,696,844 bytes; SHA-256 `22ddb0b7893aaa7a09102465fb3051c1f232e64586a1b9bc38e7f5c8973bc1ca` |
 
-The versioned directory `site/releases/v0.3.0-rc1/` holds the firmware manifest,
+The versioned directory `site/releases/v0.3.0-rc2/` holds the firmware manifest,
 merged image, 45 support assets (43 runtime files and 2 data manifests), source
 patch, BUILD.json, SOURCE.md and SHA256SUMS. Dráscula music is supplied from its
 separate user-downloaded archive, not bundled in the support payload.
@@ -21,8 +33,8 @@ separate user-downloaded archive, not bundled in the support payload.
 ## Source download requirement
 
 The complete matching source is supplied as a separate asset of
-[GitHub Release v0.3.0-rc1](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc1):
-[download tab5adv-source.tar.gz](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc1/tab5adv-source.tar.gz).
+[GitHub Release v0.3.0-rc2](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc2):
+[download tab5adv-source.tar.gz](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz).
 Its size and SHA-256 are listed above and in BUILD.json. Preserve SOURCE.md,
 the patch, licences and checksums with the binary. For a full checksum
 check, place the downloaded archive at `source/tab5adv-source.tar.gz` within
@@ -34,11 +46,19 @@ private device backups. Upstream code and assets retain their own notices.
 See [licences and provenance](../NOTICES.md) and the
 [GNU guidance on source and binary distribution](https://www.gnu.org/licenses/gpl-faq.en.html#SourceAndBinaryOnDifferentSites).
 
-## Browser installation checked
+## RC2 checks
+
+Host checks use the shared input router with AddressSanitizer/UndefinedBehaviorSanitizer.
+Native RGB565 HUD layouts cover all three rail palettes and pointer ON/OFF states.
+On the actual Tab5, USB-driven touches checked the English and Polish help, close
+and resume, repeated opening, pointer mode and the existing game menu. These are
+scoped interface checks, not a new full gameplay acceptance of all13 titles.
+
+## Earlier browser installation check (rc1)
 
 On 23 September 2026, an embedded Chromium browser on macOS performed the
-actual ESP Web Tools 0.3 flash and fresh Lure data transfer over Web Serial.
-Application readback matched the release SHA; Lure and the updated icon archive
+actual ESP Web Tools 0.3.0-rc1 flash and fresh Lure data transfer over Web Serial.
+The rc1 application readback matched that release SHA; Lure and the updated icon archive
 matched their file hashes. Thirty saves and two profile copies stayed unchanged.
 This used a previously authorised port and an existing FAT32 card with an empty
 Lure destination, rather than a newly formatted card.

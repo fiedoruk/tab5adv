@@ -8,7 +8,7 @@ Turn a **M5Stack Tab5** into a touch-controlled ScummVM adventure player.
 Choose a story, put its files on microSD over USB, and play offline — with
 large side controls, saves, three menu skins and a local player profile.
 
-**0.3.0-rc1 is a preview.** Thirteen titles reached their first playable scenes
+**0.3.0-rc2 is a preview.** Thirteen titles reached their first playable scenes
 on a real Tab5, with selected actions and save/load checks. Full-game completion,
 extended finger play and audible quality are not yet confirmed.
 The [compatibility table](docs/COMPATIBILITY.md) records the scope per title.
@@ -20,7 +20,7 @@ The [compatibility table](docs/COMPATIBILITY.md) records the scope per title.
 | The collection | On the device | On your computer |
 | :--- | :--- | :--- |
 | **9 free + 4 owned GOG titles** | Offline play from microSD | Browser installer in desktop Chrome / Edge |
-| **3 games in Polish** | LEFT / RIGHT / MOVE / MENU / SKIP / KEYS | Exact archive and game-file verification |
+| **3 games in Polish** | L CLICK / R CLICK / POINTER / MENU / SKIP / KEYS | Exact archive and game-file verification |
 | **Dráscula music addon** | Local saves, playtime and simple points | Game files go straight to Tab5 over USB |
 
 ## Choose a story
@@ -71,10 +71,13 @@ only at GOG — we never ask for its password.
 | <img src="docs/media/home.png" width="520" alt="Actual T5 FREE grid home with game tiles and Profile button"> | <img src="docs/media/profile.png" width="520" alt="Actual local Tab5 profile with playtime, 13-game library and points"> |
 | Light, Dark and Black menu skins. Independent sidebar colours. | Per-game time, sessions and exploration points stay on microSD. |
 
-**LEFT / RIGHT are mouse buttons, not walking directions.** Tap a destination
-in the scene to walk. **MOVE** points without clicking, then **LEFT / RIGHT** act there.
+**L CLICK / R CLICK are mouse buttons, not walking directions.** Tap a destination
+in the scene to walk. **POINTER** points without clicking, then **L CLICK / R CLICK** act there.
 **KEYS** opens the keyboard. Volume **− / +** and **MUTE / UNMUTE** remain on the
 side rails; raising volume while muted keeps it muted.
+
+**?** opens touch-control help during a game, with English/Polski selection. **POINTER ON/OFF** shows whether
+tapping only points or also clicks. Mouse icons identify each click button.
 
 The profile counts active play, excludes menus/pauses and has an idle cutoff.
 Points reward trying titles; they do not claim story progress or completion.
@@ -87,8 +90,8 @@ Open **Profile**, then **Do gier / Back to games** to return.
   selecting actions with that gesture still needs physical-finger confirmation.
 - **Nippon:** save with **KEYS → s → ✓**, load with **KEYS → l → ✓**.
   After restart use the original **SAVED GAME** book, not the launcher Load shortcut.
-- **Dráscula:** enable MOVE, point at a verb, press LEFT, then point at the
-  destination/object and press LEFT again.
+- **Dráscula:** enable POINTER, point at a verb, press L CLICK, then point at the
+  destination/object and press L CLICK again.
 
 See the [control guide](docs/en/START.md#controls) for the rest.
 
@@ -118,8 +121,8 @@ Wi-Fi and a project account are not needed during play.
 
 Matching firmware source is a **separate release asset**, rather than hundreds
 of megabytes in Git history. Its hash and revision are recorded in
-[BUILD.json](site/releases/v0.3.0-rc1/source/BUILD.json). [Download the matching source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc1/tab5adv-source.tar.gz)
-from the [0.3 RC release](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc1).
+[BUILD.json](site/releases/v0.3.0-rc2/source/BUILD.json). [Download the matching source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz)
+from the [0.3 RC release](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc2).
 
 Game archives, saves, private camera recordings, device backups and development
 notes are excluded. Firmware has no gameplay telemetry. The portal uses Plausible

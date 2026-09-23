@@ -4,7 +4,7 @@ import { GAME_PROFILES, extractGame, makeReceipt, sha256, verifyPackage } from "
 import { Tab5Serial } from "./serial-installer.js";
 import { inventory, gameInstallPlan, completeSelection } from "./install-plan.js";
 
-const RELEASE = new URL("releases/v0.3.0-rc1/", import.meta.url);
+const RELEASE = new URL("releases/v0.3.0-rc2/", import.meta.url);
 const IDS = Object.keys(GAME_PROFILES).filter(id => document.getElementById(`${id}-file`));
 const CONFIG = `[scummvm]
 extrapath=/sdcard/scummvm/
@@ -86,14 +86,14 @@ const strings = {
     "controlsTitle": "Jak zacząć grać",
     "controlsIntro": "Dotknij okładki, potem ▶. Scena gry zachowuje proporcje; po bokach są duże przyciski sterowania oraz audio.",
     "controlTap": "Dotknij sceny, aby chodzić lub wskazać obiekt. To lewy przycisk myszy.",
-    "controlLeft": "Kliknięcie w ostatnio wskazanym miejscu. Przydatne po przestawieniu kursora przez MOVE.",
+    "controlLeft": "Kliknięcie w ostatnio wskazanym miejscu. Przydatne po przestawieniu kursora przez POINTER.",
     "controlRight": "Prawy przycisk myszy. W BASS używa obiektu; znaczenie w innych grach może się różnić.",
-    "controlMove": "Włącz MOVE (żółty), wskaż obiekt bez klikania, następnie użyj LEFT lub RIGHT. Naciśnij MOVE ponownie, aby wrócić do zwykłego dotyku.",
+    "controlMove": "POINTER ON wskazuje bez klikania. Wskaż obiekt, potem użyj L CLICK lub R CLICK. POINTER OFF przywraca zwykły dotyk. Przycisk ? otwiera pomoc sterowania.",
     "controlMenu": "Save zapisuje, Load wczytuje, Resume wraca do gry. Return to Launcher wraca do wyboru tytułu.",
     "controlSkip": "Pomija intro lub zamyka część ekranów gry. To klawisz Escape; gra decyduje, które sceny da się pominąć.",
     "controlKeys": "Otwiera klawiaturę ekranową. W menu można ją też otworzyć, dotykając ekranu dwoma palcami.",
     "saveTip": "Zapisuj w spokojnym momencie, po zakończeniu filmu lub rozmowy. MENU → Save → pusty slot → Save; nazwę możesz zostawić domyślną. Nippon: KEYS → s → ✓. Zaczekaj na powrót do gry przed odłączeniem zasilania.",
-    "bassTip": "BASS: aby użyć czegoś prawym przyciskiem, włącz MOVE, wskaż obiekt i dotknij RIGHT. Ekwipunek znajduje się przy górnej krawędzi sceny.",
+    "bassTip": "BASS: aby użyć czegoś prawym przyciskiem, włącz POINTER, wskaż obiekt i dotknij R CLICK. Ekwipunek znajduje się przy górnej krawędzi sceny.",
     "queenTip": "Amazon Queen: wybierz czynność z dolnego panelu gry, a następnie przedmiot lub postać. SKIP pozwala przejść przez możliwe do pominięcia intro.",
     "eyebrow": "WERSJA TESTOWA 0.3 · KROK PO KROKU",
     "heroTitle": "{games} przygodówek.<br>Twój Tab5.",
@@ -191,9 +191,9 @@ const strings = {
     "musicLabel": "Dráscula — muzyka",
     "musicHelp": "Do Drásculi pobierz oba ZIP-y: grę i tę paczkę MP3. Nie rozpakowuj ich. Jeśli dodajesz samą muzykę, gra musi już być na karcie.",
     "gameTipsTitle": "Ważne pierwsze kroki w trzech grach",
-    "soltysHelp": "Podejdź do przedmiotu, potem użyj MOVE → przedmiot → RIGHT. Komunikat o odległości oznacza, że bohater stoi za daleko.",
-    "drasculaHelp": "Włącz MOVE. Wskaż WALK u góry → LEFT, następnie miejsce na scenie → LEFT. Tak samo wybieraj LOOK, TAKE i TALK. Pozwala to uniknąć przypadkowego wyboru innej czynności.",
-    "nipponHelp": "Wybierz książkę JAPANESE / ENGLISH, zamkniętą książkę nowej gry i RIGHT. Dla Dino naciśnij NE, RI, HO, WA, I, KI (kafelki6,4,7,2,5,8 od lewego dołu). Rozmowę przewijaj dotknięciem tekstu.",
+    "soltysHelp": "Podejdź do przedmiotu, potem użyj POINTER → przedmiot → R CLICK. Komunikat o odległości oznacza, że bohater stoi za daleko.",
+    "drasculaHelp": "Włącz POINTER. Wskaż WALK u góry → L CLICK, następnie miejsce na scenie → L CLICK. Tak samo wybieraj LOOK, TAKE i TALK. Pozwala to uniknąć przypadkowego wyboru innej czynności.",
+    "nipponHelp": "Wybierz książkę JAPANESE / ENGLISH, zamkniętą książkę nowej gry i R CLICK. Dla Dino naciśnij NE, RI, HO, WA, I, KI (kafelki6,4,7,2,5,8 od lewego dołu). Rozmowę przewijaj dotknięciem tekstu.",
     "nipponSaveHelp": "Nippon zapisuje przez KEYS → s → zielony ✓, potem wybór pustego slotu. Odczyt podczas gry: KEYS → l → ✓. Po restarcie wybierz EN i otwartą książkę SAVED GAME; ogólne MENU → Save oraz skrót Load z launchera nie są tu obsługiwane.",
     "skinPreview": "Zobacz wybór skórek na urządzeniu",
     "trustAria": "Najważniejsze właściwości"
@@ -269,14 +269,14 @@ const strings = {
     "controlsTitle": "How to start playing",
     "controlsIntro": "Tap a cover, then ▶. The game keeps its proportions; large controls and audio buttons sit on either side.",
     "controlTap": "Tap the scene to walk or select an object. This acts as the left mouse button.",
-    "controlLeft": "Click at the last pointer position. Useful after pointing with MOVE.",
+    "controlLeft": "Click at the last pointer position. Useful after pointing with POINTER.",
     "controlRight": "Right mouse button. In BASS it uses an object; other games may use it differently.",
-    "controlMove": "Turn MOVE on (yellow), point without clicking, then press LEFT or RIGHT. Press MOVE again to return to direct tapping.",
+    "controlMove": "POINTER ON points without clicking. Point at an object, then press L CLICK or R CLICK. POINTER OFF restores direct tapping. Tap ? for control help.",
     "controlMenu": "Save stores progress, Load restores it, Resume returns to the game. Return to Launcher opens the game picker.",
     "controlSkip": "Skips an intro or closes some game screens. It sends Escape; the game decides which scenes can be skipped.",
     "controlKeys": "Opens the on-screen keyboard. Inside a menu, a two-finger touch also opens it.",
     "saveTip": "Save after a cutscene or dialogue ends: MENU → Save → an empty slot → Save. The default name is fine. Nippon: KEYS → s → ✓. Wait until gameplay resumes before unplugging.",
-    "bassTip": "BASS: to use an object, turn MOVE on, point to it, then tap RIGHT. The inventory appears at the top of the game scene.",
+    "bassTip": "BASS: to use an object, turn POINTER on, point to it, then tap R CLICK. The inventory appears at the top of the game scene.",
     "queenTip": "Amazon Queen: choose an action in the game’s bottom panel, then an object or character. SKIP advances through skippable intro scenes.",
     "eyebrow": "TEST VERSION 0.3 · STEP BY STEP",
     "heroTitle": "{games} adventures.<br>Your Tab5.",
@@ -374,9 +374,9 @@ const strings = {
     "musicLabel": "Dráscula — music",
     "musicHelp": "For Dráscula, download both ZIPs: the game and this MP3 pack. Leave them unopened. Adding music alone requires the game already on the card.",
     "gameTipsTitle": "First steps that matter in three games",
-    "soltysHelp": "Walk close to an object, then use MOVE → object → RIGHT. The Polish distance warning means the hero is too far away.",
-    "drasculaHelp": "Enable MOVE. Point at WALK at the top → LEFT, then a destination → LEFT. Use the same sequence for LOOK, TAKE and TALK to avoid selecting the wrong action.",
-    "nipponHelp": "Choose JAPANESE / ENGLISH, the closed new-game book, then RIGHT. For Dino, choose NE, RI, HO, WA, I, KI (tiles6,4,7,2,5,8 from bottom-left). Tap text to advance the opening dialogue.",
+    "soltysHelp": "Walk close to an object, then use POINTER → object → R CLICK. The Polish distance warning means the hero is too far away.",
+    "drasculaHelp": "Enable POINTER. Point at WALK at the top → L CLICK, then a destination → L CLICK. Use the same sequence for LOOK, TAKE and TALK to avoid selecting the wrong action.",
+    "nipponHelp": "Choose JAPANESE / ENGLISH, the closed new-game book, then R CLICK. For Dino, choose NE, RI, HO, WA, I, KI (tiles6,4,7,2,5,8 from bottom-left). Tap text to advance the opening dialogue.",
     "nipponSaveHelp": "Nippon saves via KEYS → s → green ✓, then an empty slot. In-game load: KEYS → l → ✓. After restart, choose EN and the open SAVED GAME book; generic MENU → Save and the launcher Load shortcut are not supported here.",
     "skinPreview": "See the on-device skin picker",
     "trustAria": "Key features"

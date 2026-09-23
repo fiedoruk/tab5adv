@@ -363,7 +363,7 @@ def main() -> int:
     install_parser.add_argument("--support", required=True)
     add_parser = sub.add_parser("add", help="Dodaj wybrane gry, zachowując istniejącą bibliotekę i zapisy")
     add_parser.add_argument("--game", nargs=2, action="append", required=True, metavar=("ID", "ARCHIVE"))
-    add_parser.add_argument("--support", default=str(ROOT / "site/releases/v0.3.0-rc1/support"))
+    add_parser.add_argument("--support", default=str(ROOT / "site/releases/v0.3.0-rc2/support"))
     args = parser.parse_args()
     if args.command in ("list", "target"):
         link = Tab5Link(args.port)

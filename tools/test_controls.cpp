@@ -39,6 +39,20 @@ int main(){
  sample(i,1,1119,715);p=take(i,Action::Move);assert(p.x==319&&p.y==199);empty(i);
  sample(i,0,0,0);sample(i,1,1200,198);take(i,Action::Menu);empty(i);
  sample(i,0,0,0);sample(i,1,1200,320);take(i,Action::EscapeDown);take(i,Action::EscapeUp);empty(i);
+ // Help commits on finger-up only; its down, hold and drag cannot reach the scene.
+ assert(zoneAt(1132,20)==Zone::Help&&zoneAt(1267,115)==Zone::Help);
+ assert(zoneAt(1131,20)!=Zone::Help&&zoneAt(1268,115)!=Zone::Help);
+ Input help;
+ sample(help,1,1200,68);empty(help);
+ sample(help,1,1200,68);empty(help);
+ sample(help,0,0,0);take(help,Action::Help);empty(help);
+ sample(help,1,1200,68);empty(help);
+ sample(help,1,640,360);take(help,Action::Move);empty(help); // dragging into the game does not click
+ sample(help,0,0,0);empty(help);
+ sample(help,1,640,360);take(help,Action::Move);take(help,Action::LeftDown);
+ sample(help,0,0,0);take(help,Action::LeftUp);empty(help);
+ sample(help,1,1200,68);sample(help,2,1200,68);take(help,Action::Keyboard);empty(help);
+ sample(help,0,0,0);empty(help);
  sample(i,0,0,0);sample(i,1,80,198,true);p=take(i,Action::Move);assert(p.x==80&&p.y==198);take(i,Action::LeftDown);
  sample(i,2,80,198,true);take(i,Action::LeftUp);take(i,Action::Keyboard);empty(i);
  sample(i,1,640,360,true);empty(i); sample(i,0,0,0);empty(i);
@@ -81,4 +95,5 @@ int main(){
  puts("PASS: Sfinx 320x240 corners/center, full-height viewport and clipped cursor.");
  puts("PASS: cursor palette, transparency, pitch, hotspot and all-edge clipping.");
  puts("PASS: actual shared input router — 4 corners/center, pointer mode, L/R click, drag cancellation, menu, escape pair, multitouch, overlay, 96px rails.");
+ puts("PASS: help bounds, release-only action, hold/drag cancellation, scene click isolation and multitouch cancellation.");
 }

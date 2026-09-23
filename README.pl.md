@@ -8,7 +8,7 @@ Zamień **M5Stack Tab5** w dotykowy odtwarzacz przygodówek ScummVM.
 Wybierz historię, dodaj pliki na microSD przez USB i graj offline — z dużymi
 przyciskami po bokach, zapisami, trzema skórkami menu i lokalnym profilem gracza.
 
-**0.3.0-rc1 to wersja testowa.** Trzynaście tytułów dotarło do pierwszych
+**0.3.0-rc2 to wersja testowa.** Trzynaście tytułów dotarło do pierwszych
 grywalnych scen na prawdziwym Tab5; sprawdzono wybrane akcje oraz zapis/odczyt.
 Pełne przejścia, dłuższa gra palcem i jakość dźwięku nie są jeszcze potwierdzone.
 [Tabela zgodności](docs/COMPATIBILITY.md) podaje zakres dla każdej gry.
@@ -20,7 +20,7 @@ Pełne przejścia, dłuższa gra palcem i jakość dźwięku nie są jeszcze pot
 | Kolekcja | Na urządzeniu | Na komputerze |
 | :--- | :--- | :--- |
 | **9 bezpłatnych + 4 z własnych paczek GOG** | Gra offline z microSD | Instalator w Chrome / Edge na komputerze |
-| **3 gry po polsku** | LEFT / RIGHT / MOVE / MENU / SKIP / KEYS | Sprawdzanie dokładnego archiwum i plików gry |
+| **3 gry po polsku** | L CLICK / R CLICK / POINTER / MENU / SKIP / KEYS | Sprawdzanie dokładnego archiwum i plików gry |
 | **Dodatek muzyczny Drásculi** | Lokalne zapisy, czas gry i proste punkty | Pliki gry trafiają prosto do Tab5 przez USB |
 
 ## Wybierz historię
@@ -72,11 +72,14 @@ Logujesz się tylko na GOG — nie prosimy o jego hasło.
 | <img src="docs/media/home.png" width="520" alt="Rzeczywisty ekran T5 FREE: kafelki gier i przycisk Profile"> | <img src="docs/media/profile.png" width="520" alt="Rzeczywisty profil Tab5: czas gry, biblioteka 13 gier i punkty"> |
 | Skórki Light, Dark i Black. Osobny wybór koloru pasków bocznych. | Czas każdej gry, sesje i punkty za poznawanie tytułów pozostają na microSD. |
 
-**LEFT / RIGHT to przyciski myszy, nie kierunki chodzenia.** Dotknij miejsca
-w scenie, aby tam podejść. **MOVE** wskazuje bez klikania, a **LEFT / RIGHT**
+**L CLICK / R CLICK to przyciski myszy, nie kierunki chodzenia.** Dotknij miejsca
+w scenie, aby tam podejść. **POINTER** wskazuje bez klikania, a **L CLICK / R CLICK**
 wykonują akcję w tej pozycji. **KEYS** otwiera klawiaturę. Głośność **− / +** i
 **MUTE / UNMUTE** są na bocznych paskach; zwiększanie głośności przy wyciszeniu
 nie włącza dźwięku.
+
+**?** otwiera pomoc sterowania podczas gry, z wyborem Polski/English. **POINTER ON/OFF** pokazuje, czy
+dotyk tylko wskazuje, czy także klika. Ikony myszy oznaczają przyciski kliknięcia.
 
 Profil liczy aktywną grę, pomija menu/pauzy i zatrzymuje czas po bezczynności.
 Punkty nagradzają próbowanie tytułów; nie oznaczają postępu fabuły ani ukończenia.
@@ -89,8 +92,8 @@ Wejdziesz przez **Profile**, a **Do gier** wróci do biblioteki.
   koło czynności; wybór jego gestem wymaga jeszcze potwierdzenia palcem.
 - **Nippon:** zapis **KEYS → s → ✓**, odczyt **KEYS → l → ✓**.
   Po restarcie użyj oryginalnej książki **SAVED GAME**, nie skrótu Load z launchera.
-- **Dráscula:** włącz MOVE, wskaż czynność, naciśnij LEFT, potem wskaż
-  miejsce/przedmiot i ponownie naciśnij LEFT.
+- **Dráscula:** włącz POINTER, wskaż czynność, naciśnij L CLICK, potem wskaż
+  miejsce/przedmiot i ponownie naciśnij L CLICK.
 
 Pozostałe wskazówki są w [instrukcji sterowania](docs/pl/START.md#sterowanie).
 
@@ -120,8 +123,8 @@ Do grania nie potrzebujesz Wi-Fi ani konta w naszym projekcie.
 
 Pasujące źródła firmware są **osobnym plikiem wydania**, zamiast setek megabajtów
 w historii Git. Hash i rewizję zapisano w
-[BUILD.json](site/releases/v0.3.0-rc1/source/BUILD.json). [Pobierz pasujące źródła](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc1/tab5adv-source.tar.gz)
-z [wydania 0.3 RC](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc1).
+[BUILD.json](site/releases/v0.3.0-rc2/source/BUILD.json). [Pobierz pasujące źródła](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz)
+z [wydania 0.3 RC](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc2).
 
 Paczki gier, zapisy, prywatne nagrania z kamery, kopie urządzenia i notatki
 robocze nie trafiają do repo. Firmware nie wysyła telemetrii rozgrywki.

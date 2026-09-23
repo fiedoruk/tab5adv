@@ -166,7 +166,7 @@
               <span class="state state-warn" data-i18n="step1State">changes firmware</span>
             </div>
             <p data-i18n="step1Text">Connect Tab5 without a hub. The button opens the standard ESP browser flasher. Data on microSD stays untouched.</p>
-            <esp-web-install-button manifest="releases/v0.3.0-rc1/firmware/manifest.json">
+            <esp-web-install-button manifest="releases/v0.3.0-rc2/firmware/manifest.json">
               <button id="flash-button" class="primary" slot="activate" data-i18n="flashButton">Connect and install firmware</button>
               <span class="compat" slot="unsupported" data-i18n="browserUnsupported">This browser cannot install the firmware. Open this page in desktop Chrome or Edge.</span>
               <span class="compat" slot="not-allowed" data-i18n="httpsRequired">Installation requires a secure HTTPS page.</span>
@@ -318,20 +318,20 @@
       <p class="eyebrow">TAB5 · SCUMMVM</p>
       <h2 id="controls-title" data-i18n="controlsTitle">How to start playing</h2>
       <p class="guide-intro" data-i18n="controlsIntro">Tap a cover, then ▶. The game keeps its proportions; large controls and audio buttons sit on either side.</p>
-      <img class="controls-sheet" src="controls.svg" alt="LEFT, RIGHT, MOVE, volume −/+ — game — MENU, SKIP, KEYS, MUTE/UNMUTE" width="1280" height="720" loading="lazy">
+      <img class="controls-sheet" src="controls.svg" alt="L CLICK, R CLICK, POINTER, volume −/+ — game — MENU, SKIP, KEYS, MUTE/UNMUTE" width="1280" height="720" loading="lazy">
       <p class="tap-tip" data-i18n="controlTap">Tap the scene to walk or select an object. This acts as the left mouse button.</p>
       <dl class="controls-list">
 <div>
-<dt>LEFT</dt>
-<dd data-i18n="controlLeft">Click at the last pointer position. Useful after pointing with MOVE.</dd>
+<dt>L CLICK</dt>
+<dd data-i18n="controlLeft">Click at the last pointer position. Useful after pointing with POINTER.</dd>
 </div>
 <div>
-<dt>RIGHT</dt>
+<dt>R CLICK</dt>
 <dd data-i18n="controlRight">Right mouse button. In BASS it uses an object; other games may use it differently.</dd>
 </div>
 <div>
-<dt>MOVE</dt>
-<dd data-i18n="controlMove">Turn MOVE on (yellow), point without clicking, then press LEFT or RIGHT. Press MOVE again to return to direct tapping.</dd>
+<dt>POINTER</dt>
+<dd data-i18n="controlMove">POINTER ON points without clicking. Point at an object, then press L CLICK or R CLICK. POINTER OFF restores direct tapping. Tap ? for control help.</dd>
 </div>
 <div>
 <dt>MENU</dt>
@@ -353,17 +353,17 @@
 <p data-i18n="skinText">Settings → GUI → Theme: Tab5 Light, Tab5 Dark or Tab5 Black. Settings → Tab5 → Sidebars: Dark blue, Light, Black or Follow menu skin. You can pair a dark menu with light controls.</p>
 </div>
       <p class="save-tip" data-i18n="saveTip">Save after a cutscene or dialogue ends: MENU → Save → an empty slot → Save. The default name is fine. Nippon: KEYS → s → ✓. Wait until gameplay resumes before unplugging.</p>
-      <p data-i18n="bassTip">BASS: to use an object, turn MOVE on, point to it, then tap RIGHT. The inventory appears at the top of the game scene.</p>
+      <p data-i18n="bassTip">BASS: to use an object, turn POINTER on, point to it, then tap R CLICK. The inventory appears at the top of the game scene.</p>
 <p data-i18n="queenTip">Amazon Queen: choose an action in the game’s bottom panel, then an object or character. SKIP advances through skippable intro scenes.</p>
       <p data-i18n="comiTip">Curse of Monkey Island: select Talk with KEYS → t → ✓. Holding the scene displays the verb coin; gesture selection is still being tested.</p>
       <details class="game-start-tips">
         <summary data-i18n="gameTipsTitle">First steps that matter in three games</summary>
         <h3>Sołtys</h3>
-<p data-i18n="soltysHelp">Walk close to an object, then use MOVE → object → RIGHT. The Polish distance warning means the hero is too far away.</p>
+<p data-i18n="soltysHelp">Walk close to an object, then use POINTER → object → R CLICK. The Polish distance warning means the hero is too far away.</p>
         <h3>Dráscula</h3>
-<p data-i18n="drasculaHelp">Enable MOVE. Point at WALK at the top → LEFT, then a destination → LEFT. Use the same sequence for LOOK, TAKE and TALK to avoid selecting the wrong action.</p>
+<p data-i18n="drasculaHelp">Enable POINTER. Point at WALK at the top → L CLICK, then a destination → L CLICK. Use the same sequence for LOOK, TAKE and TALK to avoid selecting the wrong action.</p>
         <h3>Nippon Safes</h3>
-<p data-i18n="nipponHelp">Choose JAPANESE / ENGLISH, the closed new-game book, then RIGHT. For Dino, choose NE, RI, HO, WA, I, KI (tiles6,4,7,2,5,8 from bottom-left). Tap text to advance the opening dialogue.</p>
+<p data-i18n="nipponHelp">Choose JAPANESE / ENGLISH, the closed new-game book, then R CLICK. For Dino, choose NE, RI, HO, WA, I, KI (tiles6,4,7,2,5,8 from bottom-left). Tap text to advance the opening dialogue.</p>
 <p data-i18n="nipponSaveHelp">Nippon saves via KEYS → s → green ✓, then an empty slot. In-game load: KEYS → l → ✓. After restart, choose EN and the open SAVED GAME book; generic MENU → Save and the launcher Load shortcut are not supported here.</p>
       </details>
     </section>
@@ -427,7 +427,7 @@
 
   <footer>
     <p>Tab5 Free Adventures · <span data-i18n="footerIndependent">an independent community project; not endorsed by GOG, M5Stack or ScummVM</span></p>
-    <nav><a href="docs.html" data-i18n="docsLink">Documentation</a><a href="docs.html#sources" data-i18n="sourcesLink">Sources</a><a href="releases/v0.3.0-rc1/SHA256SUMS">SHA-256</a><a href="https://esp32ai.me/">ESP32AI.ME · EN</a><a href="https://esp32ai.me/pl">ESP32AI.ME · PL</a><a href="https://esp32ai.me/install">Install other systems</a><a href="https://esp32ai.me/pl/install">Zainstaluj inne systemy</a></nav>
+    <nav><a href="docs.html" data-i18n="docsLink">Documentation</a><a href="docs.html#sources" data-i18n="sourcesLink">Sources</a><a href="releases/v0.3.0-rc2/SHA256SUMS">SHA-256</a><a href="https://esp32ai.me/">ESP32AI.ME · EN</a><a href="https://esp32ai.me/pl">ESP32AI.ME · PL</a><a href="https://esp32ai.me/install">Install other systems</a><a href="https://esp32ai.me/pl/install">Zainstaluj inne systemy</a></nav>
   </footer>
 </body>
 </html>

@@ -1,0 +1,37 @@
+{
+  "version": "0.3.0-rc2",
+  "source_commit": "d5b5d28c74dd2d96c7ef3b848be0a51192a91a54",
+  "source_tree": "d2d600c10b4eef732108115e5c4b0d5fe6444487",
+  "base_commit": "52b4c6f5da2f030157026bc1c2ceb5aa9acf145e",
+  "application": {
+    "bytes": 8229248,
+    "sha256": "a9b69d6853ab30c90da458db4958ef0eedd9fd6640972d88ca84b06ac3099de1"
+  },
+  "merged": {
+    "bytes": 8294784,
+    "sha256": "3da4406762d856ab110d439f6f6530aebfa7705076aa3ac2844866866d8452d4"
+  },
+  "source_patch": {
+    "bytes": 1814545,
+    "sha256": "987cb586c7160fda79026d549a616f8ae9bb4fcc32b85e02d8371dde92d85c7f"
+  },
+  "source_archive": {
+    "bytes": 399696844,
+    "sha256": "22ddb0b7893aaa7a09102465fb3051c1f232e64586a1b9bc38e7f5c8973bc1ca"
+  },
+  "bootloader_sha256": "b2711d9b9f79253af78a6ef8af3eabd629f5bae40e64e0a354ef9f81c5b714e9",
+  "partition_table_sha256": "ccb120ac8c81d9b50a48b444121ad97c4d53eeba959ea9629dfdfa6094edcdc7",
+  "build_elf_sha256": "52ed7627aae1d20e844017d683757e5cf9df86b60ea12ce52b44a46d5ebdc14b",
+  "build_map_sha256": "adada7bf0baad109f132cbcaed266d7b7e5f318aa85369fc480d0a6d055bbc33",
+  "support_files": 45,
+  "support_manifest_sha256": "e47f0f537e03acb1e9c272c8a50c1b685b862b97ba1915ec1b9f1b522d1402c7",
+  "excluded_external_runtime": {
+    "path": "dists/engine-data/kyra.dat",
+    "bytes": 2016466,
+    "sha256": "4a12e335227bce7f7f8d9def2f0ef4d856fc06da87879532091b8f4ffa09d1af"
+  },
+  "sdk": "ESP-IDF 5.5.5",
+  "compiler": "RISC-V GCC14.2.0+20260121",
+  "bsp": "espressif/m5stack_tab5 1.3.1",
+  "dependency_lock_sha256": "76aa2460ef45d6b68d3a2d636ef28bfb6df3d1753763e797372b769512c67d31"
+}

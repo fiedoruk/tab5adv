@@ -1,5 +1,9 @@
 # Compatibility / Zgodność
 
+Current rc2 changes the controls and adds EN/PL help. The game evidence below
+retains its original build provenance; rc2 is not a new full13-game retest.
+See [release notes](RELEASE.md) for the scoped interface checks.
+
 **0.3.0-rc1 — 13 first-scene device pilots (9 free + 4 from owned GOG packages).**
 Firmware source: `622c0ef33f5b645eecef285de22ed35187beb78b`; application SHA-256
 `f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2`.
