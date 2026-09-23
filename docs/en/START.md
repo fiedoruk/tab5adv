@@ -66,7 +66,7 @@ save/load menu.
 
 - **Tap the scene / L CLICK:** left mouse click, usually walking or examining.
 - **POINTER ON:** point without clicking. **OFF** restores direct tapping; colour also marks the state.
-- **?:** open touch-control help with an English/Polski button; close it to resume the game.
+- **QUICK:** pause for audio, rotation lock, optional CRT and Help. Help has an English/Polski button; Return resumes the game.
 - **R CLICK:** right click at the last pointer position; its meaning depends on the game.
 - **MENU:** Save, Load, Resume, or Return to Launcher.
 - **SKIP:** Escape. Only scenes that support skipping will advance.
@@ -140,3 +140,19 @@ code is documented by the pinned open ScummVM engine (gui_ns.cpp).
 
 Nippon after restart: start the game, choose EN and the open **SAVED GAME**
 book, then your slot. Do not use the launcher Load shortcut for this engine.
+
+
+## Rotation and quick settings (RC3)
+
+Hold Tab5 in either landscape orientation. After about one second in a stable
+pose, the game, menus and touch controls turn together. Lift your finger first;
+when the tablet is flat or held diagonally it keeps its last orientation.
+Use **QUICK → Rotation** to lock the current pose or return to automatic rotation.
+The lock and locked orientation survive restart.
+
+**QUICK** also offers volume, mute and control help. CRT is optional,
+experimental and OFF by default: it added about 23–47 ms per graphics-stage
+frame in three measured samples and can make games less responsive. Leave it
+OFF for normal play. Unsupported display modes stay unfiltered.
+
+In **Profile**, tap **esp32ai.me** to show the project address and its offline QR.

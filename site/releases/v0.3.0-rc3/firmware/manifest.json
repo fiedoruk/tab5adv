@@ -1,6 +1,6 @@
 {
   "name": "Tab5 Free Adventures",
-  "version": "0.3.0-rc1",
+  "version": "0.3.0-rc3",
   "new_install_prompt_erase": false,
   "builds": [
     {
@@ -8,7 +8,7 @@
       "improv": false,
       "parts": [
         {
-          "path": "tab5adv-0.3.0-rc1.bin",
+          "path": "tab5adv-0.3.0-rc3.bin",
           "offset": 0
         }
       ]

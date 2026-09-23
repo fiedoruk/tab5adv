@@ -3,7 +3,7 @@
 The firmware is based on
 [`espressif/esp32-scummvm@52b4c6f5`](https://github.com/espressif/esp32-scummvm/tree/52b4c6f5da2f030157026bc1c2ceb5aa9acf145e).
 The matching source revision and binary hashes are recorded beside each candidate.
-Use the [matched source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz), not the moving upstream default branch. Its
+Use the [matched source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc3/tab5adv-source.tar.gz), not the moving upstream default branch. Its
 `SOURCE.md` documents the omitted external runtime `kyra.dat` and pinned retrieval.
 
 Validated toolchain: ESP-IDF 5.5.5, RISC-V GCC 14.2.0+20260121,
@@ -52,25 +52,20 @@ requires the matching partition table/bootloader already present; the app offset
 in this profile is 0x10000. First-time users should use the matched merged image
 and web manifest. Keep a device backup before replacing an existing installation.
 
-## Catalog, theme and host checks
+## Catalog and theme
 
 From the wrapper project root, with its `firmware/` source directory present:
 
 ```sh
 python3 tools/build_catalog.py
 python3 tools/build_theme.py
-python3 tools/qc_geometry.py
-node tools/test_installer.mjs /path/to/the/eight/ZIPs
-c++ -std=c++17 tools/test_playtime.cpp -o /tmp/tab5adv-playtime-check
-/tmp/tab5adv-playtime-check
 ```
 
-The eight ZIP archives (seven games plus Dráscula music) are user-provided fixtures and are not in the source package.
+The eight ZIP archives (seven games plus Dráscula music) are user-provided and are not in the source package.
 The public catalog generator uses the 13 published game manifests plus Dráscula
 music. Running it after unpacking the source changes firmware registration to
 that public set; skip regeneration when reproducing the original packaged image. The theme generator verifies its pinned ScummVM base and emits a
-reproducible ZIP. The geometry check runs the real shared touch/cursor code with
-AddressSanitizer and UndefinedBehaviorSanitizer; it is not a physical touch test.
+reproducible ZIP.
 
 Serve the installer locally:
 

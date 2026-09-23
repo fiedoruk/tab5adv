@@ -8,7 +8,7 @@ Turn a **M5Stack Tab5** into a touch-controlled ScummVM adventure player.
 Choose a story, put its files on microSD over USB, and play offline — with
 large side controls, saves, three menu skins and a local player profile.
 
-**0.3.0-rc2 is a preview.** Thirteen titles reached their first playable scenes
+**0.3.0-rc3 is a preview.** Thirteen titles reached their first playable scenes
 on a real Tab5, with selected actions and save/load checks. Full-game completion,
 extended finger play and audible quality are not yet confirmed.
 The [compatibility table](docs/COMPATIBILITY.md) records the scope per title.
@@ -76,8 +76,23 @@ in the scene to walk. **POINTER** points without clicking, then **L CLICK / R CL
 **KEYS** opens the keyboard. Volume **− / +** and **MUTE / UNMUTE** remain on the
 side rails; raising volume while muted keeps it muted.
 
-**?** opens touch-control help during a game, with English/Polski selection. **POINTER ON/OFF** shows whether
-tapping only points or also clicks. Mouse icons identify each click button.
+**QUICK** opens a paused panel with audio, rotation lock, optional CRT and
+English/Polski control help. **POINTER ON/OFF** shows whether tapping only points
+or also clicks. Black side rails are the default for new settings; saved colours
+are preserved. Mouse icons identify each click button.
+
+The screen follows the two landscape orientations after about a second in a
+stable position. Rotation waits while you touch the screen and holds its last
+position when flat. Lock the current orientation in **QUICK**. The Profile link opens an offline QR for the project page.
+
+**New in testing: CRT mode. A retro look, one tap away.** Brightness-dependent
+scanlines and a screen mask add a CRT-inspired texture; switch it in QUICK.
+
+**CRT is experimental and OFF by default.** In three device samples it added
+about 23–47 ms to the graphics stage per frame and missed our performance target.
+It can reduce responsiveness; use the original image for normal play.
+
+![RC3 quick settings on the actual Tab5: rotation, audio and optional CRT](docs/media/quick-settings-en.png)
 
 The profile counts active play, excludes menus/pauses and has an idle cutoff.
 Points reward trying titles; they do not claim story progress or completion.
@@ -121,8 +136,8 @@ Wi-Fi and a project account are not needed during play.
 
 Matching firmware source is a **separate release asset**, rather than hundreds
 of megabytes in Git history. Its hash and revision are recorded in
-[BUILD.json](site/releases/v0.3.0-rc2/source/BUILD.json). [Download the matching source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz)
-from the [0.3 RC release](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc2).
+[BUILD.json](site/releases/v0.3.0-rc3/source/BUILD.json). [Download the matching source archive](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc3/tab5adv-source.tar.gz)
+from the [0.3 RC release](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc3).
 
 Game archives, saves, private camera recordings, device backups and development
 notes are excluded. Firmware has no gameplay telemetry. The portal uses Plausible

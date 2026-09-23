@@ -1,20 +1,41 @@
 {
   "home.png": {
     "sha256": "1b7cd4dd80edea9e463a1c5b92eeabbdf2ece4afa42bf0614cc3b5788cbafa86",
-    "source": "actual Tab5 LCD RGB565 capture",
-    "firmware": "622c0ef33f5b645eecef285de22ed35187beb78b",
-    "application_sha256": "f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2",
-    "icons_sha256": "70928cb8b9b4e6b67433586e4c873aeb66f0ffe68c13be3e36d7fcbc77fc36f0",
-    "date": "2026-09-23"
+    "source": "Unmodified actual Tab5 LCD RGB565 logical capture in physical180 pose",
+    "date": "2026-09-23",
+    "firmware": "65aea9de2b15b48ee255afcd44dfe4bfb8585b73",
+    "application_sha256": "b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0"
   },
   "profile.png": {
-    "sha256": "469fe8f0877f584a221c6a9cc487aa18b1e994aceaf83d4069357ef5af2b6749",
-    "source": "Unmodified actual Tab5 LCD RGB565 capture; no camera image",
+    "sha256": "4df008575677d3e1f7bda6dfa46ddae7b5f6b667773d9bd18d63f651e26d7506",
+    "source": "Unmodified actual Tab5 LCD RGB565 capture; logo, link and library; no camera image",
     "date": "2026-09-23",
-    "application_sha256": "f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2"
+    "firmware": "65aea9de2b15b48ee255afcd44dfe4bfb8585b73",
+    "application_sha256": "b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0"
   },
   "overview.svg": {
     "source": "Project vector illustration; not a gameplay capture",
     "date": "2026-09-23"
+  },
+  "quick-settings.png": {
+    "sha256": "76e6baf404701e8aa6907f1a9259eb1815175bc2c8d87c508e079ca15c2d2589",
+    "source": "Unmodified actual Tab5 LCD RGB565 logical capture; automatic physical 180-degree pose, CRT OFF",
+    "date": "2026-09-23",
+    "firmware": "65aea9de2b15b48ee255afcd44dfe4bfb8585b73",
+    "application_sha256": "b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0"
+  },
+  "crt-beta.png": {
+    "sha256": "40decc9267c156257e6b4d489ae7b58c5fb07acd53e85118ee086497e37c901c",
+    "source": "Actual Tab5 LCD RGB565 capture; CRT ON experimental; COMI scene at a different animation moment from OFF image",
+    "date": "2026-09-23",
+    "firmware": "65aea9de2b15b48ee255afcd44dfe4bfb8585b73",
+    "application_sha256": "b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0"
+  },
+  "quick-settings-en.png": {
+    "sha256": "9fe106c364fba8c1834235d214ae69ccb992cdc534ff64f39195fc63571a539a",
+    "source": "Actual Tab5 LCD RGB565 capture; Quick settings EN; CRT OFF, auto rotation",
+    "date": "2026-09-23",
+    "firmware": "65aea9de2b15b48ee255afcd44dfe4bfb8585b73",
+    "application_sha256": "b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0"
   }
 }

@@ -4,7 +4,7 @@ import { GAME_PROFILES, extractGame, makeReceipt, sha256, verifyPackage } from "
 import { Tab5Serial } from "./serial-installer.js";
 import { inventory, gameInstallPlan, completeSelection } from "./install-plan.js";
 
-const RELEASE = new URL("releases/v0.3.0-rc2/", import.meta.url);
+const RELEASE = new URL("releases/v0.3.0-rc3/", import.meta.url);
 const IDS = Object.keys(GAME_PROFILES).filter(id => document.getElementById(`${id}-file`));
 const CONFIG = `[scummvm]
 extrapath=/sdcard/scummvm/

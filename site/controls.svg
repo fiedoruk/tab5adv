@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-labelledby="title desc">
 <title id="title">Tab5Adv touch controls</title>
-<desc id="desc">Left rail: L CLICK, R CLICK, POINTER ON, volume down and up. Right rail: HELP, MENU, SKIP, KEYS and MUTE. Game scene occupies the center.</desc>
-<rect width="1280" height="720" fill="#1c3458"/>
+<desc id="desc">Left rail: L CLICK, R CLICK, POINTER OFF, volume down and up. Right rail: QUICK, MENU, SKIP, KEYS and MUTE. Game scene occupies the center.</desc>
+<rect width="1280" height="720" fill="#080808"/>
 <rect x="160" y="4" width="960" height="712" fill="#f4f0e6"/>
-<g font-family="monospace" text-anchor="middle" fill="#f4f0e6">
-<text x="82" y="54" font-size="22">GAME</text><text x="82" y="79" font-size="18" fill="#e49a27">CONTROLS</text><text x="82" y="120" font-size="15">POINTER ON</text>
-<g stroke="#7c8da9" stroke-width="2" fill="none">
+<g font-family="monospace" text-anchor="middle" fill="#bdbebd">
+<text x="82" y="54" font-size="22">GAME</text><text x="82" y="79" font-size="18" fill="#e49a27">CONTROLS</text><text x="82" y="120" font-size="15">POINTER OFF</text>
+<g stroke="#393939" stroke-width="2" fill="none">
 <rect x="12" y="150" width="136" height="96"/><rect x="12" y="272" width="136" height="96"/>
 <rect x="1132" y="20" width="136" height="96"/><rect x="1132" y="150" width="136" height="96"/>
 <rect x="1132" y="272" width="136" height="96"/><rect x="1132" y="394" width="136" height="96"/>
 <rect x="12" y="512" width="136" height="96"/><rect x="12" y="614" width="136" height="96"/>
 <rect x="1132" y="548" width="136" height="96"/>
 </g>
-<g stroke="#f4f0e6" stroke-width="2" fill="none">
+<g stroke="#bdbebd" stroke-width="2" fill="none">
 <rect x="61" y="160" width="38" height="42"/><path d="M80 160v22M62 184h36"/>
 <rect x="61" y="282" width="38" height="42"/><path d="M80 282v22M62 306h36"/>
 </g>
 <path d="M64 163h14v17H64zM82 285h14v17H82z" fill="#e49a27"/>
 <text x="80" y="231" font-size="22">L CLICK</text><text x="80" y="353" font-size="22">R CLICK</text>
-<rect x="12" y="394" width="136" height="96" fill="#e49a27"/>
-<path d="M50 405v31l9-10h12z" fill="#1c3458"/><text x="114" y="430" font-size="18" fill="#1c3458">ON</text>
-<text x="80" y="475" font-size="22" fill="#1c3458">POINTER</text>
-<text x="1200" y="70" font-size="43">?</text><text x="1200" y="102" font-size="18">HELP</text>
+<rect x="12" y="394" width="136" height="96" fill="#080808" stroke="#393939" stroke-width="2"/>
+<path d="M50 405v31l9-10h12z" fill="#bdbebd"/><text x="114" y="430" font-size="18">OFF</text>
+<text x="80" y="475" font-size="22">POINTER</text>
+<g stroke="#bdbebd" stroke-width="3"><path d="M1172 40h56M1172 52h56M1172 64h56"/></g><g fill="#e49a27"><rect x="1184" y="35" width="7" height="13"/><rect x="1208" y="47" width="7" height="13"/><rect x="1193" y="59" width="7" height="13"/></g><text x="1200" y="102" font-size="18">QUICK</text>
 <text x="1200" y="207" font-size="30">MENU</text><text x="1200" y="329" font-size="30">SKIP</text>
 <text x="1200" y="451" font-size="30">KEYS</text>
-<text x="80" y="577" font-size="48">−</text><text x="80" y="679" font-size="48">+</text>
+<text x="80" y="577" font-size="48">-</text><text x="80" y="679" font-size="48">+</text>
 <text x="1200" y="608" font-size="24">MUTE</text>
-<text x="640" y="455" font-size="30" fill="#1c3458">SCENA / GAME</text>
+<text x="640" y="455" font-size="30" fill="#080808">SCENA / GAME</text>
 <text x="640" y="502" font-size="22" fill="#62675f">4:3</text>
 </g>
-<path d="M620 340v40m-20-20h40" stroke="#1c3458" stroke-width="3"/>
+<path d="M620 340v40m-20-20h40" stroke="#080808" stroke-width="3"/>
 </svg>

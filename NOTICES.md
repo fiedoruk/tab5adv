@@ -11,6 +11,7 @@ their notices. This file does not relicense games or third-party assets.
 | Tab5 skins | Derivative of pinned `scummremastered.zip`, GPL-3.0-or-later | Theme generator, base archive, layout and logo source are included; three named variants |
 | Launcher game icons | [scummvm-icons](https://github.com/scummvm/scummvm-icons), GPLv2 LICENSE | `gui-icons.dat` is a curated ZIP: earlier entries are retained byte-for-byte and five original PNGs were appended without image edits. See [icon provenance](docs/ICONS.md); COPYING.ICONS.txt accompanies it. |
 | libmad MP3 decoder | [sezero/libmad@486f902c](https://github.com/sezero/libmad/tree/486f902c6c686eafced3450851849527e29bc7f6), GPL-2.0-or-later | Complete pinned C source in tab5_mad; portable ESP-IDF configuration documented |
+| Optional CRT beam/mask adaptation | [zfast_crt_standard by Greg Hogan (SoltanGris42), 2017](https://github.com/libretro/glsl-shaders/blob/8aab13063da6ad3ae928e886c41e13fa363f4d89/crt/shaders/zfast_crt.glsl), GPL-2.0-or-later | Integer RGB565 adaptation under GPL-3.0-or-later; attribution is retained in `tab5-crt.h`. Uses PPA resampling and is not an exact GLSL shader port. Experimental, OFF by default. |
 | ESP Web Tools10.4.0 | [esp-web-tools](https://github.com/esphome/esp-web-tools), Apache-2.0 | Vendored upstream modules and LICENSE retained; project wrapper handles selection of a previously authorised USB port |
 
 Firmware manifests and SHA256SUMS identify the exact binaries and support

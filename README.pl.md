@@ -8,7 +8,7 @@ Zamień **M5Stack Tab5** w dotykowy odtwarzacz przygodówek ScummVM.
 Wybierz historię, dodaj pliki na microSD przez USB i graj offline — z dużymi
 przyciskami po bokach, zapisami, trzema skórkami menu i lokalnym profilem gracza.
 
-**0.3.0-rc2 to wersja testowa.** Trzynaście tytułów dotarło do pierwszych
+**0.3.0-rc3 to wersja testowa.** Trzynaście tytułów dotarło do pierwszych
 grywalnych scen na prawdziwym Tab5; sprawdzono wybrane akcje oraz zapis/odczyt.
 Pełne przejścia, dłuższa gra palcem i jakość dźwięku nie są jeszcze potwierdzone.
 [Tabela zgodności](docs/COMPATIBILITY.md) podaje zakres dla każdej gry.
@@ -78,8 +78,25 @@ wykonują akcję w tej pozycji. **KEYS** otwiera klawiaturę. Głośność **−
 **MUTE / UNMUTE** są na bocznych paskach; zwiększanie głośności przy wyciszeniu
 nie włącza dźwięku.
 
-**?** otwiera pomoc sterowania podczas gry, z wyborem Polski/English. **POINTER ON/OFF** pokazuje, czy
-dotyk tylko wskazuje, czy także klika. Ikony myszy oznaczają przyciski kliknięcia.
+**QUICK** otwiera pauzę z dźwiękiem, blokadą obrotu, opcjonalnym CRT i pomocą
+sterowania Polski/English. **POINTER ON/OFF** pokazuje, czy dotyk tylko wskazuje,
+czy także klika. Nowe ustawienia mają domyślnie czarne paski; zapisany wybór
+koloru zostaje zachowany. Ikony myszy oznaczają przyciski kliknięcia.
+
+Obraz obraca się między dwoma położeniami poziomymi po około sekundzie
+stabilnego ustawienia. Czeka na puszczenie ekranu, a na płasko zachowuje
+ostatnią orientację. Blokadę włączysz w **QUICK**. Link w Profilu otwiera
+kod QR strony projektu, dostępny również bez sieci.
+
+**Nowość w testach: tryb CRT. Retro obraz jednym dotknięciem.** Linie
+skanowania i maska zależna od jasności nadają scenie charakter monitora CRT.
+Przełącznik znajdziesz w QUICK.
+
+**CRT jest eksperymentalny i domyślnie wyłączony.** W trzech próbach na Tab5
+dodał około 23–47 ms pracy grafiki na klatkę i nie osiągnął naszego celu wydajności.
+Może pogorszyć płynność; do zwykłego grania zalecamy oryginalny obraz.
+
+![Szybkie ustawienia RC3 na Tab5: obrót, dźwięk i opcjonalny CRT](docs/media/quick-settings.png)
 
 Profil liczy aktywną grę, pomija menu/pauzy i zatrzymuje czas po bezczynności.
 Punkty nagradzają próbowanie tytułów; nie oznaczają postępu fabuły ani ukończenia.
@@ -123,8 +140,8 @@ Do grania nie potrzebujesz Wi-Fi ani konta w naszym projekcie.
 
 Pasujące źródła firmware są **osobnym plikiem wydania**, zamiast setek megabajtów
 w historii Git. Hash i rewizję zapisano w
-[BUILD.json](site/releases/v0.3.0-rc2/source/BUILD.json). [Pobierz pasujące źródła](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz)
-z [wydania 0.3 RC](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc2).
+[BUILD.json](site/releases/v0.3.0-rc3/source/BUILD.json). [Pobierz pasujące źródła](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc3/tab5adv-source.tar.gz)
+z [wydania 0.3 RC](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc3).
 
 Paczki gier, zapisy, prywatne nagrania z kamery, kopie urządzenia i notatki
 robocze nie trafiają do repo. Firmware nie wysyła telemetrii rozgrywki.

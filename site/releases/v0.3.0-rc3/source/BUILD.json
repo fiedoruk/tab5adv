@@ -1,0 +1,49 @@
+{
+  "version": "0.3.0-rc3",
+  "release_kind": "prerelease",
+  "source_url": "https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc3/tab5adv-source.tar.gz",
+  "crt_performance": {
+    "status": "failed",
+    "default": "off",
+    "target_added_stage_avg_us": 8000,
+    "observed_added_stage_avg_us": {
+      "soltys": 22740,
+      "bass": 25430,
+      "comi": 47440
+    }
+  },
+  "source_commit": "65aea9de2b15b48ee255afcd44dfe4bfb8585b73",
+  "source_tree": "a1812054a70cae89c1f6911917225a7e84da4e78",
+  "base_commit": "52b4c6f5da2f030157026bc1c2ceb5aa9acf145e",
+  "application": {
+    "bytes": 8263232,
+    "sha256": "b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0"
+  },
+  "merged": {
+    "bytes": 8328768,
+    "sha256": "bf465a2e8c676d319ced9efd742f1d10b4759d4ee321b04583cb32c4d5ffe9b0"
+  },
+  "source_patch": {
+    "bytes": 1845797,
+    "sha256": "2e89482d212d96aece4d64a38589112afeafebe2de1f391750151e9f40d0ca01"
+  },
+  "source_archive": {
+    "bytes": 399743103,
+    "sha256": "3362dbd30957389493662e53881aa3b982cccffc80ec658c050b0bd7a48cc2ff"
+  },
+  "bootloader_sha256": "b2711d9b9f79253af78a6ef8af3eabd629f5bae40e64e0a354ef9f81c5b714e9",
+  "partition_table_sha256": "ccb120ac8c81d9b50a48b444121ad97c4d53eeba959ea9629dfdfa6094edcdc7",
+  "build_elf_sha256": "2e926e4077da9d3a6024b791e4af7d20871884b2c3c55c6276bb50d1f89d3365",
+  "build_map_sha256": "56701d847cbd8b1e74f62883aee352942295b49dd3e9f1418368f21d44f5d540",
+  "support_files": 45,
+  "support_manifest_sha256": "e47f0f537e03acb1e9c272c8a50c1b685b862b97ba1915ec1b9f1b522d1402c7",
+  "excluded_external_runtime": {
+    "path": "dists/engine-data/kyra.dat",
+    "bytes": 2016466,
+    "sha256": "4a12e335227bce7f7f8d9def2f0ef4d856fc06da87879532091b8f4ffa09d1af"
+  },
+  "sdk": "ESP-IDF 5.5.5",
+  "compiler": "RISC-V GCC14.2.0+20260121",
+  "bsp": "espressif/m5stack_tab5 1.3.1",
+  "dependency_lock_sha256": "76aa2460ef45d6b68d3a2d636ef28bfb6df3d1753763e797372b769512c67d31"
+}

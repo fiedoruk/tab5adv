@@ -1,58 +1,82 @@
-# 0.3.0-rc2 — clearer mouse controls and in-game help
+# 0.3.0-rc3 — automatic rotation and calmer controls
 
-This candidate contains nine free-game profiles and four profiles for owned
-GOG packages. Each has a first-scene device check; the exact scope and limits
-are in [Compatibility](COMPATIBILITY.md). It is not a full-game completion claim.
+RC3 adds two landscape orientations, a rotation lock, quieter side controls and
+project branding in the local player profile. It remains a **preview**. The
+13-game collection is unchanged: nine free-game profiles and four for owned GOG
+packages. [Compatibility](COMPATIBILITY.md) distinguishes first-scene trials
+from full playthroughs.
 
-## Changes since rc1
+## Changes since RC2
 
-- L CLICK and R CLICK show which mouse button they emulate, with matching icons.
-- POINTER has explicit ON/OFF text as well as colour feedback.
-- ? opens paused control help during a game; English/Polski switches language.
-  Close returns to the game. Help opens on release, with drag cancellation.
-- User instructions and the control diagram use the same labels.
+- Automatic 0°/180° landscape rotation using Tab5's BMI270. A pose must stay
+  stable for about one second. Flat/diagonal positions retain the previous pose;
+  rotation waits while the screen is touched.
+- **QUICK** pauses the game for volume, mute, rotation lock, Help and optional
+  CRT. The lock and locked pose are retained after restart. Mouse buttons,
+  pointer, MENU, SKIP and KEYS stay directly available on the side rails.
+- Black rails are the default for new settings. Existing colour choices are
+  preserved; text and highlights are quieter.
+- Profile has a larger T5 FREE logo, readable project link and offline QR.
+  Library, playtime and points remain local to the microSD.
+- An optional zfast-derived RGB565 CRT effect is **experimental and OFF by
+  default**. It uses a brightness-dependent beam/mask adaptation, not the exact
+  GPU shader. Unsupported modes remain unfiltered.
 
-The 13-game set and all45 support assets are unchanged, including launcher icons.
-No game data needs re-importing for this firmware update. The application flash
-does not format the microSD. Keep existing saves and preferences.
+**CRT performance limit:** three samples of the same filter path added about
+22.74 ms (Sołtys), 25.43 ms (BASS) and 47.44 ms (Curse) to the graphics stage per
+frame. This missed the 8 ms target and can reduce responsiveness. These are
+opening-scene/menu intervals from the preceding CRT candidate, not game-wide
+FPS figures. Leave CRT OFF for normal play. RC3 does not claim this target passed.
+
+All 45 support assets and the game set are unchanged. No game data needs
+re-importing. Firmware flashing does not format microSD; retain games, saves
+and preferences. The website is maintained separately from this repository.
 
 ## Payload identity
 
 | Artifact | Identity |
 | :--- | :--- |
-| Firmware source | `d5b5d28c74dd2d96c7ef3b848be0a51192a91a54` |
-| Application | 8,229,248 bytes; SHA-256 `a9b69d6853ab30c90da458db4958ef0eedd9fd6640972d88ca84b06ac3099de1` |
-| Merged Web Tools image | 8,294,784 bytes; SHA-256 `3da4406762d856ab110d439f6f6530aebfa7705076aa3ac2844866866d8452d4` |
-| Corresponding-source archive | 399,696,844 bytes; SHA-256 `22ddb0b7893aaa7a09102465fb3051c1f232e64586a1b9bc38e7f5c8973bc1ca` |
+| Firmware source | `65aea9de2b15b48ee255afcd44dfe4bfb8585b73` |
+| Application | 8,263,232 bytes; SHA-256 `b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0` |
+| Merged Web Tools image | 8,328,768 bytes; SHA-256 `bf465a2e8c676d319ced9efd742f1d10b4759d4ee321b04583cb32c4d5ffe9b0` |
+| Corresponding-source archive | 399,743,103 bytes; SHA-256 `3362dbd30957389493662e53881aa3b982cccffc80ec658c050b0bd7a48cc2ff` |
 
-The versioned directory `site/releases/v0.3.0-rc2/` holds the firmware manifest,
-merged image, 45 support assets (43 runtime files and 2 data manifests), source
-patch, BUILD.json, SOURCE.md and SHA256SUMS. Dráscula music is supplied from its
-separate user-downloaded archive, not bundled in the support payload.
+The versioned directory `site/releases/v0.3.0-rc3/` includes the firmware
+manifest, merged image, 45 support assets, source patch, BUILD.json, SOURCE.md
+and SHA256SUMS. Dráscula music comes from the user's separate downloaded archive.
 
-## Source download requirement
+## Matching source download
 
-The complete matching source is supplied as a separate asset of
-[GitHub Release v0.3.0-rc2](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc2):
-[download tab5adv-source.tar.gz](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc2/tab5adv-source.tar.gz).
-Its size and SHA-256 are listed above and in BUILD.json. Preserve SOURCE.md,
-the patch, licences and checksums with the binary. For a full checksum
-check, place the downloaded archive at `source/tab5adv-source.tar.gz` within
-the release directory, then run `shasum -a 256 -c SHA256SUMS` there.
+[Download tab5adv-source.tar.gz](https://github.com/fiedoruk/tab5adv/releases/download/v0.3.0-rc3/tab5adv-source.tar.gz)
+from [GitHub Release v0.3.0-rc3](https://github.com/fiedoruk/tab5adv/releases/tag/v0.3.0-rc3).
+Preserve SOURCE.md, the patch, licences and checksums with the binary. For a full
+checksum check, put the archive at `source/tab5adv-source.tar.gz` within the
+release directory and run `shasum -a 256 -c SHA256SUMS` there.
 
-The archive omits the external runtime file `kyra.dat`; SOURCE.md documents
-its pinned origin separately. It does not bundle game archives, saves or
-private device backups. Upstream code and assets retain their own notices.
-See [licences and provenance](../NOTICES.md) and the
-[GNU guidance on source and binary distribution](https://www.gnu.org/licenses/gpl-faq.en.html#SourceAndBinaryOnDifferentSites).
+The archive omits external runtime `kyra.dat`; SOURCE.md records its pinned
+origin. It contains no game packages, saves, private device backups or local Git
+history. Upstream notices are retained; [licences and provenance](../NOTICES.md)
+include the CRT adaptation.
 
-## RC2 checks
+## RC3 checks
 
-Host checks use the shared input router with AddressSanitizer/UndefinedBehaviorSanitizer.
-Native RGB565 HUD layouts cover all three rail palettes and pointer ON/OFF states.
-On the actual Tab5, USB-driven touches checked the English and Polish help, close
-and resume, repeated opening, pointer mode and the existing game menu. These are
-scoped interface checks, not a new full gameplay acceptance of all13 titles.
+- Shared C++11 input/orientation/CRT tests under AddressSanitizer and
+  UndefinedBehaviorSanitizer: corner mapping, held contact, one-second debounce,
+  stale/flat/diagonal readings, lock, and the rotated HUD.
+- Actual Tab5 flash verification and full application readback match the
+  application hash above. The build used two compiler jobs; the Mac reported
+  no thermal warning.
+- Actual BMI270 initialisation and fresh samples. Both presentation paths and
+  inverse raw touch were exercised through USB diagnostics; a physical LCD
+  framebuffer comparison matched all 921,600 pixels after a 180° reversal.
+- Rotation lock blocked opposite injected sensor samples, held contact blocked
+  auto rotation, and releasing contact allowed the stable opposite pose.
+- Locked 180° survived restart despite the sensor reporting the normal pose.
+  The camera confirmed the actual upside-down display; switching back to AUTO
+  selected the normal pose. The owner then physically turned Tab5 from USB-left
+  to USB-right: fresh BMI270 X changed from about +946 mg to −965 mg, AUTO
+  selected 180°, and the camera confirmed the controls stayed upright.
+  This is scoped UI/control validation, not a new full-game acceptance of all 13 titles.
 
 ## Earlier browser installation check (rc1)
 

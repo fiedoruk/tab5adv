@@ -71,7 +71,7 @@ otwiera menu ScummVM z zapisem i odczytem.
 |---|---|
 | Chodzenie / lewy przycisk | Dotknij sceny. Możesz też wskazać miejsce przez POINTER i użyć L CLICK. |
 | Sam ruch kursora | POINTER ON wskazuje bez klikania; OFF przywraca zwykły dotyk. Stan wskazują napis i kolor. |
-| Pomoc | Dotknij **?** podczas gry; Polski/English przełącza język. Zamknij pomoc, aby wrócić do rozgrywki. |
+| Szybkie ustawienia i pomoc | **QUICK** otwiera dźwięk, obrót, opcjonalny CRT i Pomoc. Polski/English przełącza język; Wróć do gry kończy pauzę. |
 | Prawy przycisk | Wskaż obiekt przez POINTER, potem R CLICK. Znaczenie zależy od gry. |
 | Menu / zapis / odczyt | MENU → Save lub Load. Resume wraca do gry. |
 | Pominięcie intro | SKIP wysyła Escape; nie każdą scenę silnik pozwala pominąć. |
@@ -158,3 +158,20 @@ postaci pochodzi z przypiętego otwartego silnika ScummVM (gui_ns.cpp).
 
 Nippon po restarcie: uruchom grę, wybierz EN i otwartą książkę **SAVED GAME**.
 Wybierz swój slot. W tym silniku nie używaj skrótu Load z launchera.
+
+
+## Obrót i szybkie ustawienia (RC3)
+
+Trzymaj Tab5 poziomo w dowolną stronę. Po około sekundzie stabilnego ustawienia
+gra, menu i sterowanie obrócą się razem. Najpierw puść ekran; tablet położony
+płasko lub trzymany ukośnie zachowuje ostatnią orientację.
+**QUICK → Obrót** blokuje bieżące położenie albo włącza automat.
+Blokada i zablokowana orientacja zostają zachowane po restarcie.
+
+W **QUICK** są też głośność, wyciszenie i pomoc. CRT jest opcjonalny,
+eksperymentalny i domyślnie wyłączony: w trzech próbach dodał około 23–47 ms
+pracy grafiki na klatkę i może pogorszyć płynność. Do zwykłej gry zostaw go
+wyłączonego. Nieobsługiwane tryby obrazu pozostają bez filtra.
+
+W **Profile** dotknij **esp32ai.me**, aby zobaczyć adres projektu i kod QR
+wyświetlany również bez połączenia z siecią.

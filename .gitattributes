@@ -1,0 +1,10 @@
+# Binary assets retain exact release bytes and are not text diffs.
+*.bin binary
+*.dat binary
+*.zip binary
+*.png binary
+*.jpg binary
+
+# Preserve generated release bytes without disabling checks on source files.
+site/releases/** -text
+site/releases/**/source/*.patch -diff -text

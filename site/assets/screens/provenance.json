@@ -89,10 +89,10 @@
     "date": "2026-09-23"
   },
   "comi.png": {
-    "sha256": "8ba7903fd2d479ff1ac22a1657501a4d4331dd52cb8315c44c60540a688b5b95",
-    "source": "actual Tab5 LCD RGB565 capture",
-    "capture": "comi-dialog-response-text.png",
-    "firmware": "f7f8899860f81d7c55a5bc2e79b6fb9b0bd498ad0b1183c8ee340c6d76794fd2",
+    "sha256": "7f11dba01049069466899208c8f5458e1a8fca2c3b43c9622711ae361deb17bc",
+    "source": "Unmodified actual Tab5 LCD RGB565 logical capture; existing save loaded; new RC3 rails; CRT OFF; physical180 orientation",
+    "firmware": "65aea9de2b15b48ee255afcd44dfe4bfb8585b73",
+    "application_sha256": "b4ffce9464eb6fae17d0edaf9ce20d0fbebb68f53ede3c5f4006a3424b3326d0",
     "date": "2026-09-23"
   },
   "controls-help-en-rc2.png": {
